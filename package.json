@@ -1,0 +1,13 @@
+{
+  "name": "fukuoka.a11yconf.net",
+  "version": "2023.6.20",
+  "description": "https://fukuoka.a11yconf.net",
+  "main": "index.html",
+  "repository": "git@github.com:YusukeHirao/fukuoka.a11yconf.net.git",
+  "author": "Yusuke Hirao <yusukehirao@me.com>",
+  "license": "nolicense",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
