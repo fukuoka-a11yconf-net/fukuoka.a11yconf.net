@@ -123,8 +123,7 @@
 
 	.sns a {
 		width: 1.7rem;
-		height: auto;
-		aspect-ratio: 1 / 1;
+		height: 1.7rem;
 		display: block;
 		border-radius: 10rem;
 	}
