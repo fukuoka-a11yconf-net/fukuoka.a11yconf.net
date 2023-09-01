@@ -281,7 +281,7 @@
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
-					href="https://karabiner.tech"
+					href="https://www.zerobase.jp"
 					name="ゼロベース株式会社"
 					img="/img/logo-sponsor-zerobase.png"
 					width="1125"
