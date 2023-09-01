@@ -1,13 +1,46 @@
 {
-  "name": "fukuoka.a11yconf.net",
-  "version": "2023.6.20",
-  "description": "https://fukuoka.a11yconf.net",
-  "main": "index.html",
-  "repository": "git@github.com:YusukeHirao/fukuoka.a11yconf.net.git",
-  "author": "Yusuke Hirao <yusukehirao@me.com>",
-  "license": "nolicense",
-  "private": true,
-  "devDependencies": {
-    "prettier": "^2.8.8"
-  }
+	"name": "fukuoka.a11yconf.net",
+	"version": "2023.9.1",
+	"description": "https://fukuoka.a11yconf.net",
+	"main": "index.html",
+	"repository": "git@github.com:YusukeHirao/fukuoka.a11yconf.net.git",
+	"author": "Yusuke Hirao <yusukehirao@me.com>",
+	"license": "nolicense",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "npm run test:integration && npm run test:unit",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write .",
+		"test:integration": "playwright test",
+		"test:unit": "vitest"
+	},
+	"devDependencies": {
+		"@markuplint/svelte-parser": "^3.9.0",
+		"@playwright/test": "^1.37.1",
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/kit": "^1.22.6",
+		"@typescript-eslint/eslint-plugin": "^6.4.0",
+		"@typescript-eslint/parser": "^6.4.0",
+		"eslint": "^8.47.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte": "^2.32.4",
+		"markuplint": "^3.12.0",
+		"prettier": "^3.0.2",
+		"prettier-plugin-svelte": "^3.0.3",
+		"svelte": "^4.2.0",
+		"svelte-check": "^3.5.0",
+		"svgo": "^3.0.2",
+		"tslib": "^2.6.2",
+		"typescript": "^5.1.6",
+		"vite": "^4.4.9",
+		"vite-imagetools": "^5.0.8",
+		"vitest": "^0.34.2"
+	},
+	"type": "module"
 }

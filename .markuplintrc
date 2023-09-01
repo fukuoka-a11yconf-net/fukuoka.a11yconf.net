@@ -1,5 +1,26 @@
 {
-  "extends": [
-    "markuplint:recommended"
-  ]
+	"parser": {
+		"\\.svelte$": "@markuplint/svelte-parser"
+	},
+	"extends": [
+		"markuplint:recommended"
+	],
+	"nodeRules": [
+		{
+			"selector": "img",
+			"rules": {
+				"required-attr": [
+					"alt",
+					"width",
+					"height"
+				]
+			}
+		},
+		{
+			"selector": "[role]:is(dl, dt, dd)",
+			"rules": {
+				"wai-aria": false
+			}
+		}
+	]
 }
