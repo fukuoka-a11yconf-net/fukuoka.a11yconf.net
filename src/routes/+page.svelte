@@ -289,6 +289,15 @@
 				/>
 			</ClusterItem>
 			<ClusterItem>
+				<Sponsor
+					href="https://www.scivone.com"
+					name="サイフォン合同会社"
+					img="/img/logo-sponsor-scivone.png"
+					width="1440"
+					height="1440"
+				/>
+			</ClusterItem>
+			<ClusterItem>
 				<Sponsor href="#sponsor-recruitment" name="募集中" />
 			</ClusterItem>
 		</ClusterContainer>
