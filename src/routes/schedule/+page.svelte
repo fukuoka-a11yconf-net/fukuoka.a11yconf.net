@@ -25,12 +25,24 @@
 					<dt role="associationlistitemkey generic">13:00</dt>
 					<dd role="associationlistitemvalue generic">開会式</dd>
 				</div>
+				<div class="break" role="none">
+					<dt role="associationlistitemkey generic">13:20</dt>
+					<dd role="associationlistitemvalue generic">
+						<p>転換・準備</p>
+					</dd>
+				</div>
 				<div role="none">
 					<dt role="associationlistitemkey generic">13:30</dt>
 					<dd role="associationlistitemvalue generic">
 						<p class="sub"><em>セッション1</em></p>
 						<p class="speaker"><em><a href="/#speaker-majima">間嶋沙知</a></em></p>
 						<p>セッション内容: 準備中</p>
+					</dd>
+				</div>
+				<div class="break" role="none">
+					<dt role="associationlistitemkey generic">14:10</dt>
+					<dd role="associationlistitemvalue generic">
+						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
@@ -47,12 +59,24 @@
 						<p>セッション内容: 準備中</p>
 					</dd>
 				</div>
+				<div class="break" role="none">
+					<dt role="associationlistitemkey generic">15:00</dt>
+					<dd role="associationlistitemvalue generic">
+						<p>転換・準備</p>
+					</dd>
+				</div>
 				<div role="none">
 					<dt role="associationlistitemkey generic">15:10</dt>
 					<dd role="associationlistitemvalue generic">
 						<p class="sub"><em>スポンサーセッション</em></p>
 						<p class="speaker"><em>プラチナスポンサー Nulab</em></p>
 						<p>セッション内容: 準備中</p>
+					</dd>
+				</div>
+				<div class="break" role="none">
+					<dt role="associationlistitemkey generic">15:30</dt>
+					<dd role="associationlistitemvalue generic">
+						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
@@ -63,12 +87,24 @@
 						<p>セッション内容: 準備中</p>
 					</dd>
 				</div>
+				<div class="break" role="none">
+					<dt role="associationlistitemkey generic">16:00</dt>
+					<dd role="associationlistitemvalue generic">
+						<p>転換・準備</p>
+					</dd>
+				</div>
 				<div role="none">
 					<dt role="associationlistitemkey generic">16:10</dt>
 					<dd role="associationlistitemvalue generic">
 						<p class="sub"><em>セッション3</em></p>
 						<p class="speaker"><em><a href="/#speaker-katayama">方山れいこ</a></em></p>
 						<p>セッション内容: 準備中</p>
+					</dd>
+				</div>
+				<div class="break" role="none">
+					<dt role="associationlistitemkey generic">16:50</dt>
+					<dd role="associationlistitemvalue generic">
+						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
@@ -88,6 +124,12 @@
 				<div role="none">
 					<dt role="associationlistitemkey generic">17:50</dt>
 					<dd role="associationlistitemvalue generic">閉会式</dd>
+				</div>
+				<div class="break" role="none">
+					<dt role="associationlistitemkey generic">18:00</dt>
+					<dd role="associationlistitemvalue generic">
+						<p>懇親会準備</p>
+					</dd>
 				</div>
 				<div role="none">
 					<dt role="associationlistitemkey generic">18:20</dt>
@@ -157,7 +199,36 @@
 
 	dd p {
 		margin: 0;
+		font-size: calc(1em / 1.5);
+	}
+
+	.break {
+		display: flex;
+		flex-wrap: wrap;
 		font-size: 1rem;
+	}
+
+	.break dd {
+		margin: 0;
+		padding-inline: 1em 0;
+		padding-block: 0.5rem;
+		border: 0;
+	}
+
+	.break dd p {
+		font-size: 1em;
+	}
+
+	.break::after {
+		content: '';
+		flex: 1 0 100%;
+		margin: 0;
+		margin-inline-start: 1rem;
+		padding-block: 0.5rem;
+		padding-inline: 2rem;
+		border-block-end: 1px solid var(--color-border-primary);
+		border-inline-start: 1px solid var(--color-border-primary);
+		border-block-end: none;
 	}
 
 	em {
@@ -171,6 +242,6 @@
 
 	.speaker {
 		font-size: 1.3em;
-		margin-block-end: 1rem;
+		margin-block-end: calc(1em / 1.3);
 	}
 </style>
