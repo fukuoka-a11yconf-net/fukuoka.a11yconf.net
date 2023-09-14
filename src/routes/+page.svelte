@@ -17,6 +17,7 @@
 	import pictKatayama from '$lib/img/pict-speaker-katayama.png?format=webp';
 	import pictShibata from '$lib/img/pict-speaker-shibata.png?format=webp';
 	import pictIhara from '$lib/img/pict-speaker-ihara.jpg?format=webp';
+	import pictIshiki from '$lib/img/pict-speaker-ishiki.jpg?format=webp';
 
 	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg?format=webp';
 	import pictStaff02 from '$lib/img/pict-staff-posi0202.jpg?format=webp';
@@ -158,6 +159,15 @@
 							>Webアプリケーションアクセシビリティ</a
 						>』など。
 					</p>
+				</Speaker>
+			</GridItem>
+			<GridItem>
+				<Speaker id="ishiki" name="伊敷政英" img={pictIshiki} alt="写真: 伊敷政英" level={3}>
+					<p>1977年3月東京生まれ。2003年からウェブアクセシビリティの分野で仕事を始める。</p>
+					<p>
+						2021年7月、デジタル庁発足直前の内閣官房IT総合戦略室へアクセシビリティアナリストとして入庁。以来デジタル庁が所管するウェブサイトやアプリなどのアクセシビリティ改善に従事するとともに、町内外への普及啓発にも取り組んでいる。
+					</p>
+					<p>先天性の視覚障害があり全盲。</p>
 				</Speaker>
 			</GridItem>
 		</GridContainer>

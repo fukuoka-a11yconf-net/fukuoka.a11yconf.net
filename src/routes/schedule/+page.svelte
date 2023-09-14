@@ -75,7 +75,14 @@
 					<dt role="associationlistitemkey generic">17:00</dt>
 					<dd role="associationlistitemvalue generic">
 						<p class="sub"><em>セッション4</em></p>
-						<p>登壇者交渉中</p>
+						<p class="speaker"><em><a href="/#speaker-ishiki">伊敷政英</a></em></p>
+						<p>セッション内容: 準備中</p>
+					</dd>
+				</div>
+				<div class="break" role="none">
+					<dt role="associationlistitemkey generic">17:40</dt>
+					<dd role="associationlistitemvalue generic">
+						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
