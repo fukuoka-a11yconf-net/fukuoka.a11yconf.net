@@ -448,15 +448,16 @@
 
 		<Heading level={3} id="staff-recruitment">ボランティアスタッフ募集</Heading>
 		<TextBody>
-			<p>以下のボランティアスタッフを募集します。</p>
+			<p><del>以下のボランティアスタッフを募集します。</del></p>
 			<ul>
-				<li>現地・前日準備スタッフ</li>
-				<li>現地・当日運営スタッフ</li>
-				<li>オンライン・UDトーク（ライブ字幕）編集スタッフ</li>
+				<li><del>現地・前日準備スタッフ</del></li>
+				<li><del>現地・当日運営スタッフ</del></li>
+				<li><del>オンライン・UDトーク（ライブ字幕）編集スタッフ</del></li>
 			</ul>
 			<p>
-				<a href="https://forms.gle/RXhKxHwpJpakRMkv8">ボランティアスタッフ申し込みGoogleフォーム</a
-				>からお申し込みください。
+				<strong>募集はすべて終了いたしました。</strong><em
+					>ご参加・ご協力ありがとうございました。<em></em></em
+				>
 			</p>
 		</TextBody>
 	</Section>
