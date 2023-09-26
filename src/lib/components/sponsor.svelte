@@ -55,7 +55,7 @@
 	.no-logo a {
 		display: flex;
 		width: 100%;
-		height: 100%;
+		aspect-ratio: 1;
 		font-size: 1.2rem;
 		font-weight: 600;
 		justify-content: center;
