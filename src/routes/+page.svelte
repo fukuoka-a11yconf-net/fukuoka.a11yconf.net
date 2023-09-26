@@ -308,6 +308,24 @@
 				/>
 			</ClusterItem>
 			<ClusterItem>
+				<Sponsor
+					href="https://corporate.yamap.co.jp"
+					name="株式会社ヤマップ"
+					img="/img/logo-sponsor-yamap.svg"
+					width="68"
+					height="73"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://ubie.life"
+					name="ユビー株式会社"
+					img="/img/logo-sponsor-ubie.svg"
+					width="441"
+					height="539"
+				/>
+			</ClusterItem>
+			<ClusterItem>
 				<Sponsor href="#sponsor-recruitment" name="募集中" />
 			</ClusterItem>
 		</ClusterContainer>
