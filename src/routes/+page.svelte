@@ -106,6 +106,12 @@
 							>見えにくい、読みにくい「困った！」を解決するデザイン</a
 						>』(2022年/マイナビ出版)
 					</p>
+					<p class="session">
+						<span>セッション1</span>
+						<a href="/schedule/#session1"
+							><em><span class="q">伝わる</span>を拡張するアクセシビリティ</em></a
+						>
+					</p>
 				</Speaker>
 			</GridItem>
 			<GridItem>
@@ -123,6 +129,12 @@
 					<p>
 						2021年<a href="https://hogaku.co.jp">株式会社方角</a
 						>設立。「障害のある社会をデザインで変える」をミッションに、インクルーシブデザインの制作やサービス展開を行っている。
+					</p>
+					<p class="session">
+						<span>セッション3</span>
+						<a href="/schedule/#session3">
+							<em><span class="q">違う人生を生きる人と一緒に働く</span>ということ</em>
+						</a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -143,6 +155,13 @@
 						>を立ち上げて運営を行っている。また、専門学校にて夜間のWebデザイン学科の非常勤講師としても活動している。
 					</p>
 					<p>著書『<a href="https://gihyo.jp/book/2022/978-4-297-13132-6">武器になるHTML</a>』</p>
+					<p class="session">
+						<span>セッション2</span>
+						<a href="/schedule/#session2"
+							><em>ウェブアクセシビリティ社内教育のすゝめ</em>
+							〜品質か、営業か〜</a
+						>
+					</p>
 				</Speaker>
 			</GridItem>
 			<GridItem>
@@ -159,6 +178,13 @@
 							>Webアプリケーションアクセシビリティ</a
 						>』など。
 					</p>
+					<p class="session">
+						<span>セッション2</span>
+						<a href="/schedule/#session2"
+							><em>ウェブアクセシビリティ社内教育のすゝめ</em>
+							〜品質か、営業か〜</a
+						>
+					</p>
 				</Speaker>
 			</GridItem>
 			<GridItem>
@@ -168,6 +194,14 @@
 						2021年7月、デジタル庁発足直前の内閣官房IT総合戦略室へアクセシビリティアナリストとして入庁。以来デジタル庁が所管するウェブサイトやアプリなどのアクセシビリティ改善に従事するとともに、町内外への普及啓発にも取り組んでいる。
 					</p>
 					<p>先天性の視覚障害があり全盲。</p>
+					<p class="session">
+						<span>セッション4</span>
+						<a href="/schedule/#session4"
+							><em>デジタル庁でのアクセシビリティへの取り組み</em>
+							―<span class="q">誰一人取り残されない、人にやさしいデジタル化を</span
+							>の実現に向けて―</a
+						>
+					</p>
 				</Speaker>
 			</GridItem>
 		</GridContainer>
@@ -575,6 +609,35 @@
 			border-inline-start: 1px solid var(--color-border-primary);
 			border-block-end: none;
 		}
+	}
+
+	.session {
+		font-size: 1.3em;
+	}
+
+	.session em {
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.session > span {
+		display: block;
+		opacity: 0.8;
+		font-weight: bold;
+	}
+
+	.session > span::after {
+		content: ':';
+	}
+
+	.q::before {
+		content: '｢';
+		font-weight: normal;
+	}
+
+	.q::after {
+		content: '｣';
+		font-weight: normal;
 	}
 
 	.mail {

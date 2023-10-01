@@ -33,10 +33,15 @@
 				</div>
 				<div role="none">
 					<dt role="associationlistitemkey generic">13:30</dt>
-					<dd role="associationlistitemvalue generic">
+					<dd role="associationlistitemvalue generic" id="session1">
 						<p class="sub"><em>セッション1</em></p>
+						<p class="title">
+							<em><span class="q">伝わる</span>を拡張するアクセシビリティ</em>
+						</p>
 						<p class="speaker"><em><a href="/#speaker-majima">間嶋沙知</a></em></p>
-						<p>セッション内容: 準備中</p>
+						<p>
+							アクセシビリティが気になっているけど、何をすればいいかわからなかったり、ハードルが高く感じられたりしていないでしょうか。アクセシビリティは情報やサービスをより多くの人に届けるための視点を与えてくれるものです。このセッションでは身近なデザインの具体例を交えながら、明日から取り組めるアクセシビリティのポイントをお伝えします。
+						</p>
 					</dd>
 				</div>
 				<div class="break" role="none">
@@ -47,16 +52,21 @@
 				</div>
 				<div role="none">
 					<dt role="associationlistitemkey generic">14:20</dt>
-					<dd role="associationlistitemvalue generic">
+					<dd role="associationlistitemvalue generic" id="session2">
 						<p class="sub"><em>セッション2</em></p>
+						<p class="title">
+							<em>ウェブアクセシビリティ社内教育のすゝめ</em>
+							〜品質か、営業か〜
+						</p>
 						<p class="speaker">
 							<em
-								>トークセッション <a href="/#speaker-shibata">柴田宏仙</a>✕<a href="/#speaker-ihara"
-									>伊原力也</a
-								></em
+								><a href="/#speaker-shibata">柴田宏仙</a> ✕
+								<a href="/#speaker-ihara">伊原力也</a></em
 							>
 						</p>
-						<p>セッション内容: 準備中</p>
+						<p>
+							社内のデザイナーやエンジニア向けにウェブアクセシビリティを教育していく際の課題点や、社内全体で取り組むための2大ルート「品質ルート」と「営業ルート」についてトークするセッション。自信を持って社内にウェブアクセシビリティを広める為のヒントをご紹介。
+						</p>
 					</dd>
 				</div>
 				<div class="break" role="none">
@@ -69,7 +79,7 @@
 					<dt role="associationlistitemkey generic">15:10</dt>
 					<dd role="associationlistitemvalue generic">
 						<p class="sub"><em>スポンサーセッション</em></p>
-						<p class="speaker"><em>プラチナスポンサー Nulab</em></p>
+						<p class="speaker sponsor"><em>プラチナスポンサー Nulab</em></p>
 						<p>セッション内容: 準備中</p>
 					</dd>
 				</div>
@@ -83,7 +93,7 @@
 					<dt role="associationlistitemkey generic">15:40</dt>
 					<dd role="associationlistitemvalue generic">
 						<p class="sub"><em>スポンサーセッション</em></p>
-						<p class="speaker"><em>会場提供 LINE Fukuoka</em></p>
+						<p class="speaker sponsor"><em>会場提供 LINE Fukuoka</em></p>
 						<p>セッション内容: 準備中</p>
 					</dd>
 				</div>
@@ -95,10 +105,21 @@
 				</div>
 				<div role="none">
 					<dt role="associationlistitemkey generic">16:10</dt>
-					<dd role="associationlistitemvalue generic">
+					<dd role="associationlistitemvalue generic" id="session3">
 						<p class="sub"><em>セッション3</em></p>
+						<p class="title">
+							<em><span class="q">違う人生を生きる人と一緒に働く</span>ということ</em>
+						</p>
 						<p class="speaker"><em><a href="/#speaker-katayama">方山れいこ</a></em></p>
-						<p>セッション内容: 準備中</p>
+						<p>
+							私が代表を務める株式会社方角は、2021年に設立した小さな会社です。ダイバーシティ・インクルージョン系の仕事が舞い込むことが多い弊社には現在10人のメンバーがおり、そのうちの7人が聴覚障害者・1人が盲ろう者です。
+						</p>
+						<p>
+							本セッションでは2年前まで障害者と呼ばれる人たちと関わったことすらなかった私が、マネジメントについて、そして組織をどのように作っているかについてをご紹介します。
+						</p>
+						<p>
+							人手不足の昨今ですが、「意識」さえ変えることができれば、どんな会社も受け入れる人の選択肢が増えるはずと信じています。ぜひ一緒に、これからの働き方について考えてみませんか。
+						</p>
 					</dd>
 				</div>
 				<div class="break" role="none">
@@ -109,11 +130,29 @@
 				</div>
 				<div role="none">
 					<dt role="associationlistitemkey generic">17:00</dt>
-					<dd role="associationlistitemvalue generic">
+					<dd role="associationlistitemvalue generic" id="session4">
 						<p class="sub"><em>セッション4</em></p>
+						<p class="title">
+							<em>デジタル庁でのアクセシビリティへの取り組み</em>
+							―<span class="q">誰一人取り残されない、人にやさしいデジタル化を</span>の実現に向けて―
+						</p>
 						<p class="speaker"><em><a href="/#speaker-ishiki">伊敷政英</a></em></p>
-						<p>セッション内容: 準備中</p>
-						<!-- アーカイブなしを入れる -->
+						<p>2023年9月、デジタル庁は発足から丸2年を迎え、3年目に突入しました。</p>
+						<p>
+							発足当初から我々は「誰一人取り残されない、人にやさしいデジタル化を」をミッションに掲げ、生活者視点、ユーザー視点でのサービスデザインによるアプリやサービスの開発を進めています。
+						</p>
+						<p>
+							アクセシビリティチームでも、デジタル庁ウェブサイトやマイナポータルなど、デジタル庁所管のアプリやサービスのアクセシビリティ改善を行ってきました。
+						</p>
+						<p>
+							本セッションでは、これまで私たちが行ってきたアクセシビリティ改善の取り組みをご紹介します。
+						</p>
+						<strong>
+							<p>
+								<span role="img" aria-label="注意">&#x26a0;&#xfe0f;</span
+								>YouTubeで生配信はされますが、アーカイブに残らないセッションです。
+							</p>
+						</strong>
 					</dd>
 				</div>
 				<div class="break" role="none">
@@ -226,7 +265,6 @@
 		margin: 0;
 		margin-inline-start: 1rem;
 		padding-block: 0.5rem;
-		padding-inline: 2rem;
 		border-block-end: 1px solid var(--color-border-primary);
 		border-inline-start: 1px solid var(--color-border-primary);
 		border-block-end: none;
@@ -241,8 +279,39 @@
 		opacity: 0.8;
 	}
 
-	.speaker {
+	.title {
 		font-size: 1.3em;
-		margin-block-end: calc(1em / 1.3);
+	}
+
+	.q::before {
+		content: '｢';
+		font-weight: normal;
+	}
+
+	.q::after {
+		content: '｣';
+		font-weight: normal;
+	}
+
+	.speaker {
+		text-align: right;
+		opacity: 0.8;
+		font-size: 1.1em;
+		margin-block-end: calc(1em / 1.1);
+	}
+
+	.speaker.sponsor {
+		text-align: left;
+	}
+
+	dd > strong {
+		color: darkred;
+		margin-block: 0.5em;
+		display: block;
+	}
+
+	dd > strong span {
+		display: inline-block;
+		margin-inline-end: 0.5em;
 	}
 </style>
