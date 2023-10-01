@@ -59,7 +59,11 @@
 		</TextBody>
 		<Heading level={3}>喫煙所</Heading>
 		<TextBody>
-			<p>館内禁煙となります。</p>
+			<p>カフェスペースに喫煙ルームがございます。</p>
+		</TextBody>
+		<Heading level={3}>託児所</Heading>
+		<TextBody>
+			<p>カフェスペースに併設されている会議室のひとつを託児ルームとして利用します。</p>
 		</TextBody>
 		<Heading level={2}>ライブ配信</Heading>
 		<TextBody>
