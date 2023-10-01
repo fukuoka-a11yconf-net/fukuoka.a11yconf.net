@@ -30,7 +30,7 @@
 	import logoRakko from '$lib/img/logo-sponsor-rakko.png?format=webp&w=500';
 	import logoHT from '$lib/img/logo-sponsor-horizontechnology.png?format=webp&w=500';
 	import logoDeisui from '$lib/img/logo-sponsor-deisui.png?format=webp&w=500';
-	import logoFontplus from '$lib/img/logo-sponsor-fontplus.png?format=webp&w=500';
+	import logoFontplus from '$lib/img/logo-sponsor-fontplus.png?format=webp&w=1500';
 
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/294555/';
 </script>
