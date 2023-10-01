@@ -18,7 +18,9 @@
 		<Heading level={2}>開催場所</Heading>
 		<TextBody>
 			<p>
-				<em><a href="https://linefukuoka.co.jp/ja/">LINE Fukuoka株式会社</a> カフェスペース</em>
+				<em
+					><a href="https://linefukuoka.co.jp/ja/">LINEヤフーコミュニケーションズ</a> カフェスペース</em
+				>
 			</p>
 			<p>
 				〒812-0012 福岡県福岡市博多区博多駅中央街8-1 JRJP博多ビル12F (<a

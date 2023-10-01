@@ -15,7 +15,7 @@
 					/>
 				</h1>
 				<p>2023年11月11日(土曜日)</p>
-				<p>LINE Fukuoka + YouTube</p>
+				<p>LY Communications + YouTube</p>
 			</div>
 			<hr />
 			<div class="text">
@@ -108,13 +108,13 @@
 
 	.title p {
 		margin: 0;
-		font-size: 5rem;
+		font-size: 4rem;
 		font-weight: bold;
 	}
 
 	@container hero-header (min-width: 0px) {
 		.title p {
-			font-size: 8cqw;
+			font-size: 7.5cqw;
 			font-family: var(--font-family-condensed);
 		}
 	}

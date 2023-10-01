@@ -39,7 +39,7 @@
 	<title>アクセシビリティカンファレンス福岡2023</title>
 	<meta
 		name="description"
-		content="2023年11月11日（土曜日）にLINE Fukuokaで開催される「アクセシビリティ」のカンファレンス"
+		content="2023年11月11日（土曜日）にLINEヤフーコミュニケーションズで開催される「アクセシビリティ」のカンファレンス"
 	/>
 </svelte:head>
 
@@ -64,7 +64,9 @@
 			</div>
 			<div role="none">
 				<dt role="associationlistitemkey generic">場所</dt>
-				<dd role="associationlistitemvalue generic">LINE Fukuoka株式会社 カフェスペース</dd>
+				<dd role="associationlistitemvalue generic">
+					LINEヤフーコミュニケーションズ カフェスペース
+				</dd>
 			</div>
 			<div role="none">
 				<dt role="associationlistitemkey generic">会場定員</dt>
@@ -413,8 +415,8 @@
 				<Heading level={3} id="sponsors-venue">会場提供</Heading>
 				<Sponsor
 					href="https://linefukuoka.co.jp/ja/"
-					name="LINE Fukuoka株式会社"
-					img="/img/logo-sponsor-linefukuoka.png"
+					name="LINEヤフーコミュニケーションズ"
+					img="/img/logo-sponsor-lyc.svg"
 					width="775"
 					height="330"
 				/>

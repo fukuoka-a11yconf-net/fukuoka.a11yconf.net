@@ -93,7 +93,7 @@
 					<dt role="associationlistitemkey generic">15:40</dt>
 					<dd role="associationlistitemvalue generic">
 						<p class="sub"><em>スポンサーセッション</em></p>
-						<p class="speaker sponsor"><em>会場提供 LINE Fukuoka</em></p>
+						<p class="speaker sponsor"><em>会場提供 LINEヤフーコミュニケーションズ</em></p>
 						<p>セッション内容: 準備中</p>
 					</dd>
 				</div>
