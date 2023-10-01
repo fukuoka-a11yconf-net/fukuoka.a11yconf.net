@@ -25,8 +25,12 @@
 	import pictStaff04 from '$lib/img/pict-staff-take2webservice.png?format=webp';
 	import pictStaff05 from '$lib/img/pict-staff-taketada323.png?format=webp';
 
-	import logoDeisui from '$lib/img/logo-sponsor-deisui.png?format=webp';
-	import logoFontplus from '$lib/img/logo-sponsor-fontplus.png?format=webp';
+	import logoZB from '$lib/img/logo-sponsor-zerobase.png?format=webp&w=500';
+	import logoScivone from '$lib/img/logo-sponsor-scivone.png?format=webp&w=500';
+	import logoRakko from '$lib/img/logo-sponsor-rakko.png?format=webp&w=500';
+	import logoHT from '$lib/img/logo-sponsor-horizontechnology.png?format=webp&w=500';
+	import logoDeisui from '$lib/img/logo-sponsor-deisui.png?format=webp&w=500';
+	import logoFontplus from '$lib/img/logo-sponsor-fontplus.png?format=webp&w=500';
 
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/294555/';
 </script>
@@ -327,7 +331,7 @@
 				<Sponsor
 					href="https://www.zerobase.jp"
 					name="ゼロベース株式会社"
-					img="/img/logo-sponsor-zerobase.png"
+					img={logoZB}
 					width="1125"
 					height="1125"
 				/>
@@ -336,7 +340,7 @@
 				<Sponsor
 					href="https://www.scivone.com"
 					name="サイフォン合同会社"
-					img="/img/logo-sponsor-scivone.png"
+					img={logoScivone}
 					width="1440"
 					height="1440"
 				/>
@@ -348,6 +352,33 @@
 					img="/img/logo-sponsor-yamap.svg"
 					width="68"
 					height="73"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://rakko.inc"
+					name="ラッコ株式会社"
+					img={logoRakko}
+					width="1200"
+					height="600"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://p-fab.co.jp"
+					name="株式会社p-fab"
+					img="/img/logo-sponsor-pfab.svg"
+					width="176"
+					height="193"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.horizon-cg.com"
+					name="ホライゾンテクノロジー株式会社"
+					img={logoHT}
+					width="2501"
+					height="2317"
 				/>
 			</ClusterItem>
 			<ClusterItem>
