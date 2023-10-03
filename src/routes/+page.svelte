@@ -392,9 +392,6 @@
 					height="539"
 				/>
 			</ClusterItem>
-			<ClusterItem>
-				<Sponsor href="#sponsor-recruitment" name="募集中" />
-			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
@@ -445,26 +442,6 @@
 				/>
 			</ClusterItem>
 		</ClusterContainer>
-
-		<section>
-			<Heading level={3} id="sponsor-recruitment">スポンサー募集</Heading>
-			<TextBody>
-				<p>
-					<a
-						href="https://docs.google.com/presentation/d/1nf6NAYliuFI-MJVTABR0aj1WJMTYt7nwdmcpTUBrpEw"
-					>
-						アクセシビリティカンファレンス福岡 企画概要 (Googleスライド)</a
-					>をご覧ください。
-				</p>
-				<p>
-					<a
-						href="https://docs.google.com/forms/d/e/1FAIpQLScx1br1WcjicvAX61q_bTuRjyzOldJmfqHdUjtKbCvQs12dRA/viewform"
-						>スポンサー申し込みGoogleフォーム</a
-					>からお申し込みください。<strong>先着順</strong>となりますのでお早めにお申し込みください。
-				</p>
-				<p>※資料に情報保障が必要な場合はお問い合わせください</p>
-			</TextBody>
-		</section>
 	</Section>
 
 	<Section width="narrow">
@@ -529,21 +506,6 @@
 		<Heading level={3} id="office">運営事務局</Heading>
 		<TextBody fit>
 			<p><a href="https://www.d-zero.co.jp">株式会社ディーゼロ</a></p>
-		</TextBody>
-
-		<Heading level={3} id="staff-recruitment">ボランティアスタッフ募集</Heading>
-		<TextBody>
-			<p><del>以下のボランティアスタッフを募集します。</del></p>
-			<ul>
-				<li><del>現地・前日準備スタッフ</del></li>
-				<li><del>現地・当日運営スタッフ</del></li>
-				<li><del>オンライン・UDトーク（ライブ字幕）編集スタッフ</del></li>
-			</ul>
-			<p>
-				<strong>募集はすべて終了いたしました。</strong><em
-					>ご参加・ご協力ありがとうございました。<em></em></em
-				>
-			</p>
 		</TextBody>
 	</Section>
 
