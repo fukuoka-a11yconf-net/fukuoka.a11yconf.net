@@ -101,6 +101,7 @@
 	}
 
 	.copyright {
+		font-size: 0.8em;
 		margin-block: 1rem;
 	}
 

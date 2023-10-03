@@ -237,6 +237,13 @@
 		border-block-end: none;
 	}
 
+	@media (max-width: 40rem) {
+		dd {
+			margin-inline-start: 0.5rem;
+			padding-inline: 1rem;
+		}
+	}
+
 	dd p {
 		margin: 0;
 		font-size: calc(1em / 1.5);
@@ -268,6 +275,12 @@
 		border-block-end: 1px solid var(--color-border-primary);
 		border-inline-start: 1px solid var(--color-border-primary);
 		border-block-end: none;
+	}
+
+	@media (max-width: 40rem) {
+		.break::after {
+			margin-inline-start: 0.5rem;
+		}
 	}
 
 	em {

@@ -114,7 +114,7 @@
 
 	@container hero-header (min-width: 0px) {
 		.title p {
-			font-size: 7.5cqw;
+			font-size: 7.3cqw;
 			font-family: var(--font-family-condensed);
 		}
 	}
