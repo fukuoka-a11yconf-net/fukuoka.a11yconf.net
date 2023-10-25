@@ -98,7 +98,7 @@
 						<p class="title">
 							<em>LINEヤフーにおけるこれからのアクセシビリティ</em>
 						</p>
-						<p class="speaker sponsor"><em>富田梓</em></p>
+						<p class="speaker sponsor"><em>岡崎晶彦</em>･<em>富田梓</em></p>
 					</dd>
 				</div>
 				<div class="break" role="none">
