@@ -78,9 +78,11 @@
 				<div role="none">
 					<dt role="associationlistitemkey generic">15:10</dt>
 					<dd role="associationlistitemvalue generic">
-						<p class="sub"><em>スポンサーセッション</em></p>
-						<p class="speaker sponsor"><em>プラチナスポンサー Nulab</em></p>
-						<p>セッション内容: 準備中</p>
+						<p class="sub"><em>スポンサーセッション プラチナスポンサー</em></p>
+						<p class="title">
+							<em>ヌーラボのウェブサイト課におけるアクセシビリティ関連の取組み</em>
+						</p>
+						<p class="speaker sponsor"><em>松永知典</em></p>
 					</dd>
 				</div>
 				<div class="break" role="none">
@@ -92,9 +94,11 @@
 				<div role="none">
 					<dt role="associationlistitemkey generic">15:40</dt>
 					<dd role="associationlistitemvalue generic">
-						<p class="sub"><em>スポンサーセッション</em></p>
-						<p class="speaker sponsor"><em>会場提供 LINEヤフーコミュニケーションズ</em></p>
-						<p>セッション内容: 準備中</p>
+						<p class="sub"><em>スポンサーセッション 会場提供スポンサー</em></p>
+						<p class="title">
+							<em>LINEヤフーにおけるこれからのアクセシビリティ</em>
+						</p>
+						<p class="speaker sponsor"><em>富田梓</em></p>
 					</dd>
 				</div>
 				<div class="break" role="none">
@@ -311,10 +315,6 @@
 		opacity: 0.8;
 		font-size: 1.1em;
 		margin-block-end: calc(1em / 1.1);
-	}
-
-	.speaker.sponsor {
-		text-align: left;
 	}
 
 	dd > strong {
