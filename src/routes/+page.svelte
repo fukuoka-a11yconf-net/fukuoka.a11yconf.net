@@ -24,6 +24,7 @@
 	import pictStaff03 from '$lib/img/pict-staff-analogtan.jpg?format=webp';
 	import pictStaff04 from '$lib/img/pict-staff-take2webservice.png?format=webp';
 	import pictStaff05 from '$lib/img/pict-staff-taketada323.png?format=webp';
+	import pictStaff06 from '$lib/img/pict-staff-wacchi22.jpg?format=webp';
 
 	import logoZB from '$lib/img/logo-sponsor-zerobase.png?format=webp&w=500';
 	import logoScivone from '$lib/img/logo-sponsor-scivone.png?format=webp&w=500';
@@ -441,12 +442,21 @@
 					height="600"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://twitter.com/web100ken"
+					name="九州Web百見"
+					img="/img/logo-sponsor-web100.svg"
+					width="342"
+					height="268"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 	</Section>
 
 	<Section width="narrow">
 		<Heading level={2} id="staff">運営スタッフ</Heading>
-		<ClusterContainer --col={5} --align="start">
+		<ClusterContainer --col={3} --align="start">
 			<ClusterItem
 				><Staff
 					id="yusukehirao"
@@ -499,6 +509,17 @@
 					org="株式会社Fusic"
 					snsX="taketada323"
 					snsGH="TakehiroTada1"
+				/></ClusterItem
+			>
+			<ClusterItem
+				><Staff
+					id="wacchi22"
+					img={pictStaff06}
+					name="渡辺高志（ナベ）"
+					role="実行委員"
+					org="九州Web百見"
+					snsFB="wacchi22"
+					snsX="wacchi22"
 				/></ClusterItem
 			>
 		</ClusterContainer>
