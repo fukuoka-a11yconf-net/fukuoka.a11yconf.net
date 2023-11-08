@@ -534,9 +534,16 @@
 		<Heading level={2} id="contact">お問い合わせ</Heading>
 		<TextBody fit>
 			<p>
-				<a class="mail" href="mailto:fukuokaa11yconf@googlegroups.com"
+				一般受付メールアドレス: <a class="mail" href="mailto:fukuokaa11yconf@googlegroups.com"
 					>fukuokaa11yconf@googlegroups.com</a
 				>
+			</p>
+			<p>
+				<a href="/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
+				<a
+					href="https://docs.google.com/forms/d/1oJ03Tc_j9P9sSK75nlStVJSYF5Qgfph7Tb4L1uWisq8/viewform?edit_requested=true#responses"
+					>通報フォーム</a
+				>までご連絡ください。
 			</p>
 		</TextBody>
 	</Section>
