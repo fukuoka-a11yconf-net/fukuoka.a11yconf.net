@@ -111,6 +111,11 @@
 		margin-block-end: var(--font-size-h4);
 	}
 
+	:has(h4) {
+		margin-block-start: calc(var(--font-size-h4) * 2);
+		margin-block-end: calc(var(--font-size-h4) * 1);
+	}
+
 	h5 {
 		font-size: var(--font-size-h5);
 		margin-block-end: var(--font-size-h5);
