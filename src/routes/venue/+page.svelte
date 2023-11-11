@@ -152,8 +152,8 @@
 					points="581.16 514.54 518.55 514.54 514.15 514.54 455.94 514.54"
 				/>
 			</svg>
-			<Heading level={4} id="map-1f">12階フロアマップ</Heading>
-			<svg viewBox="0 0 988 490">
+			<Heading level={4} id="map-12f">12階フロアマップ</Heading>
+			<svg viewBox="0 0 988 490" role="img" aria-labelledby="map-12f">
 				<rect
 					class="cls-5"
 					x="472.3"
