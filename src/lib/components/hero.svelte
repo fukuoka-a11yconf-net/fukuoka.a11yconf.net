@@ -39,8 +39,11 @@
 						>「わたしたちは、ここにいて、そして安心して取り組めるんだ」と、このイベントを通して証明します。</span
 					>
 				</p>
-				<div class="apply">
-					<a href={connpassURL} target="_blank">connpassで参加登録</a>
+				<div class="end">
+					<p>イベントは終了しました。多くのご参加ありがとうございました。</p>
+				</div>
+				<div class="archive">
+					<a>配信アーカイブ準備中。今しばらくお待ち下さい。</a>
 				</div>
 			</div>
 		</div>
@@ -165,7 +168,8 @@
 		}
 	}
 
-	.apply {
+	.end,
+	.archive {
 		align-self: center;
 		display: flex;
 		justify-content: center;
@@ -173,13 +177,17 @@
 		margin-block: 2rem 0;
 	}
 
-	.apply a {
+	.end {
+		font-size: 1.5rem;
+		line-height: 1;
+		background-color: var(--color-bg-base);
+		border: 1px dashed var(--color-border-primary);
+	}
+
+	.archive a {
 		display: block;
-		padding-block: 1em 1.25em;
+		padding-block: 1em;
 		padding-inline: 1.5em;
-		text-decoration: underline dashed;
-		text-decoration-thickness: 1px;
-		text-underline-offset: 0.4em;
 		color: inherit;
 		font-size: 1.5rem;
 		line-height: 1;
@@ -188,13 +196,20 @@
 		border-radius: 10rem;
 	}
 
+	.archive a:link {
+		text-decoration: underline dashed;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.4em;
+		padding-block: 1em 1.25em;
+	}
+
 	@media (max-width: 40rem) {
-		.apply a {
+		.archive a {
 			font-size: 1rem;
 		}
 	}
 
-	.apply a:hover {
+	.archive a:link:hover {
 		background-color: var(--color-link-hover-bg);
 	}
 </style>
