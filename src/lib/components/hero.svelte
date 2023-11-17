@@ -43,7 +43,10 @@
 					<p>イベントは終了しました。多くのご参加ありがとうございました。</p>
 				</div>
 				<div class="archive">
-					<a>配信アーカイブ準備中。今しばらくお待ち下さい。</a>
+					<a
+						href="https://www.youtube.com/playlist?list=PLw4pRH4ilpwzq1V5CvGWeCOMaJkD6emAN"
+						target="_blank">配信アーカイブ</a
+					>
 				</div>
 			</div>
 		</div>
@@ -180,6 +183,7 @@
 	.end {
 		font-size: 1.5rem;
 		line-height: 1;
+		padding-inline: 1em;
 		background-color: var(--color-bg-base);
 		border: 1px dashed var(--color-border-primary);
 	}
