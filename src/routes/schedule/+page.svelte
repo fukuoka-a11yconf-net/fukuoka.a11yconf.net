@@ -17,21 +17,21 @@
 		<Heading level={1}>タイムテーブル</Heading>
 		<TextBody>
 			<dl>
-				<div role="none">
+				<div>
 					<dt>12:30</dt>
 					<dd>開場</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>13:00</dt>
 					<dd>開会式</dd>
 				</div>
-				<div class="break" role="none">
+				<div class="break">
 					<dt>13:20</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>13:30</dt>
 					<dd id="session1">
 						<p class="sub"><em>セッション1</em></p>
@@ -44,13 +44,13 @@
 						</p>
 					</dd>
 				</div>
-				<div class="break" role="none">
+				<div class="break">
 					<dt>14:10</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>14:20</dt>
 					<dd id="session2">
 						<p class="sub"><em>セッション2</em></p>
@@ -69,13 +69,13 @@
 						</p>
 					</dd>
 				</div>
-				<div class="break" role="none">
+				<div class="break">
 					<dt>15:00</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>15:10</dt>
 					<dd>
 						<p class="sub"><em>スポンサーセッション プラチナスポンサー</em></p>
@@ -85,13 +85,13 @@
 						<p class="speaker sponsor"><em>松永知典</em></p>
 					</dd>
 				</div>
-				<div class="break" role="none">
+				<div class="break">
 					<dt>15:30</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>15:40</dt>
 					<dd>
 						<p class="sub"><em>スポンサーセッション 会場提供スポンサー</em></p>
@@ -101,13 +101,13 @@
 						<p class="speaker sponsor"><em>岡崎晶彦</em>･<em>富田梓</em></p>
 					</dd>
 				</div>
-				<div class="break" role="none">
+				<div class="break">
 					<dt>16:00</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>16:10</dt>
 					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
@@ -126,13 +126,13 @@
 						</p>
 					</dd>
 				</div>
-				<div class="break" role="none">
+				<div class="break">
 					<dt>16:50</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>17:00</dt>
 					<dd id="session4">
 						<p class="sub"><em>セッション4</em></p>
@@ -159,27 +159,27 @@
 						</p>
 					</dd>
 				</div>
-				<div class="break" role="none">
+				<div class="break">
 					<dt>17:40</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>17:50</dt>
 					<dd>閉会式</dd>
 				</div>
-				<div class="break" role="none">
+				<div class="break">
 					<dt>18:00</dt>
 					<dd>
 						<p>懇親会準備</p>
 					</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>18:20</dt>
 					<dd>懇親会</dd>
 				</div>
-				<div role="none">
+				<div>
 					<dt>20:00</dt>
 					<dd>解散</dd>
 				</div>

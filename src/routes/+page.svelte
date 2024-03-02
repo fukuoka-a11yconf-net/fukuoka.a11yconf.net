@@ -55,37 +55,37 @@
 		<Heading level={2} id="summary">開催概要</Heading>
 
 		<dl>
-			<div role="none">
+			<div>
 				<dt>日時</dt>
 				<dd>2023年11月11日（土曜日） 13:00〜18:00</dd>
 			</div>
-			<div role="none">
+			<div>
 				<dt>参加費</dt>
 				<dd>無料</dd>
 			</div>
-			<div role="none">
+			<div>
 				<dt>場所</dt>
 				<dd>LINEヤフーコミュニケーションズ カフェスペース</dd>
 			</div>
-			<div role="none">
+			<div>
 				<dt>会場定員</dt>
 				<dd>100名</dd>
 			</div>
-			<div role="none">
+			<div>
 				<dt>ライブ配信</dt>
 				<dd>YouTubeにて通常版・情報保障版同時配信</dd>
 			</div>
-			<div role="none">
+			<div>
 				<dt>参加登録</dt>
 				<dd>
 					<a href={connpassURL}>connpassで事前受付</a>
 				</dd>
 			</div>
-			<div role="none">
+			<div>
 				<dt>セッション</dt>
 				<dd>4セッション + 2スポンサーセッション / シングルトラック</dd>
 			</div>
-			<div role="none">
+			<div>
 				<dt>主催</dt>
 				<dd>アクセシビリティカンファレンス福岡実行委員会</dd>
 			</div>
