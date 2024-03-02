@@ -13,25 +13,25 @@
 	import TextBody from '$lib/components/text-body.svelte';
 	import Navigation from '$lib/components/navigation.svelte';
 
-	import pictMajima from '$lib/img/pict-speaker-majima.png?format=webp';
-	import pictKatayama from '$lib/img/pict-speaker-katayama.png?format=webp';
-	import pictShibata from '$lib/img/pict-speaker-shibata.png?format=webp';
-	import pictIhara from '$lib/img/pict-speaker-ihara.jpg?format=webp';
-	import pictIshiki from '$lib/img/pict-speaker-ishiki.jpg?format=webp';
+	import pictMajima from '$lib/img/pict-speaker-majima.png';
+	import pictKatayama from '$lib/img/pict-speaker-katayama.png';
+	import pictShibata from '$lib/img/pict-speaker-shibata.png';
+	import pictIhara from '$lib/img/pict-speaker-ihara.jpg';
+	import pictIshiki from '$lib/img/pict-speaker-ishiki.jpg';
 
-	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg?format=webp';
-	import pictStaff02 from '$lib/img/pict-staff-posi0202.jpg?format=webp';
-	import pictStaff03 from '$lib/img/pict-staff-analogtan.jpg?format=webp';
-	import pictStaff04 from '$lib/img/pict-staff-take2webservice.png?format=webp';
-	import pictStaff05 from '$lib/img/pict-staff-taketada323.png?format=webp';
-	import pictStaff06 from '$lib/img/pict-staff-wacchi22.jpg?format=webp';
+	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg';
+	import pictStaff02 from '$lib/img/pict-staff-posi0202.jpg';
+	import pictStaff03 from '$lib/img/pict-staff-analogtan.jpg';
+	import pictStaff04 from '$lib/img/pict-staff-take2webservice.png';
+	import pictStaff05 from '$lib/img/pict-staff-taketada323.png';
+	import pictStaff06 from '$lib/img/pict-staff-wacchi22.jpg';
 
-	import logoZB from '$lib/img/logo-sponsor-zerobase.png?format=webp&w=500';
-	import logoScivone from '$lib/img/logo-sponsor-scivone.png?format=webp&w=500';
-	import logoRakko from '$lib/img/logo-sponsor-rakko.png?format=webp&w=500';
-	import logoHT from '$lib/img/logo-sponsor-horizontechnology.png?format=webp&w=500';
-	import logoDeisui from '$lib/img/logo-sponsor-deisui.png?format=webp&w=500';
-	import logoFontplus from '$lib/img/logo-sponsor-fontplus.png?format=webp&w=1500';
+	import logoZB from '$lib/img/logo-sponsor-zerobase.png';
+	import logoScivone from '$lib/img/logo-sponsor-scivone.png';
+	import logoRakko from '$lib/img/logo-sponsor-rakko.png';
+	import logoHT from '$lib/img/logo-sponsor-horizontechnology.png';
+	import logoDeisui from '$lib/img/logo-sponsor-deisui.png';
+	import logoFontplus from '$lib/img/logo-sponsor-fontplus.png';
 
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/294555/';
 </script>
