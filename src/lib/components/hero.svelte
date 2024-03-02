@@ -1,7 +1,3 @@
-<script lang="ts">
-	export let connpassURL: string;
-</script>
-
 <header>
 	<div class="box">
 		<div class="body">

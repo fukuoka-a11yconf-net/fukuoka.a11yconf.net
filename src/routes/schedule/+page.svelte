@@ -317,7 +317,7 @@
 		margin-block-end: calc(1em / 1.1);
 	}
 
-	dd > strong {
+	dd > p > strong {
 		color: darkred;
 		margin-block: 0.5em;
 		display: block;
