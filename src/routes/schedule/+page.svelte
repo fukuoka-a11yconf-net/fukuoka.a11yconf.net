@@ -16,24 +16,24 @@
 	<Section width="narrow">
 		<Heading level={1}>タイムテーブル</Heading>
 		<TextBody>
-			<dl role="associationlist generic">
+			<dl>
 				<div role="none">
-					<dt role="associationlistitemkey generic">12:30</dt>
-					<dd role="associationlistitemvalue generic">開場</dd>
+					<dt>12:30</dt>
+					<dd>開場</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">13:00</dt>
-					<dd role="associationlistitemvalue generic">開会式</dd>
+					<dt>13:00</dt>
+					<dd>開会式</dd>
 				</div>
 				<div class="break" role="none">
-					<dt role="associationlistitemkey generic">13:20</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>13:20</dt>
+					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">13:30</dt>
-					<dd role="associationlistitemvalue generic" id="session1">
+					<dt>13:30</dt>
+					<dd id="session1">
 						<p class="sub"><em>セッション1</em></p>
 						<p class="title">
 							<em><span class="q">伝わる</span>を拡張するアクセシビリティ</em>
@@ -45,14 +45,14 @@
 					</dd>
 				</div>
 				<div class="break" role="none">
-					<dt role="associationlistitemkey generic">14:10</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>14:10</dt>
+					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">14:20</dt>
-					<dd role="associationlistitemvalue generic" id="session2">
+					<dt>14:20</dt>
+					<dd id="session2">
 						<p class="sub"><em>セッション2</em></p>
 						<p class="title">
 							<em>ウェブアクセシビリティ社内教育のすゝめ</em>
@@ -70,14 +70,14 @@
 					</dd>
 				</div>
 				<div class="break" role="none">
-					<dt role="associationlistitemkey generic">15:00</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>15:00</dt>
+					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">15:10</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>15:10</dt>
+					<dd>
 						<p class="sub"><em>スポンサーセッション プラチナスポンサー</em></p>
 						<p class="title">
 							<em>ヌーラボのウェブサイト課におけるアクセシビリティ関連の取組み</em>
@@ -86,14 +86,14 @@
 					</dd>
 				</div>
 				<div class="break" role="none">
-					<dt role="associationlistitemkey generic">15:30</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>15:30</dt>
+					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">15:40</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>15:40</dt>
+					<dd>
 						<p class="sub"><em>スポンサーセッション 会場提供スポンサー</em></p>
 						<p class="title">
 							<em>LINEヤフーにおけるこれからのアクセシビリティ</em>
@@ -102,14 +102,14 @@
 					</dd>
 				</div>
 				<div class="break" role="none">
-					<dt role="associationlistitemkey generic">16:00</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>16:00</dt>
+					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">16:10</dt>
-					<dd role="associationlistitemvalue generic" id="session3">
+					<dt>16:10</dt>
+					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
 						<p class="title">
 							<em><span class="q">違う人生を生きる人と一緒に働く</span>ということ</em>
@@ -127,14 +127,14 @@
 					</dd>
 				</div>
 				<div class="break" role="none">
-					<dt role="associationlistitemkey generic">16:50</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>16:50</dt>
+					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">17:00</dt>
-					<dd role="associationlistitemvalue generic" id="session4">
+					<dt>17:00</dt>
+					<dd id="session4">
 						<p class="sub"><em>セッション4</em></p>
 						<p class="title">
 							<em>デジタル庁でのアクセシビリティへの取り組み</em>
@@ -151,37 +151,37 @@
 						<p>
 							本セッションでは、これまで私たちが行ってきたアクセシビリティ改善の取り組みをご紹介します。
 						</p>
-						<strong>
-							<p>
-								<span role="img" aria-label="注意">&#x26a0;&#xfe0f;</span
-								>YouTubeで生配信はされますが、アーカイブに残らないセッションです。
-							</p>
-						</strong>
+						<p>
+							<strong
+								><span role="img" aria-label="注意">&#x26a0;&#xfe0f;</span
+								>YouTubeで生配信はされますが、アーカイブに残らないセッションです。</strong
+							>
+						</p>
 					</dd>
 				</div>
 				<div class="break" role="none">
-					<dt role="associationlistitemkey generic">17:40</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>17:40</dt>
+					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">17:50</dt>
-					<dd role="associationlistitemvalue generic">閉会式</dd>
+					<dt>17:50</dt>
+					<dd>閉会式</dd>
 				</div>
 				<div class="break" role="none">
-					<dt role="associationlistitemkey generic">18:00</dt>
-					<dd role="associationlistitemvalue generic">
+					<dt>18:00</dt>
+					<dd>
 						<p>懇親会準備</p>
 					</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">18:20</dt>
-					<dd role="associationlistitemvalue generic">懇親会</dd>
+					<dt>18:20</dt>
+					<dd>懇親会</dd>
 				</div>
 				<div role="none">
-					<dt role="associationlistitemkey generic">20:00</dt>
-					<dd role="associationlistitemvalue generic">解散</dd>
+					<dt>20:00</dt>
+					<dd>解散</dd>
 				</div>
 			</dl>
 		</TextBody>

@@ -54,46 +54,40 @@
 	<Section width="narrow">
 		<Heading level={2} id="summary">開催概要</Heading>
 
-		<dl role="associationlist generic">
+		<dl>
 			<div role="none">
-				<dt role="associationlistitemkey generic">日時</dt>
-				<dd role="associationlistitemvalue generic">2023年11月11日（土曜日） 13:00〜18:00</dd>
+				<dt>日時</dt>
+				<dd>2023年11月11日（土曜日） 13:00〜18:00</dd>
 			</div>
 			<div role="none">
-				<dt role="associationlistitemkey generic">参加費</dt>
-				<dd role="associationlistitemvalue generic">無料</dd>
+				<dt>参加費</dt>
+				<dd>無料</dd>
 			</div>
 			<div role="none">
-				<dt role="associationlistitemkey generic">場所</dt>
-				<dd role="associationlistitemvalue generic">
-					LINEヤフーコミュニケーションズ カフェスペース
-				</dd>
+				<dt>場所</dt>
+				<dd>LINEヤフーコミュニケーションズ カフェスペース</dd>
 			</div>
 			<div role="none">
-				<dt role="associationlistitemkey generic">会場定員</dt>
-				<dd role="associationlistitemvalue generic">100名</dd>
+				<dt>会場定員</dt>
+				<dd>100名</dd>
 			</div>
 			<div role="none">
-				<dt role="associationlistitemkey generic">ライブ配信</dt>
-				<dd role="associationlistitemvalue generic">YouTubeにて通常版・情報保障版同時配信</dd>
+				<dt>ライブ配信</dt>
+				<dd>YouTubeにて通常版・情報保障版同時配信</dd>
 			</div>
 			<div role="none">
-				<dt role="associationlistitemkey generic">参加登録</dt>
-				<dd role="associationlistitemvalue generic">
+				<dt>参加登録</dt>
+				<dd>
 					<a href={connpassURL}>connpassで事前受付</a>
 				</dd>
 			</div>
 			<div role="none">
-				<dt role="associationlistitemkey generic">セッション</dt>
-				<dd role="associationlistitemvalue generic">
-					4セッション + 2スポンサーセッション / シングルトラック
-				</dd>
+				<dt>セッション</dt>
+				<dd>4セッション + 2スポンサーセッション / シングルトラック</dd>
 			</div>
 			<div role="none">
-				<dt role="associationlistitemkey generic">主催</dt>
-				<dd role="associationlistitemvalue generic">
-					アクセシビリティカンファレンス福岡実行委員会
-				</dd>
+				<dt>主催</dt>
+				<dd>アクセシビリティカンファレンス福岡実行委員会</dd>
 			</div>
 		</dl>
 	</Section>
