@@ -4,7 +4,7 @@
 			<div class="title">
 				<h1>
 					<img
-						src="/img/logo.svg"
+						src="/2023/img/logo.svg"
 						alt="アクセシビリティカンファレンス福岡"
 						width="340"
 						height="87"
@@ -53,7 +53,7 @@
 	header {
 		background-color: var(--color-bg-base);
 		padding: 2rem;
-		background: url('/img/bg-pattern.png') repeat;
+		background: url('/2023/img/bg-pattern.png') repeat;
 		background-size: 8rem;
 	}
 

@@ -4,7 +4,12 @@
 
 <div class="header">
 	<div class="logo">
-		<img src="/img/logo.svg" width="340" height="87" alt="アクセシビリティカンファレンス福岡" />
+		<img
+			src="/2023/img/logo.svg"
+			width="340"
+			height="87"
+			alt="アクセシビリティカンファレンス福岡"
+		/>
 	</div>
 	<div class="nav">
 		<Navigation />

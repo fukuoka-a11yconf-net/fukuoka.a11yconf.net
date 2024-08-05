@@ -1,9 +1,9 @@
 <script>
-	import Header from '$lib/components/header.svelte';
-	import Heading from '$lib/components/heading.svelte';
-	import Main from '$lib/components/main.svelte';
-	import Section from '$lib/components/section.svelte';
-	import TextBody from '$lib/components/text-body.svelte';
+	import Header from '$lib/2023/components/header.svelte';
+	import Heading from '$lib/2023/components/heading.svelte';
+	import Main from '$lib/2023/components/main.svelte';
+	import Section from '$lib/2023/components/section.svelte';
+	import TextBody from '$lib/2023/components/text-body.svelte';
 </script>
 
 <svelte:head>
@@ -38,7 +38,7 @@
 						<p class="title">
 							<em><span class="q">伝わる</span>を拡張するアクセシビリティ</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-majima">間嶋沙知</a></em></p>
+						<p class="speaker"><em><a href="/2023/#speaker-majima">間嶋沙知</a></em></p>
 						<p>
 							アクセシビリティが気になっているけど、何をすればいいかわからなかったり、ハードルが高く感じられたりしていないでしょうか。アクセシビリティは情報やサービスをより多くの人に届けるための視点を与えてくれるものです。このセッションでは身近なデザインの具体例を交えながら、明日から取り組めるアクセシビリティのポイントをお伝えします。
 						</p>
@@ -60,8 +60,8 @@
 						</p>
 						<p class="speaker">
 							<em
-								><a href="/#speaker-shibata">柴田宏仙</a> ✕
-								<a href="/#speaker-ihara">伊原力也</a></em
+								><a href="/2023/#speaker-shibata">柴田宏仙</a> ✕
+								<a href="/2023/#speaker-ihara">伊原力也</a></em
 							>
 						</p>
 						<p>
@@ -114,7 +114,7 @@
 						<p class="title">
 							<em><span class="q">違う人生を生きる人と一緒に働く</span>ということ</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-katayama">方山れいこ</a></em></p>
+						<p class="speaker"><em><a href="/2023/#speaker-katayama">方山れいこ</a></em></p>
 						<p>
 							私が代表を務める株式会社方角は、2021年に設立した小さな会社です。ダイバーシティ・インクルージョン系の仕事が舞い込むことが多い弊社には現在10人のメンバーがおり、そのうちの7人が聴覚障害者・1人が盲ろう者です。
 						</p>
@@ -140,7 +140,7 @@
 							<em>デジタル庁でのアクセシビリティへの取り組み</em>
 							―<span class="q">誰一人取り残されない、人にやさしいデジタル化を</span>の実現に向けて―
 						</p>
-						<p class="speaker"><em><a href="/#speaker-ishiki">伊敷政英</a></em></p>
+						<p class="speaker"><em><a href="/2023/#speaker-ishiki">伊敷政英</a></em></p>
 						<p>2023年9月、デジタル庁は発足から丸2年を迎え、3年目に突入しました。</p>
 						<p>
 							発足当初から我々は「誰一人取り残されない、人にやさしいデジタル化を」をミッションに掲げ、生活者視点、ユーザー視点でのサービスデザインによるアプリやサービスの開発を進めています。

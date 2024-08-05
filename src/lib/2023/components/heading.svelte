@@ -87,7 +87,7 @@
 		width: auto;
 		height: 0.5em;
 		aspect-ratio: 163/23;
-		background: url('/img/hr-icons.svg') no-repeat center;
+		background: url('/2023/img/hr-icons.svg') no-repeat center;
 		background-size: contain;
 		margin-block-start: 0.5em;
 	}

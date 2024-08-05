@@ -34,7 +34,7 @@
 				{#if snsX}
 					<li class="sns-x">
 						<a href={`https://x.com/${snsX}`} target="_blank">
-							<img src="/img/icon-x.svg" width="24" height="24" alt={`${name}のX`} />
+							<img src="/2023/img/icon-x.svg" width="24" height="24" alt={`${name}のX`} />
 						</a>
 					</li>
 				{/if}
@@ -42,7 +42,7 @@
 					<li>
 						<a href={`https://facebook.com/${snsFB}`} title={snsFB}>
 							<img
-								src="/img/icon-facebook.svg"
+								src="/2023/img/icon-facebook.svg"
 								width="1024"
 								height="1024"
 								alt={`${name}のFacebook`}
@@ -53,7 +53,12 @@
 				{#if snsGH}
 					<li>
 						<a href={`https://github.com/${snsGH}`} title={`@${snsGH}`}>
-							<img src="/img/icon-github.svg" width="1024" height="1024" alt={`${name}のGitHub`} />
+							<img
+								src="/2023/img/icon-github.svg"
+								width="1024"
+								height="1024"
+								alt={`${name}のGitHub`}
+							/>
 						</a>
 					</li>
 				{/if}

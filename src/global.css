@@ -12,7 +12,7 @@
 
 	--section-padding: 4rem;
 	--section-border-width: 30px;
-	--section-border-image: url('/img/border.png') 30 fill;
+	--section-border-image: url('/2023/img/border.png') 30 fill;
 	--section-padding-with-border: calc(var(--section-padding) - var(--section-border-width));
 
 	scroll-behavior: smooth;
