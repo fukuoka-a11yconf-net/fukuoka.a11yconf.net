@@ -1,4 +1,6 @@
 <script>
+	import Header from '$lib/components/header.svelte';
+
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/322934/';
 </script>
 
@@ -10,7 +12,11 @@
 	/>
 </svelte:head>
 
-<h1>アクセシビリティカンファレンス福岡2024 Coming Soon</h1>
+<Header />
+
+<main>
+	<h1>アクセシビリティカンファレンス福岡2024 Coming Soon</h1>
+</main>
 
 <style>
 </style>

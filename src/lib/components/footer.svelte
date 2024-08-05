@@ -2,7 +2,7 @@
 	<div class="logo">
 		<a href="/">
 			<img
-				src="/2023/img/logo-dark.svg"
+				src="/img/logo-dark.svg"
 				width="340"
 				height="87"
 				alt="アクセシビリティカンファレンス福岡"
@@ -14,7 +14,7 @@
 		<ul>
 			<li>
 				<a class="sns-x" href="https://x.com/FukuokaA11yconf" target="_blank"
-					><img src="/2023/img/icon-x.svg" width="24" height="24" alt="X" loading="lazy" /></a
+					><img src="/img/icon-x.svg" width="24" height="24" alt="X" loading="lazy" /></a
 				>
 			</li>
 			<li>
@@ -24,7 +24,7 @@
 					target="_blank"
 					><img
 						class="inline-icon"
-						src="/2023/img/logo-sns-youtube.svg"
+						src="/img/logo-sns-youtube.svg"
 						width="492"
 						height="110"
 						alt="YouTube"
@@ -34,8 +34,14 @@
 			</li>
 		</ul>
 	</div>
+	<div class="past">
+		<ul>
+			<li><a href="/">2024年</a></li>
+			<li><a href="/2023">2023年</a></li>
+		</ul>
+	</div>
 	<div class="copyright">
-		<p>©︎2023 アクセシビリティカンファレンス福岡実行員会</p>
+		<p>©︎2024 アクセシビリティカンファレンス福岡実行員会</p>
 	</div>
 </div>
 
@@ -47,12 +53,9 @@
 		align-items: center;
 		padding-block: 4rem;
 		padding-inline: 1rem;
+		gap: 2rem;
 		color: var(--color-font-deep);
 		background-color: var(--color-bg-deep);
-	}
-
-	.logo {
-		margin-block: 1rem;
 	}
 
 	.logo img {
@@ -66,20 +69,25 @@
 		justify-content: center;
 		align-items: center;
 		gap: 3rem;
-		padding-block: 2rem;
-		padding-inline: 0;
+		padding: 0;
 		margin: 0;
 		list-style: none;
 	}
 
 	.sns li {
-		display: block;
+		display: flex;
+		align-items: center;
 	}
 
 	.sns a {
+		display: flex;
+		align-items: center;
 		color: inherit;
 		text-decoration: none;
-		display: inline-flex;
+	}
+
+	.sns img {
+		display: block;
 	}
 
 	.sns-x {
@@ -100,9 +108,26 @@
 		height: 2rem;
 	}
 
+	.past ul {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		gap: 1rem;
+	}
+
+	.past li {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.past a {
+		display: block;
+		color: inherit;
+	}
+
 	.copyright {
 		font-size: 0.8em;
-		margin-block: 1rem;
 	}
 
 	.copyright p {
