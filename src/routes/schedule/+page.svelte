@@ -107,9 +107,9 @@
 					<dd>
 						<p class="sub"><em>スポンサーセッション プラチナスポンサー</em></p>
 						<p class="title">
-							<em>ヌーラボのウェブサイト課におけるアクセシビリティ関連の取組み</em>
+							<em>準備中</em>
 						</p>
-						<p class="speaker sponsor"><em>松永知典</em></p>
+						<p class="speaker sponsor"><em>準備中</em></p>
 					</dd>
 				</div>
 				<div class="break">

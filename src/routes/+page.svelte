@@ -189,8 +189,6 @@
 		
 		<Heading level={3} id="sponsors-shilver">シルバースポンサー</Heading>
 		<ClusterContainer --col={5}>
-			<ClusterItem />
-			<ClusterItem />
 			<ClusterItem>
 				<Sponsor
 					href="https://trq.co.jp/"
@@ -200,8 +198,6 @@
 					height="47"
 				/>
 			</ClusterItem>
-			<ClusterItem />
-			<ClusterItem />
 		</ClusterContainer>
 		
 		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
