@@ -13,11 +13,10 @@
 	import TextBody from '$lib/components/text-body.svelte';
 	import Navigation from '$lib/components/navigation.svelte';
 
-	// import pictMajima from '$lib/img/pict-speaker-majima.png';
-	// import pictKatayama from '$lib/img/pict-speaker-katayama.png';
-	// import pictShibata from '$lib/img/pict-speaker-shibata.png';
-	// import pictIhara from '$lib/img/pict-speaker-ihara.jpg';
-	// import pictIshiki from '$lib/img/pict-speaker-ishiki.jpg';
+	import pictNoda from '$lib/img/pict-speaker-noda.jpg';
+	import pictKoyano from '$lib/img/pict-speaker-koyano.png';
+	// import pictTakahashi from '$lib/img/pict-speaker-takahashi.png';
+	import pictTakaka from '$lib/img/pict-speaker-tanaka.png';
 
 	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg';
 	import pictStaff02 from '$lib/img/pict-staff-posi0202.jpg';
@@ -87,121 +86,54 @@
 		
 		<GridContainer --col={2} --justify="start" --gap="4rem">
 			<GridItem>
-<!--				<Speaker id="majima" name="間嶋沙知" img={pictMajima} alt="写真: 間嶋氏とこぶた" level={3}>-->
-<!--					<p>-->
-<!--						高知在住のフリーランスデザイナー。大学卒業後、桑沢デザイン研究所夜間部に学ぶ。東京、高知のデザイン事務所を経て、2016年に独立。印刷物とウェブのデザインを手がける。<a-->
-<!--						href="https://mjmj.co/">majima DESIGN</a-->
-<!--					>の屋号で、「個々の良さが発揮される風通しの良い世界」にデザインで貢献することを目指している。こぶたのうたちゃんと暮らしている。-->
-<!--					</p>-->
-<!--					<p>-->
-<!--						著書『<a href="https://komatta-design.studio.site/"-->
-<!--					>見えにくい、読みにくい「困った！」を解決するデザイン</a-->
-<!--					>』(2022年/マイナビ出版)-->
-<!--					</p>-->
-<!--					<p class="session">-->
-<!--						<span>セッション1</span>-->
-<!--						<a href="/2023/schedule/#session1"-->
-<!--						><em><span class="q">伝わる</span>を拡張するアクセシビリティ</em></a-->
-<!--						>-->
-<!--					</p>-->
-<!--				</Speaker>-->
+				<Speaker id="tanaka" name="田中みゆき" img={pictTakaka} alt="写真: 田中みゆき" level={3}>
+					<p>
+						キュレーター、プロデューサー。「障害は世界を捉え直す視点」をテーマにカテゴリーにとらわれないプロジェクトを企画。表現の見方や捉え方を障害のある人たち含む鑑賞者とともに再考する。近年の仕事に、映画『ナイトクルージング』（2019年）、21_21 DESIGN SIGHT企画展「ルール？展」（2021年）共同ディレクション、展覧会「語りの複数性」（東京都渋谷公園通りギャラリー、2021年）、『音で観るダンスのワークインプログレス』（KAAT神奈川芸術劇場ほか、2017年〜）、『オーディオゲームセンター』（2017年〜）など。2022年ニューヨーク大学障害学センター客員研究員。美術評論家連盟会員。2024年7月に初の単著『誰のためのアクセシビリティ？ 障害のある人の経験と文化から考える』を出版。共著に『ルール？本　創造的に生きるためのデザイン』（フィルムアート社）がある。
+					</p>
+					<p class="session">
+						<span>セッション1</span>
+						<a href="/schedule/#session1"><em>タイトル（仮）</em></a>
+					</p>
+				</Speaker>
 			</GridItem>
 			<GridItem>
-<!--				<Speaker-->
-<!--					id="katayama"-->
-<!--					name="方山れいこ"-->
-<!--					img={pictKatayama}-->
-<!--					alt="写真: 方山れいこ"-->
-<!--					level={3}-->
-<!--				>-->
-<!--					<p>-->
-<!--						多摩美術大学で建築を学んだのち、東京芸術大学大学院にてメディア映像を研究。2018年デザイン制作会社にてアートディレクター、UI/UXデザイナー、空間デザイナーとして活動。-->
-<!--					</p>-->
-<!--					<p>2020年独立。フリーランスとして活動。同年、二級建築士資格を取得。</p>-->
-<!--					<p>-->
-<!--						2021年<a href="https://hogaku.co.jp">株式会社方角</a-->
-<!--					>設立。「障害のある社会をデザインで変える」をミッションに、インクルーシブデザインの制作やサービス展開を行っている。-->
-<!--					</p>-->
-<!--					<p class="session">-->
-<!--						<span>セッション3</span>-->
-<!--						<a href="/2023/schedule/#session3">-->
-<!--							<em><span class="q">違う人生を生きる人と一緒に働く</span>ということ</em>-->
-<!--						</a>-->
-<!--					</p>-->
-<!--				</Speaker>-->
+				<Speaker id="takahashi" name="高橋舞羽" img="https://placehold.jp/600x600.png" alt="写真: 高橋舞羽" level={3}>
+					<p>
+						※ 準備中 ※
+					</p>
+					<p class="session">
+						<span>セッション2</span>
+						<a href="/schedule/#session2"><em>タイトル（仮）</em></a>
+					</p>
+				</Speaker>
 			</GridItem>
 			<GridItem>
-<!--				<Speaker-->
-<!--					id="shibata"-->
-<!--					name="柴田宏仙"-->
-<!--					img={pictShibata}-->
-<!--					alt="アバターアイコン: 柴田氏のイラスト"-->
-<!--					level={3}-->
-<!--				>-->
-<!--					<p>-->
-<!--						2012年よりWebデザインスタジオ<a href="https://9lio.com">Qlio</a-->
-<!--					>を設立しフリーランスとしてWebサイト制作の仕事をはじめる。Webサイトの企画戦略からデザイン、コーディングまでWebサイト制作全般を主な業務内容として活動。その後、Webサイト制作の学習コンテンツ<a-->
-<!--						href="https://creatorquest.jp">CreatorQuest</a-->
-<!--					>というWebサイトを公開したり、Webクリエイターを養成するオンラインサロン<a-->
-<!--						href="https://shibajuku.net">Shibajuku</a-->
-<!--					>を立ち上げて運営を行っている。また、専門学校にて夜間のWebデザイン学科の非常勤講師としても活動している。-->
-<!--					</p>-->
-<!--					<p>著書『<a href="https://gihyo.jp/book/2022/978-4-297-13132-6">武器になるHTML</a>』</p>-->
-<!--					<p class="session">-->
-<!--						<span>セッション2</span>-->
-<!--						<a href="/2023/schedule/#session2"-->
-<!--						><em>ウェブアクセシビリティ社内教育のすゝめ</em>-->
-<!--							〜品質か、営業か〜</a-->
-<!--						>-->
-<!--					</p>-->
-<!--				</Speaker>-->
+				<Speaker id="koyano" name="小谷野崇司" img={pictKoyano} alt="写真: 小谷野崇司" level={3}>
+					<p>
+						1996年ニューヨークの音楽情報サイトSonicNetにおいてデジタルガレージ社と共同でSonicNet Japanの立ち上げと運営を行う。チベタンフリーダムコンサートやFuji Rock Festivalなど大規模コンサートのライブ配信に携わる。03年に帰国しNHKエンタープライズに入社。冬のソナタのウェブサイト構築や大河ドラマや朝ドラのデジタルコンテンツ制作に携わる。東京オリンピック・パラリンピックではウェブサイト制作統括を努めた。この時に手話CGの運用にも携わり、現在はそれを進化させたKIKIの開発に取り組んでいる。
+					</p>
+					<p class="session">
+						<span>セッション3</span>
+						<a href="/schedule/#session3"><em>タイトル（仮）</em></a>
+					</p>
+				</Speaker>
 			</GridItem>
 			<GridItem>
-<!--				<Speaker id="ihara" name="伊原力也" img={pictIhara} alt="写真: 伊原力也" level={3}>-->
-<!--					<p><a href="https://www.freee.co.jp">freee株式会社</a> デザインマネージャー</p>-->
-<!--					<p>-->
-<!--						製品を通じた多様な働き方の実現を目指し、2017年にfreee株式会社に入社。デザインチームのマネジメントおよびアクセシビリティ普及啓発を行う。ほか、<a-->
-<!--						href="https://ubie.life">Ubie</a-->
-<!--					>、<a href="https://studio.inc">STUDIO</a>、<a href="https://culumu.com">CULUMU</a-->
-<!--					>、東京都新型コロナウイルス感染症対策サイトのアクセシビリティ改善をサポート。<a-->
-<!--						href="https://waic.jp">ウェブアクセシビリティ基盤委員会（WAIC）</a-->
-<!--					>委員、<a href="https://www.hcdnet.org">人間中心設計推進機構（HCD-Net）</a-->
-<!--					>評議委員。著書（共著）に『<a href="https://gihyo.jp/book/2023/978-4-297-13366-5"-->
-<!--					>Webアプリケーションアクセシビリティ</a-->
-<!--					>』など。-->
-<!--					</p>-->
-<!--					<p class="session">-->
-<!--						<span>セッション2</span>-->
-<!--						<a href="/2023/schedule/#session2"-->
-<!--						><em>ウェブアクセシビリティ社内教育のすゝめ</em>-->
-<!--							〜品質か、営業か〜</a-->
-<!--						>-->
-<!--					</p>-->
-<!--				</Speaker>-->
-			</GridItem>
-			<GridItem>
-<!--				<Speaker id="ishiki" name="伊敷政英" img={pictIshiki} alt="写真: 伊敷政英" level={3}>-->
-<!--					<p>1977年3月東京生まれ。2003年からウェブアクセシビリティの分野で仕事を始める。</p>-->
-<!--					<p>-->
-<!--						2021年7月、デジタル庁発足直前の内閣官房IT総合戦略室へアクセシビリティアナリストとして入庁。以来デジタル庁が所管するウェブサイトやアプリなどのアクセシビリティ改善に従事するとともに、庁内外への普及啓発にも取り組んでいる。-->
-<!--					</p>-->
-<!--					<p>先天性の視覚障害があり全盲。</p>-->
-<!--					<p class="session">-->
-<!--						<span>セッション4</span>-->
-<!--						<a href="/2023/schedule/#session4"-->
-<!--						><em>デジタル庁でのアクセシビリティへの取り組み</em>-->
-<!--							―<span class="q">誰一人取り残されない、人にやさしいデジタル化を</span-->
-<!--							>の実現に向けて―</a-->
-<!--						>-->
-<!--					</p>-->
-<!--				</Speaker>-->
+				<Speaker id="noda" name="野田純生" img={pictNoda} alt="写真: 野田純生" level={3}>
+					<p>
+						※ 準備中 ※
+					</p>
+					<p class="session">
+						<span>セッション4</span>
+						<a href="/schedule/#session4"><em>タイトル（仮）</em></a>
+					</p>
+				</Speaker>
 			</GridItem>
 		</GridContainer>
 	</Section>
 	
 	<Section>
 		<Heading level={2} id="sponsors">スポンサー</Heading>
-		
 		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>
 		<ClusterContainer --col={2}>
 			<ClusterItem>
@@ -236,13 +168,13 @@
 				/>
 			</ClusterItem>
 			<ClusterItem>
-<!--				<Sponsor-->
-<!--					href="https://prtimes.jp/"-->
-<!--					name="株式会社PR TIMES"-->
-<!--					img="/2023/img/logo-sponsor-prtimes.svg"-->
-<!--					width="100"-->
-<!--					height="98"-->
-<!--				/>-->
+				<Sponsor
+					href="https://prtimes.jp/"
+					name="株式会社PR TIMES"
+					img="/img/logo-sponsor-prtimes.svg"
+					width="100"
+					height="98"
+				/>
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
@@ -322,13 +254,13 @@
 		</ClusterContainer>
 		<ClusterContainer --col={5}>
 			<ClusterItem>
-<!--				<Sponsor-->
-<!--					href="https://www.concentinc.jp/"-->
-<!--					name="株式会社コンセント"-->
-<!--					img="/img/logo-sponsor-concent.svg"-->
-<!--					width="176"-->
-<!--					height="193"-->
-<!--				/>-->
+				<Sponsor
+					href="https://www.concentinc.jp/"
+					name="株式会社コンセント"
+					img="https://placehold.jp/400x150.png"
+					width="176"
+					height="193"
+				/>
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
@@ -348,15 +280,24 @@
 					height="98"
 				/>
 			</ClusterItem>
-<!--			<ClusterItem>-->
-<!--				<Sponsor-->
-<!--					href="https://www.shuaruta.com/"-->
-<!--					name="株式会社シュアルタ"-->
-<!--					img="/img/logo-sponsor-lct.png"-->
-<!--					width="100"-->
-<!--					height="98"-->
-<!--				/>-->
-<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https://www.shuaruta.com/"
+					name="株式会社シュアルタ"
+					img="https://placehold.jp/400x150.png"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.waca.associates/jp/"
+					name="一般社団法人ウェブ解析士協会"
+					img="/img/logo-sponsor-waca.png"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 		
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
@@ -380,10 +321,6 @@
 				/>
 			</ClusterItem>
 		</ClusterContainer>
-		
-<!--		<Heading level={3} id="community">協力コミュニティ</Heading>-->
-<!--		<ClusterContainer &#45;&#45;col={5}>-->
-<!--		</ClusterContainer>-->
 	</Section>
 	
 	<Section width="narrow">
@@ -408,7 +345,7 @@
 				<Staff
 					id="posi0202"
 					img={pictStaff02}
-					name="安立 沙耶佳 (Angela)"
+					name="安立沙耶佳 (Angela)"
 					role="実行委員"
 					org="株式会社ヌーラボ"
 					snsX="posi0202"
@@ -421,7 +358,7 @@
 				<Staff
 					id="analogtan"
 					img={pictStaff03}
-					name="サチコ"
+					name="中村祐貴子（サチコ/misty）"
 					role="実行委員"
 					org="カラビナテクノロジー株式会社"
 					snsX="analogtan"
@@ -460,7 +397,7 @@
 			<p>
 				<a href="/2023/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
 				<a
-					href="https://docs.google.com/forms/d/1oJ03Tc_j9P9sSK75nlStVJSYF5Qgfph7Tb4L1uWisq8/viewform?edit_requested=true#responses"
+					href="https://docs.google.com/forms/d/e/1FAIpQLScQhESqjgk0QWTL9KpICIrR9xg6yAvwKu80DA6Fx1NnzF-9TA/viewform"
 				>通報フォーム</a
 				>までご連絡ください。
 			</p>

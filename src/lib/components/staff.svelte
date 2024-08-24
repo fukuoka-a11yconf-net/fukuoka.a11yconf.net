@@ -96,10 +96,13 @@
 		font-weight: bold;
 		display: flex;
 		justify-content: center;
-		flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
 		gap: 0 0.5rem;
 		margin-block: 0.5rem;
-	}
+		margin: 1rem 0;
+		height: 2.75rem;
+  }
 
 	.org {
 		margin-block: 0.5rem;
