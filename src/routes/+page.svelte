@@ -15,7 +15,7 @@
 
 	import pictNoda from '$lib/img/pict-speaker-noda.jpg';
 	import pictKoyano from '$lib/img/pict-speaker-koyano.png';
-	// import pictTakahashi from '$lib/img/pict-speaker-takahashi.png';
+	import pictSakamaki from '$lib/img/pict-speaker-sakamaki.png';
 	import pictTakaka from '$lib/img/pict-speaker-tanaka.png';
 
 	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg';
@@ -97,9 +97,9 @@
 				</Speaker>
 			</GridItem>
 			<GridItem>
-				<Speaker id="takahashi" name="高橋舞羽" img="https://placehold.jp/600x600.png" alt="写真: 高橋舞羽" level={3}>
+				<Speaker id="sakamaki" name="坂巻舞羽" img={pictSakamaki} alt="写真: 坂巻舞羽" level={3}>
 					<p>
-						※ 準備中 ※
+						幼少期にホームページ制作を嗜んだことをきっかけに、2014年マークアップエンジニアとしてキャリアをスタート。フロントエンドエンジニアとして数社でウェブサイトやウェブアプリケーションの開発に携わる。ウェブ標準に準拠した開発を重要視し、社外コミュニティで関連文書の勉強会などを主催。2023年、SmartHRに入社し、アクセシビリティスペシャリストとしてプロダクトのアクセシビリティ向上推進を担当。
 					</p>
 					<p class="session">
 						<span>セッション2</span>
