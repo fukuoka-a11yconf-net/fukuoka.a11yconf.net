@@ -253,7 +253,7 @@
 				<Sponsor
 					href="https://www.concentinc.jp/"
 					name="株式会社コンセント"
-					img="https://placehold.jp/400x150.png"
+					img="/img/logo-sponsor-concent.jpg"
 					width="176"
 					height="193"
 				/>
@@ -280,7 +280,7 @@
 				<Sponsor
 					href="https://www.shuaruta.com/"
 					name="株式会社シュアルタ"
-					img="https://placehold.jp/400x150.png"
+					img="/img/logo-sponsor-shuaruta.svg"
 					width="100"
 					height="98"
 				/>
