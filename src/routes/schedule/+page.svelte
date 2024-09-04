@@ -34,7 +34,7 @@
 					<dd id="session1">
 						<p class="sub"><em>セッション1</em></p>
 						<p class="title">
-							<em>タイトル（仮）</em>
+							<em>準備中</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-tanaka">田中みゆき</a></em></p>
 						<p>
@@ -53,7 +53,7 @@
 					<dd id="session2">
 						<p class="sub"><em>セッション2</em></p>
 						<p class="title">
-							<em>タイトル（仮）</em>
+							<em>準備中</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-sakamaki">高橋舞羽</a></em></p>
 						<p>
@@ -88,7 +88,7 @@
 					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
 						<p class="title">
-							<em>タイトル（仮）</em>
+							<em>準備中</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-koyano">小谷野崇司</a></em></p>
 						<p>
@@ -123,7 +123,7 @@
 					<dd id="session4">
 						<p class="sub"><em>セッション4</em></p>
 						<p class="title">
-							<em>タイトル（仮）</em>
+							<em>準備中</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-noda">野田純生</a></em></p>
 						<p>

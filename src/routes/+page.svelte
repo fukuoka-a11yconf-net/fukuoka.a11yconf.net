@@ -92,7 +92,7 @@
 					</p>
 					<p class="session">
 						<span>セッション1</span>
-						<a href="/schedule/#session1"><em>タイトル（仮）</em></a>
+						<a href="/schedule/#session1"><em>準備中</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -103,7 +103,7 @@
 					</p>
 					<p class="session">
 						<span>セッション2</span>
-						<a href="/schedule/#session2"><em>タイトル（仮）</em></a>
+						<a href="/schedule/#session2"><em>準備中</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -114,7 +114,7 @@
 					</p>
 					<p class="session">
 						<span>セッション3</span>
-						<a href="/schedule/#session3"><em>タイトル（仮）</em></a>
+						<a href="/schedule/#session3"><em>準備中</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -125,7 +125,7 @@
 					</p>
 					<p class="session">
 						<span>セッション4</span>
-						<a href="/schedule/#session4"><em>タイトル（仮）</em></a>
+						<a href="/schedule/#session4"><em>準備中</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
