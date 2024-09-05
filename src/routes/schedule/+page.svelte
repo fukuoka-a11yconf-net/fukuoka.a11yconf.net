@@ -10,6 +10,8 @@
 	<title>タイムテーブル | アクセシビリティカンファレンス福岡2024</title>
 </svelte:head>
 
+<Header />
+
 <Main>
 	<Section width="narrow">
 		<Heading level={1}>タイムテーブル</Heading>
