@@ -22,7 +22,7 @@
 	import pictStaff02 from '$lib/img/pict-staff-posi0202.jpg';
 	import pictStaff03 from '$lib/img/pict-staff-analogtan.jpg';
 	import pictStaff04 from '$lib/img/pict-staff-taketada323.png';
-	
+
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/322934/';
 </script>
 
@@ -43,7 +43,7 @@
 <Main>
 	<Section width="narrow">
 		<Heading level={2} id="summary">開催概要</Heading>
-		
+
 		<dl>
 			<div>
 				<dt>日時</dt>
@@ -83,12 +83,15 @@
 	</Section>
 	<Section width="narrow">
 		<Heading level={2} id="speakers">登壇者</Heading>
-		
+
 		<GridContainer --col={2} --justify="start" --gap="4rem">
 			<GridItem>
 				<Speaker id="tanaka" name="田中みゆき" img={pictTakaka} alt="写真: 田中みゆき" level={3}>
 					<p>
-						キュレーター、プロデューサー。「障害は世界を捉え直す視点」をテーマにカテゴリーにとらわれないプロジェクトを企画。表現の見方や捉え方を障害のある人たち含む鑑賞者とともに再考する。近年の仕事に、映画『ナイトクルージング』（2019年）、21_21 DESIGN SIGHT企画展「ルール？展」（2021年）共同ディレクション、展覧会「語りの複数性」（東京都渋谷公園通りギャラリー、2021年）、『音で観るダンスのワークインプログレス』（KAAT神奈川芸術劇場ほか、2017年〜）、『オーディオゲームセンター』（2017年〜）など。2022年ニューヨーク大学障害学センター客員研究員。美術評論家連盟会員。2024年7月に初の単著『誰のためのアクセシビリティ？ 障害のある人の経験と文化から考える』を出版。共著に『ルール？本　創造的に生きるためのデザイン』（フィルムアート社）がある。
+						キュレーター、プロデューサー。「障害は世界を捉え直す視点」をテーマにカテゴリーにとらわれないプロジェクトを企画。表現の見方や捉え方を障害のある人たち含む鑑賞者とともに再考する。近年の仕事に、映画『ナイトクルージング』（2019年）、21_21
+						DESIGN
+						SIGHT企画展「ルール？展」（2021年）共同ディレクション、展覧会「語りの複数性」（東京都渋谷公園通りギャラリー、2021年）、『音で観るダンスのワークインプログレス』（KAAT神奈川芸術劇場ほか、2017年〜）、『オーディオゲームセンター』（2017年〜）など。2022年ニューヨーク大学障害学センター客員研究員。美術評論家連盟会員。2024年7月に初の単著『誰のためのアクセシビリティ？
+						障害のある人の経験と文化から考える』を出版。共著に『ルール？本　創造的に生きるためのデザイン』（フィルムアート社）がある。
 					</p>
 					<p class="session">
 						<span>セッション1</span>
@@ -110,7 +113,9 @@
 			<GridItem>
 				<Speaker id="koyano" name="小谷野崇司" img={pictKoyano} alt="写真: 小谷野崇司" level={3}>
 					<p>
-						1996年ニューヨークの音楽情報サイトSonicNetにおいてデジタルガレージ社と共同でSonicNet Japanの立ち上げと運営を行う。チベタンフリーダムコンサートやFuji Rock Festivalなど大規模コンサートのライブ配信に携わる。03年に帰国しNHKエンタープライズに入社。冬のソナタのウェブサイト構築や大河ドラマや朝ドラのデジタルコンテンツ制作に携わる。東京オリンピック・パラリンピックではウェブサイト制作統括を努めた。この時に手話CGの運用にも携わり、現在はそれを進化させたKIKIの開発に取り組んでいる。
+						1996年ニューヨークの音楽情報サイトSonicNetにおいてデジタルガレージ社と共同でSonicNet
+						Japanの立ち上げと運営を行う。チベタンフリーダムコンサートやFuji Rock
+						Festivalなど大規模コンサートのライブ配信に携わる。03年に帰国しNHKエンタープライズに入社。冬のソナタのウェブサイト構築や大河ドラマや朝ドラのデジタルコンテンツ制作に携わる。東京オリンピック・パラリンピックではウェブサイト制作統括を努めた。この時に手話CGの運用にも携わり、現在はそれを進化させたKIKIの開発に取り組んでいる。
 					</p>
 					<p class="session">
 						<span>セッション3</span>
@@ -121,8 +126,10 @@
 			<GridItem>
 				<Speaker id="noda" name="野田純生" img={pictNoda} alt="写真: 野田純生" level={3}>
 					<p>
-						アルファサード株式会社創業者 技術担当取締役。ウェブアクセシビリティチェックツール開発者。2017年から「やさしい日本語」言い換えエンジンの開発に取り組み、サービス名「伝えるウェブ」として提供。
-						2024年4月より株式会社朝日新聞社 技術顧問に就任。朝日新聞デジタルをはじめとしたデジタルメディアのウェブアクセシビリティ向上、やさしい日本語の普及に取り組む予定。
+						アルファサード株式会社創業者
+						技術担当取締役。ウェブアクセシビリティチェックツール開発者。2017年から「やさしい日本語」言い換えエンジンの開発に取り組み、サービス名「伝えるウェブ」として提供。
+						2024年4月より株式会社朝日新聞社
+						技術顧問に就任。朝日新聞デジタルをはじめとしたデジタルメディアのウェブアクセシビリティ向上、やさしい日本語の普及に取り組む予定。
 					</p>
 					<p class="session">
 						<span>セッション4</span>
@@ -132,7 +139,7 @@
 			</GridItem>
 		</GridContainer>
 	</Section>
-	
+
 	<Section>
 		<Heading level={2} id="sponsors">スポンサー</Heading>
 		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>
@@ -156,7 +163,7 @@
 				/>
 			</ClusterItem>
 		</ClusterContainer>
-		
+
 		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
 		<ClusterContainer --col={3}>
 			<ClusterItem>
@@ -187,7 +194,7 @@
 				/>
 			</ClusterItem>
 		</ClusterContainer>
-		
+
 		<Heading level={3} id="sponsors-shilver">シルバースポンサー</Heading>
 		<ClusterContainer --col={5}>
 			<ClusterItem>
@@ -200,9 +207,9 @@
 				/>
 			</ClusterItem>
 		</ClusterContainer>
-		
+
 		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
-		<ClusterContainer --col={5}>
+		<ClusterContainer --col={7}>
 			<ClusterItem>
 				<Sponsor
 					href="https://rakko.inc/"
@@ -248,8 +255,6 @@
 					height="193"
 				/>
 			</ClusterItem>
-		</ClusterContainer>
-		<ClusterContainer --col={5}>
 			<ClusterItem>
 				<Sponsor
 					href="https://www.concentinc.jp/"
@@ -296,7 +301,7 @@
 				/>
 			</ClusterItem>
 		</ClusterContainer>
-		
+
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
 		<ClusterContainer --col={2}>
 			<ClusterItem>
@@ -319,12 +324,11 @@
 			</ClusterItem>
 		</ClusterContainer>
 	</Section>
-	
+
 	<Section width="narrow">
 		<Heading level={2} id="staff">運営スタッフ</Heading>
 		<ClusterContainer --col={4} --align="start">
-			<ClusterItem
-			>
+			<ClusterItem>
 				<Staff
 					id="yusukehirao"
 					img={pictStaff01}
@@ -335,10 +339,8 @@
 					snsFB="yusukehirao"
 					snsGH="yusukehirao"
 				/>
-			</ClusterItem
-			>
-			<ClusterItem
-			>
+			</ClusterItem>
+			<ClusterItem>
 				<Staff
 					id="posi0202"
 					img={pictStaff02}
@@ -348,10 +350,8 @@
 					snsX="posi0202"
 					snsFB="sayaka.adachi.posi"
 				/>
-			</ClusterItem
-			>
-			<ClusterItem
-			>
+			</ClusterItem>
+			<ClusterItem>
 				<Staff
 					id="analogtan"
 					img={pictStaff03}
@@ -360,10 +360,8 @@
 					org="カラビナテクノロジー株式会社"
 					snsX="analogtan"
 				/>
-			</ClusterItem
-			>
-			<ClusterItem
-			>
+			</ClusterItem>
+			<ClusterItem>
 				<Staff
 					id="taketada323"
 					img={pictStaff04}
@@ -373,29 +371,28 @@
 					snsX="taketada323"
 					snsGH="TakehiroTada1"
 				/>
-			</ClusterItem
-			>
+			</ClusterItem>
 		</ClusterContainer>
-		
+
 		<Heading level={3} id="office">運営事務局</Heading>
 		<TextBody fit>
 			<p><a href="https://www.d-zero.co.jp">株式会社ディーゼロ</a></p>
 		</TextBody>
 	</Section>
-	
+
 	<Section width="narrow">
 		<Heading level={2} id="contact">お問い合わせ</Heading>
 		<TextBody fit>
 			<p>
 				一般受付メールアドレス: <a class="mail" href="mailto:fukuokaa11yconf@googlegroups.com"
-			>fukuokaa11yconf@googlegroups.com</a
-			>
+					>fukuokaa11yconf@googlegroups.com</a
+				>
 			</p>
 			<p>
 				<a href="/2023/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
 				<a
 					href="https://docs.google.com/forms/d/e/1FAIpQLScQhESqjgk0QWTL9KpICIrR9xg6yAvwKu80DA6Fx1NnzF-9TA/viewform"
-				>通報フォーム</a
+					>通報フォーム</a
 				>までご連絡ください。
 			</p>
 		</TextBody>
@@ -403,120 +400,120 @@
 </Main>
 
 <style>
-    .nav {
-        max-width: 60rem;
-        width: fit-content;
-        margin-block-start: 2rem;
-        margin-inline: auto;
-        padding-inline: 1rem;
-    }
+	.nav {
+		max-width: 60rem;
+		width: fit-content;
+		margin-block-start: 2rem;
+		margin-inline: auto;
+		padding-inline: 1rem;
+	}
 
-    a {
-        color: inherit;
-        text-decoration: underline dashed;
-        text-underline-offset: 0.4em;
-        text-decoration-thickness: 1px;
-    }
+	a {
+		color: inherit;
+		text-decoration: underline dashed;
+		text-underline-offset: 0.4em;
+		text-decoration-thickness: 1px;
+	}
 
-    a:link:hover {
-        background-color: var(--color-link-hover-bg);
-    }
+	a:link:hover {
+		background-color: var(--color-link-hover-bg);
+	}
 
-    p a {
-        padding-inline: 0.2em;
-    }
+	p a {
+		padding-inline: 0.2em;
+	}
 
-    p {
-        margin-block: 0.9em;
-        line-height: 1.8;
-    }
+	p {
+		margin-block: 0.9em;
+		line-height: 1.8;
+	}
 
-    dl {
-        font-size: 1.5rem;
-        margin-block: 0;
-        margin-inline: auto;
-        max-width: fit-content;
-        display: grid;
-        gap: 0;
-        grid-template-columns: auto 1fr;
-    }
+	dl {
+		font-size: 1.5rem;
+		margin-block: 0;
+		margin-inline: auto;
+		max-width: fit-content;
+		display: grid;
+		gap: 0;
+		grid-template-columns: auto 1fr;
+	}
 
-    @media (max-width: 40rem) {
-        dl {
-            display: block;
-            font-size: 1rem;
-        }
-    }
+	@media (max-width: 40rem) {
+		dl {
+			display: block;
+			font-size: 1rem;
+		}
+	}
 
-    dl > div {
-        display: contents;
-    }
+	dl > div {
+		display: contents;
+	}
 
-    dt {
-        margin: 0;
-        padding-block: 0.5rem;
-        padding-inline: 1rem;
-        border-block-end: 3px solid var(--color-border-primary);
-    }
+	dt {
+		margin: 0;
+		padding-block: 0.5rem;
+		padding-inline: 1rem;
+		border-block-end: 3px solid var(--color-border-primary);
+	}
 
-    @media (max-width: 40rem) {
-        dt {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            padding-block-start: 2rem;
-            padding-inline: 0;
-            border-block-end: none;
-            gap: 1rem;
-        }
-    }
+	@media (max-width: 40rem) {
+		dt {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			padding-block-start: 2rem;
+			padding-inline: 0;
+			border-block-end: none;
+			gap: 1rem;
+		}
+	}
 
-    dd {
-        margin: 0;
-        padding-block: 0.5rem;
-        padding-inline: 1rem;
-        border-block-end: 1px solid var(--color-border-primary);
-    }
+	dd {
+		margin: 0;
+		padding-block: 0.5rem;
+		padding-inline: 1rem;
+		border-block-end: 1px solid var(--color-border-primary);
+	}
 
-    @media (max-width: 40rem) {
-        dd {
-            margin-inline-start: 1rem;
-            padding-inline-start: 1rem;
-            border-inline-start: 1px solid var(--color-border-primary);
-            border-block-end: none;
-        }
-    }
+	@media (max-width: 40rem) {
+		dd {
+			margin-inline-start: 1rem;
+			padding-inline-start: 1rem;
+			border-inline-start: 1px solid var(--color-border-primary);
+			border-block-end: none;
+		}
+	}
 
-    .session {
-        font-size: 1.3em;
-    }
+	.session {
+		font-size: 1.3em;
+	}
 
-    .session em {
-        font-style: normal;
-        font-weight: bold;
-    }
+	.session em {
+		font-style: normal;
+		font-weight: bold;
+	}
 
-    .session > span {
-        display: block;
-        opacity: 0.8;
-        font-weight: bold;
-    }
+	.session > span {
+		display: block;
+		opacity: 0.8;
+		font-weight: bold;
+	}
 
-    .session > span::after {
-        content: ':';
-    }
+	.session > span::after {
+		content: ':';
+	}
 
-    .q::before {
-        content: '｢';
-        font-weight: normal;
-    }
+	.q::before {
+		content: '｢';
+		font-weight: normal;
+	}
 
-    .q::after {
-        content: '｣';
-        font-weight: normal;
-    }
+	.q::after {
+		content: '｣';
+		font-weight: normal;
+	}
 
-    .mail {
-        word-break: break-all;
-    }
+	.mail {
+		word-break: break-all;
+	}
 </style>
