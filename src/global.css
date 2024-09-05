@@ -7,8 +7,9 @@
 	--color-shadow: rgba(0, 0, 0, 0.2);
 	--color-link-hover-bg: #e9e9e9;
 
-	--font-family-base: 'Minna Gothic', sans-serif;
-	--font-family-condensed: 'UD Kakugo C80', sans-serif;
+	--font-family-base: 'IwaUCDAGothStd-Lt', sans-serif;
+	--font-family-base-bold: 'IwaUCDAGothStd-Md', sans-serif;
+	--font-family-condensed: 'UDKakugoC80Pro-DB', sans-serif;
 
 	--section-padding: 4rem;
 	--section-border-width: 30px;
@@ -17,6 +18,7 @@
 
 	scroll-behavior: smooth;
 	scroll-padding-top: var(--section-padding);
+	font-feature-settings: 'chws' 1;
 }
 
 @media (prefers-reduced-motion) {
@@ -41,4 +43,10 @@ body {
 	font-family: var(--font-family-base);
 	font-weight: 300;
 	color: #333;
+	line-height: 1.7;
+}
+
+strong,
+em {
+	font-family: var(--font-family-base-bold);
 }
