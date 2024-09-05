@@ -17,26 +17,25 @@
 				<p>2024年11月30日(土曜日)</p>
 				<p>警固神社社務所ビル + YouTube</p>
 			</div>
-			<hr />
 			<div class="text">
-				<p class="em"><em>ここにいる。</em></p>
+				<p class="em"><em>つぎはどうする</em></p>
 				<p>
 					<span
-						>アクセシビリティにかぎった話ではありませんが、あらゆる活動は多くのエネルギーを必要とします。</span
+						>この一年で、わたしたちは仲間とともにアクセシビリティに向き合い、取り組み始めていること確認できました。</span
 					>
+				</p>
+				<p>
+					<span>さて、そうしたら、つぎは周りを見渡すのではなく、前を見たくなります。</span>
+					<span>取り組み始めた実感をもとに、もっと価値を、結果を、掴みに行きたくなります。</span>
+				</p>
+				<p>
 					<span
-						>小さな地域での取り組みは、ときどき「仲間は近くにいるのだろうか」と不安が頭をよぎることがあります。</span
-					>
-					<span
-						>しかし、確かに仲間は存在し、その取り組みは組織を超え、地域を超えて広がっています。</span
-					>
-					<span
-						>本来は場所に縛られない活動ではあるのですが、その実感を得るために、今回あえて福岡での開催を選びました。</span
+						>今のままじゃいられない。どう動けばいいだろう、何をするべきだろう、どんな方法があるだろう。</span
 					>
 				</p>
 				<p>
 					<span
-						>「わたしたちは、ここにいて、そして安心して取り組めるんだ」と、このイベントを通して証明します。</span
+						>「つぎはどうする」という問いは、わたしたち全員にとっての挑戦です。福岡から、未来への橋をかけます。</span
 					>
 				</p>
 				<div class="apply">
@@ -62,8 +61,9 @@
 
 	.body {
 		display: grid;
-		grid-template-columns: 1fr 1px 1fr;
-		gap: 4rem;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
+		gap: 8rem;
 		max-width: 120rem;
 		padding-block: 8rem;
 		padding-inline: 4rem;
@@ -76,8 +76,6 @@
 		}
 
 		.body {
-			grid-template-columns: 1fr;
-			grid-template-rows: auto 1px auto;
 			padding-block: 10vw;
 			padding-inline: 10vw;
 			gap: 10vw;
@@ -85,7 +83,8 @@
 	}
 
 	.title {
-		flex: 0 0 50%;
+		justify-self: center;
+		align-self: center;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -93,6 +92,8 @@
 		gap: 1rem;
 		line-height: 1;
 		container: hero-header / inline-size;
+		width: 100%;
+		max-width: 80rem;
 	}
 
 	h1 {
@@ -119,38 +120,34 @@
 		}
 	}
 
-	hr {
-		flex: 0 0 1px;
-		border: none;
-		background-color: var(--color-border-primary);
-		width: 1px;
-		height: 100%;
-		align-self: stretch;
-		margin: 0;
-	}
-
 	.text {
+		justify-self: center;
+		align-self: center;
 		flex: 0 0 auto;
 		container: hero-text / inline-size;
+		width: 100%;
+		max-width: 50rem;
 	}
 
 	.text .em {
+		text-align: center;
 		line-height: inherit;
 		font-size: 4rem;
 		font-weight: 600;
 		opacity: 0.9;
 		margin-block: 0 2rem;
+		margin-inline-start: -0.4em;
 		line-height: 1;
 	}
 
 	@container hero-text (min-width: 0px) {
 		.text .em {
-			font-size: max(2rem, 12cqw);
+			font-size: max(2rem, 15cqw);
 		}
 	}
 
 	.text .em em {
-		font-style: normal;
+		font-style: oblique;
 	}
 
 	.text p {
@@ -165,8 +162,7 @@
 		}
 	}
 
-	.end,
-	.archive {
+	.apply {
 		align-self: center;
 		display: flex;
 		justify-content: center;
@@ -174,18 +170,13 @@
 		margin-block: 2rem 0;
 	}
 
-	.end {
-		font-size: 1.5rem;
-		line-height: 1;
-		padding-inline: 1em;
-		background-color: var(--color-bg-base);
-		border: 1px dashed var(--color-border-primary);
-	}
-
-	.archive a {
+	.apply a {
 		display: block;
-		padding-block: 1em;
+		padding-block: 1em 1.25em;
 		padding-inline: 1.5em;
+		text-decoration: underline dashed;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.4em;
 		color: inherit;
 		font-size: 1.5rem;
 		line-height: 1;
@@ -194,20 +185,13 @@
 		border-radius: 10rem;
 	}
 
-	.archive a:link {
-		text-decoration: underline dashed;
-		text-decoration-thickness: 1px;
-		text-underline-offset: 0.4em;
-		padding-block: 1em 1.25em;
-	}
-
 	@media (max-width: 40rem) {
-		.archive a {
+		.apply a {
 			font-size: 1rem;
 		}
 	}
 
-	.archive a:link:hover {
+	.apply a:hover {
 		background-color: var(--color-link-hover-bg);
 	}
 </style>
