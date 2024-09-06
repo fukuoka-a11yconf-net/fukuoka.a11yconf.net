@@ -55,7 +55,7 @@
 						<p class="title">
 							<em>準備中</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-sakamaki">高橋舞羽</a></em></p>
+						<p class="speaker"><em><a href="/#speaker-sakamaki">坂巻舞羽</a></em></p>
 						<p>準備中</p>
 					</dd>
 				</div>
