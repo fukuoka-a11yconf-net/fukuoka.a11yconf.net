@@ -4,7 +4,9 @@
 
 <div class="header">
 	<div class="logo">
-		<img src="/img/logo.svg" width="340" height="87" alt="アクセシビリティカンファレンス福岡" />
+		<a href="/">
+			<img src="/img/logo.svg" width="340" height="87" alt="アクセシビリティカンファレンス福岡" />
+		</a>
 	</div>
 	<div class="nav">
 		<Navigation />
@@ -34,6 +36,10 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.logo a {
+		display: block;
 	}
 
 	.logo img {

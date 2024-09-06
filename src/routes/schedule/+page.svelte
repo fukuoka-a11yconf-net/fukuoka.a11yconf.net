@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>タイムテーブル | アクセシビリティカンファレンス福岡2023</title>
+	<title>タイムテーブル | アクセシビリティカンファレンス福岡2024</title>
 </svelte:head>
 
 <Header />
@@ -36,12 +36,10 @@
 					<dd id="session1">
 						<p class="sub"><em>セッション1</em></p>
 						<p class="title">
-							<em><span class="q">伝わる</span>を拡張するアクセシビリティ</em>
+							<em>準備中</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-majima">間嶋沙知</a></em></p>
-						<p>
-							アクセシビリティが気になっているけど、何をすればいいかわからなかったり、ハードルが高く感じられたりしていないでしょうか。アクセシビリティは情報やサービスをより多くの人に届けるための視点を与えてくれるものです。このセッションでは身近なデザインの具体例を交えながら、明日から取り組めるアクセシビリティのポイントをお伝えします。
-						</p>
+						<p class="speaker"><em><a href="/#speaker-tanaka">田中みゆき</a></em></p>
+						<p>準備中</p>
 					</dd>
 				</div>
 				<div class="break">
@@ -55,18 +53,10 @@
 					<dd id="session2">
 						<p class="sub"><em>セッション2</em></p>
 						<p class="title">
-							<em>ウェブアクセシビリティ社内教育のすゝめ</em>
-							〜品質か、営業か〜
+							<em>準備中</em>
 						</p>
-						<p class="speaker">
-							<em
-								><a href="/#speaker-shibata">柴田宏仙</a> ✕
-								<a href="/#speaker-ihara">伊原力也</a></em
-							>
-						</p>
-						<p>
-							社内のデザイナーやエンジニア向けにウェブアクセシビリティを教育していく際の課題点や、社内全体で取り組むための2大ルート「品質ルート」と「営業ルート」についてトークするセッション。自信を持って社内にウェブアクセシビリティを広める為のヒントをご紹介。
-						</p>
+						<p class="speaker"><em><a href="/#speaker-sakamaki">高橋舞羽</a></em></p>
+						<p>準備中</p>
 					</dd>
 				</div>
 				<div class="break">
@@ -80,93 +70,69 @@
 					<dd>
 						<p class="sub"><em>スポンサーセッション プラチナスポンサー</em></p>
 						<p class="title">
-							<em>ヌーラボのウェブサイト課におけるアクセシビリティ関連の取組み</em>
+							<em>準備中</em>
 						</p>
-						<p class="speaker sponsor"><em>松永知典</em></p>
+						<p class="speaker sponsor"><em>準備中</em></p>
 					</dd>
 				</div>
 				<div class="break">
-					<dt>15:30</dt>
+					<dt>15:20</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>
-					<dt>15:40</dt>
-					<dd>
-						<p class="sub"><em>スポンサーセッション 会場提供スポンサー</em></p>
-						<p class="title">
-							<em>LINEヤフーにおけるこれからのアクセシビリティ</em>
-						</p>
-						<p class="speaker sponsor"><em>岡崎晶彦</em>･<em>富田梓</em></p>
-					</dd>
-				</div>
-				<div class="break">
-					<dt>16:00</dt>
-					<dd>
-						<p>転換・準備</p>
-					</dd>
-				</div>
-				<div>
-					<dt>16:10</dt>
+					<dt>15:25</dt>
 					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
 						<p class="title">
-							<em><span class="q">違う人生を生きる人と一緒に働く</span>ということ</em>
+							<em>準備中</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-katayama">方山れいこ</a></em></p>
-						<p>
-							私が代表を務める株式会社方角は、2021年に設立した小さな会社です。ダイバーシティ・インクルージョン系の仕事が舞い込むことが多い弊社には現在10人のメンバーがおり、そのうちの7人が聴覚障害者・1人が盲ろう者です。
-						</p>
-						<p>
-							本セッションでは2年前まで障害者と呼ばれる人たちと関わったことすらなかった私が、マネジメントについて、そして組織をどのように作っているかについてをご紹介します。
-						</p>
-						<p>
-							人手不足の昨今ですが、「意識」さえ変えることができれば、どんな会社も受け入れる人の選択肢が増えるはずと信じています。ぜひ一緒に、これからの働き方について考えてみませんか。
-						</p>
+						<p class="speaker"><em><a href="/#speaker-koyano">小谷野崇司</a></em></p>
+						<p>準備中</p>
 					</dd>
 				</div>
 				<div class="break">
-					<dt>16:50</dt>
+					<dt>16:05</dt>
+					<dd>
+						<p>休憩（30分）</p>
+					</dd>
+				</div>
+				<div>
+					<dt>16:35</dt>
+					<dd>
+						<p class="sub"><em>スポンサーセッション プラチナスポンサー</em></p>
+						<p class="title">
+							<em>準備中</em>
+						</p>
+						<p class="speaker sponsor"><em>準備中</em></p>
+					</dd>
+				</div>
+				<div class="break">
+					<dt>16:45</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>
-					<dt>17:00</dt>
+					<dt>16:50</dt>
 					<dd id="session4">
 						<p class="sub"><em>セッション4</em></p>
 						<p class="title">
-							<em>デジタル庁でのアクセシビリティへの取り組み</em>
-							―<span class="q">誰一人取り残されない、人にやさしいデジタル化を</span>の実現に向けて―
+							<em>準備中</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-ishiki">伊敷政英</a></em></p>
-						<p>2023年9月、デジタル庁は発足から丸2年を迎え、3年目に突入しました。</p>
-						<p>
-							発足当初から我々は「誰一人取り残されない、人にやさしいデジタル化を」をミッションに掲げ、生活者視点、ユーザー視点でのサービスデザインによるアプリやサービスの開発を進めています。
-						</p>
-						<p>
-							アクセシビリティチームでも、デジタル庁ウェブサイトやマイナポータルなど、デジタル庁所管のアプリやサービスのアクセシビリティ改善を行ってきました。
-						</p>
-						<p>
-							本セッションでは、これまで私たちが行ってきたアクセシビリティ改善の取り組みをご紹介します。
-						</p>
-						<p>
-							<strong
-								><span role="img" aria-label="注意">&#x26a0;&#xfe0f;</span
-								>YouTubeで生配信はされますが、アーカイブに残らないセッションです。</strong
-							>
-						</p>
+						<p class="speaker"><em><a href="/#speaker-noda">野田純生</a></em></p>
+						<p>準備中</p>
 					</dd>
 				</div>
 				<div class="break">
-					<dt>17:40</dt>
+					<dt>17:30</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>
-					<dt>17:50</dt>
+					<dt>17:35</dt>
 					<dd>閉会式</dd>
 				</div>
 				<div class="break">
@@ -176,11 +142,11 @@
 					</dd>
 				</div>
 				<div>
-					<dt>18:20</dt>
+					<dt>18:10</dt>
 					<dd>懇親会</dd>
 				</div>
 				<div>
-					<dt>20:00</dt>
+					<dt>19:45</dt>
 					<dd>解散</dd>
 				</div>
 			</dl>

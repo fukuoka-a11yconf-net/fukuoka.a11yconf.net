@@ -29,23 +29,27 @@
 		font-feature-settings: 'palt';
 
 		/* 調和数列 */
-		--font-size-h1: calc(15 / 3 * 1rem);
-		--font-size-h2: calc(15 / 5 * 1rem);
-		--font-size-h3: calc(15 / 7 * 1rem);
-		--font-size-h4: calc(15 / 9 * 1rem);
-		--font-size-h5: calc(15 / 11 * 1rem);
-		--font-size-h6: calc(15 / 13 * 1rem);
+		--base: 15;
+		--factor: 1.7;
+		--font-size-h1: calc(var(--base) / (var(--base) - var(--factor) * 6) * 1rem);
+		--font-size-h2: calc(var(--base) / (var(--base) - var(--factor) * 5) * 1rem);
+		--font-size-h3: calc(var(--base) / (var(--base) - var(--factor) * 4) * 1rem);
+		--font-size-h4: calc(var(--base) / (var(--base) - var(--factor) * 3) * 1rem);
+		--font-size-h5: calc(var(--base) / (var(--base) - var(--factor) * 2) * 1rem);
+		--font-size-h6: calc(var(--base) / (var(--base) - var(--factor) * 1) * 1rem);
 	}
 
 	@media (max-width: 40rem) {
 		.heading {
+			--base: 22;
+			--factor: 2;
 			/* 調和数列 */
-			--font-size-h1: calc(18 / 9 * 1rem);
+			/* --font-size-h1: calc(18 / 9 * 1rem);
 			--font-size-h2: calc(18 / 11 * 1rem);
 			--font-size-h3: calc(18 / 13 * 1rem);
 			--font-size-h4: calc(18 / 15 * 1rem);
 			--font-size-h5: calc(18 / 16 * 1rem);
-			--font-size-h6: calc(18 / 17 * 1rem);
+			--font-size-h6: calc(18 / 17 * 1rem); */
 		}
 	}
 
@@ -87,7 +91,7 @@
 		width: auto;
 		height: 0.5em;
 		aspect-ratio: 163/23;
-		background: url('/img/hr-icons.svg') no-repeat center;
+		background: url('/2023/img/hr-icons.svg') no-repeat center;
 		background-size: contain;
 		margin-block-start: 0.5em;
 	}
