@@ -193,6 +193,9 @@
 					height="158"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor href="#sponsor-recruitment" name="募集中" />
+			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-shilver">シルバースポンサー</Heading>
@@ -205,6 +208,9 @@
 					width="167"
 					height="47"
 				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor href="#sponsor-recruitment" name="募集中" />
 			</ClusterItem>
 		</ClusterContainer>
 
@@ -300,6 +306,9 @@
 					height="98"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor href="#sponsor-recruitment" name="募集中" />
+			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
@@ -323,6 +332,26 @@
 				/>
 			</ClusterItem>
 		</ClusterContainer>
+
+		<section>
+			<Heading level={3} id="sponsor-recruitment">スポンサー募集</Heading>
+			<TextBody>
+				<p>
+					<a
+						href="https://docs.google.com/presentation/d/1odcsZUZrrStDeKrhZ3_QvF7T5ZA7t0tiAw3wDqfO2KI/edit#slide=id.p"
+					>
+						アクセシビリティカンファレンス福岡 企画概要 (Googleスライド)</a
+					>をご覧ください。
+				</p>
+				<p>
+					<a
+						href="https://docs.google.com/forms/d/e/1FAIpQLSdkWpM7RDiG8a0LRiB4Ka_MIE2OrM59YMHpROX0WkuV3fVYIA/viewform"
+						>スポンサー申し込みGoogleフォーム</a
+					>からお申し込みください。<strong>先着順</strong>となりますのでお早めにお申し込みください。
+				</p>
+				<p>※資料に情報保障が必要な場合はお問い合わせください</p>
+			</TextBody>
+		</section>
 	</Section>
 
 	<Section width="narrow">
