@@ -418,7 +418,7 @@
 				>
 			</p>
 			<p>
-				<a href="/2023/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
+				<a href="/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
 				<a
 					href="https://docs.google.com/forms/d/e/1FAIpQLScQhESqjgk0QWTL9KpICIrR9xg6yAvwKu80DA6Fx1NnzF-9TA/viewform"
 					>通報フォーム</a
