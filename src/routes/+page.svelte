@@ -307,6 +307,15 @@
 				/>
 			</ClusterItem>
 			<ClusterItem>
+				<Sponsor
+					href="https://turucame.jp/"
+					name="株式会社ツルカメ"
+					img="/img/logo-sponsor-turucame.png"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
+			<ClusterItem>
 				<Sponsor href="#sponsor-recruitment" name="募集中" />
 			</ClusterItem>
 		</ClusterContainer>
