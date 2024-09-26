@@ -315,9 +315,6 @@
 					height="98"
 				/>
 			</ClusterItem>
-			<ClusterItem>
-				<Sponsor href="#sponsor-recruitment" name="募集中" />
-			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
