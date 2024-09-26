@@ -78,11 +78,11 @@
 				<div class="break">
 					<dt>15:20</dt>
 					<dd>
-						<p>転換・準備</p>
+						<p>休憩（30分）</p>
 					</dd>
 				</div>
 				<div>
-					<dt>15:25</dt>
+					<dt>15:50</dt>
 					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
 						<p class="title">
@@ -93,9 +93,9 @@
 					</dd>
 				</div>
 				<div class="break">
-					<dt>16:05</dt>
+					<dt>16:30</dt>
 					<dd>
-						<p>休憩（30分）</p>
+						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>

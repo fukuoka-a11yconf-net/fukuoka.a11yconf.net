@@ -210,6 +210,15 @@
 				/>
 			</ClusterItem>
 			<ClusterItem>
+				<Sponsor
+					href="https://www.yumemi.co.jp/"
+					name="株式会社ゆめみ"
+					img="/img/logo-sponsor-yumemi.svg"
+					width="167"
+					height="47"
+				/>
+			</ClusterItem>
+			<ClusterItem>
 				<Sponsor href="#sponsor-recruitment" name="募集中" />
 			</ClusterItem>
 		</ClusterContainer>
@@ -314,9 +323,6 @@
 					width="100"
 					height="98"
 				/>
-			</ClusterItem>
-			<ClusterItem>
-				<Sponsor href="#sponsor-recruitment" name="募集中" />
 			</ClusterItem>
 		</ClusterContainer>
 
