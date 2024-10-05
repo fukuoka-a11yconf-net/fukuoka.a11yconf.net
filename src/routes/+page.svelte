@@ -194,7 +194,22 @@
 				/>
 			</ClusterItem>
 			<ClusterItem>
-				<Sponsor href="#sponsor-recruitment" name="募集中" />
+				<Sponsor
+					href="https://studio.inc/"
+					name="STUDIO株式会社"
+					img="/img/logo-sponsor-studio.svg"
+					width="215"
+					height="158"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.sakura.ad.jp/"
+					name="さくらインターネット株式会社"
+					img="/img/logo-sponsor-sakura.svg"
+					width="215"
+					height="158"
+				/>
 			</ClusterItem>
 		</ClusterContainer>
 
@@ -211,6 +226,15 @@
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
+					href="https://www.kddi-webcommunications.co.jp/"
+					name="株式会社KDDIウェブコミュニケーションズ"
+					img="/img/logo-sponsor-kwc.png"
+					width="167"
+					height="47"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
 					href="https://www.yumemi.co.jp/"
 					name="株式会社ゆめみ"
 					img="/img/logo-sponsor-yumemi.svg"
@@ -219,7 +243,13 @@
 				/>
 			</ClusterItem>
 			<ClusterItem>
-				<Sponsor href="#sponsor-recruitment" name="募集中" />
+				<Sponsor
+					href="https://noveltyinc.jp/"
+					name="株式会社ノベルティ"
+					img="/img/logo-sponsor-novelty.svg"
+					width="167"
+					height="47"
+				/>
 			</ClusterItem>
 		</ClusterContainer>
 
@@ -320,6 +350,15 @@
 					href="https://turucame.jp/"
 					name="株式会社ツルカメ"
 					img="/img/logo-sponsor-turucame.png"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://coding-factory.com/"
+					name="CODING FACTORY by monosus"
+					img="/img/logo-sponsor-monosus.png"
 					width="100"
 					height="98"
 				/>
