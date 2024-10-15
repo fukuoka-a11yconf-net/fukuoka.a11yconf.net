@@ -155,8 +155,8 @@
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
-					href="https://linefukuoka.co.jp/ja/"
-					name="LINEヤフーコミュニケーションズ"
+					href="https://www.lycorp.co.jp/ja/"
+					name="LINEヤフー株式会社"
 					img="/img/logo-sponsor-lyc.svg"
 					width="775"
 					height="330"
