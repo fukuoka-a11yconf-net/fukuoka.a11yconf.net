@@ -386,6 +386,18 @@
 				/>
 			</ClusterItem>
 		</ClusterContainer>
+		<Heading level={3} id="sponsors-snack">特別協賛</Heading>
+		<ClusterContainer --col={2}>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.aok-net.com/"
+					name="株式会社高知システム開発"
+					img="/img/logo-partner-ksd.png"
+					width="84"
+					height="26"
+				/>
+			</ClusterItem>
+		</ClusterContainer>
 	</Section>
 
 	<Section width="narrow">
