@@ -86,7 +86,7 @@
 					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
 						<p class="title">
-							<em>準備中</em>
+							<em>手話CG KIKIが繰り広げるインクルーシブ社会の実現</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-koyano">小谷野崇司</a></em></p>
 						<p>準備中</p>
