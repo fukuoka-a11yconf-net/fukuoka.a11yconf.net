@@ -95,7 +95,7 @@
 					</p>
 					<p class="session">
 						<span>セッション1</span>
-						<a href="/schedule/#session1"><em>準備中</em></a>
+						<a href="/schedule#session1"><em>準備中</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -106,7 +106,7 @@
 					</p>
 					<p class="session">
 						<span>セッション2</span>
-						<a href="/schedule/#session2"><em>準備中</em></a>
+						<a href="/schedule#session2"><em>準備中</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -119,7 +119,7 @@
 					</p>
 					<p class="session">
 						<span>セッション3</span>
-						<a href="/schedule/#session3"><em>手話CG KIKIが繰り広げるインクルーシブ社会の実現</em></a>
+						<a href="/schedule#session3"><em>手話CG KIKIが繰り広げるインクルーシブ社会の実現</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -133,7 +133,7 @@
 					</p>
 					<p class="session">
 						<span>セッション4</span>
-						<a href="/schedule/#session4"><em>準備中</em></a>
+						<a href="/schedule#session4"><em>準備中</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
