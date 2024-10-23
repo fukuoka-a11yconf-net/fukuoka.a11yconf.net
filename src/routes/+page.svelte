@@ -397,6 +397,15 @@
 					height="26"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://gihyo.jp/book/"
+					name="株式会社技術評論社"
+					img="/img/logo-partner-gihyo.svg"
+					width="84"
+					height="26"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 	</Section>
 
