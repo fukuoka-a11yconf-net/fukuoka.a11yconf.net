@@ -53,10 +53,13 @@
 					<dd id="session2">
 						<p class="sub"><em>セッション2</em></p>
 						<p class="title">
-							<em>準備中</em>
+							<em>アクセシビリティをあたりまえにするまで</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-sakamaki">坂巻舞羽</a></em></p>
-						<p>準備中</p>
+						<p>
+							SmartHRでアクセシビリティをリードする組織が誕生してから丸3年が経ちます。私たちはこの間、どのように多様なユーザーの「使える」に向き合い、何を成し遂げてきたのか。そして、今後挑むべき課題とは何か。
+							プロダクトの品質向上による信頼の確立と、社内啓蒙による文化の醸成、そしてやさしい日本語を活用する新たなアプローチなど、私たちの多角的な取り組みの紹介を交えてお話しします。
+						</p>
 					</dd>
 				</div>
 				<div class="break">
@@ -119,7 +122,7 @@
 					<dd id="session4">
 						<p class="sub"><em>セッション4</em></p>
 						<p class="title">
-							<em>準備中</em>
+							<em>選挙のアクセシビリティ</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-noda">野田純生</a></em></p>
 						<p>準備中</p>

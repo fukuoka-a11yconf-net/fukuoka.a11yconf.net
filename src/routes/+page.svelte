@@ -106,7 +106,7 @@
 					</p>
 					<p class="session">
 						<span>セッション2</span>
-						<a href="/schedule#session2"><em>準備中</em></a>
+						<a href="/schedule#session2"><em>アクセシビリティをあたりまえにするまで</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -133,7 +133,7 @@
 					</p>
 					<p class="session">
 						<span>セッション4</span>
-						<a href="/schedule#session4"><em>準備中</em></a>
+						<a href="/schedule#session4"><em>選挙のアクセシビリティ</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
