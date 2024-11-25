@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Section from '$lib/components/section.svelte';
+	
 	export let connpassURL: string;
 </script>
 
@@ -16,6 +18,12 @@
 				</h1>
 				<p>2024年11月30日(土曜日)</p>
 				<p>警固神社社務所ビル + YouTube</p>
+			</div>
+			<div class="sound-logo">
+				<video controls>
+					<track kind="captions" src="/media/sound-logo.vtt" />
+					<source src="/media/sound-logo.mp4" type="video/mp4" />
+				</video>
 			</div>
 			<div class="text">
 				<p class="em"><em>つぎはどうする</em></p>
@@ -63,12 +71,23 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: auto auto;
-		gap: 8rem;
+		gap: 6rem;
 		max-width: 120rem;
 		padding-block: 8rem;
 		padding-inline: 4rem;
 		margin-inline: auto;
 	}
+
+  .sound-logo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .sound-logo video {
+      max-width: 70rem;
+      border: 3px solid var(--color-border-primary);
+  }
 
 	@media (max-width: 80rem) {
 		header {
@@ -78,7 +97,18 @@
 		.body {
 			padding-block: 10vw;
 			padding-inline: 10vw;
-			gap: 10vw;
+			gap: 6vw;
+		}
+
+		.sound-logo {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+		}
+
+		.sound-logo video {
+				width: 100%;
+				border: 1px solid var(--color-border-primary);
 		}
 	}
 
@@ -95,7 +125,7 @@
 		width: 100%;
 		max-width: 80rem;
 	}
-
+	
 	h1 {
 		align-self: stretch;
 		margin: 0;
