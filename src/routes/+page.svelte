@@ -95,7 +95,7 @@
 					</p>
 					<p class="session">
 						<span>セッション1</span>
-						<a href="/schedule#session1"><em>準備中</em></a>
+						<a href="/schedule#session1"><em>障害は乗り越えられるべき課題なのか？</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -294,7 +294,7 @@
 			<ClusterItem>
 				<Sponsor
 					href="https://p-fab.co.jp"
-					name="株式会社p-fab"
+					name="株式会社P-Fab"
 					img="/img/logo-sponsor-pfab.svg"
 					width="176"
 					height="193"
