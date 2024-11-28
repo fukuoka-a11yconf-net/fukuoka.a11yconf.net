@@ -116,7 +116,7 @@
 						<p class="title">
 							<em>LINEギフトのアクセシビリティ〜ネクストアクション〜</em>
 						</p>
-						<p class="speaker sponsor"><em>慶島亜門</em></p>
+						<p class="speaker sponsor"><em>富田 梓 / 慶島亜門</em></p>
 					</dd>
 				</div>
 				<div class="break">
