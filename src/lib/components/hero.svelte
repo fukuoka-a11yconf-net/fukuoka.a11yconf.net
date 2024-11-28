@@ -95,7 +95,6 @@
 		width: 100%;
 		max-width: 80rem;
 	}
-
 	h1 {
 		align-self: stretch;
 		margin: 0;

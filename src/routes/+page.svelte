@@ -22,7 +22,6 @@
 	import pictStaff02 from '$lib/img/pict-staff-posi0202.jpg';
 	import pictStaff03 from '$lib/img/pict-staff-analogtan.jpg';
 	import pictStaff04 from '$lib/img/pict-staff-taketada323.png';
-
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/322934/';
 </script>
 
