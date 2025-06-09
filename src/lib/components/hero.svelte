@@ -38,9 +38,9 @@
 						>「つぎはどうする」という問いは、わたしたち全員にとっての挑戦です。福岡から、未来への橋をかけます。</span
 					>
 				</p>
-				<div class="apply">
-					<a href={connpassURL} target="_blank">connpassで参加登録</a>
-				</div>
+<!--				<div class="apply">-->
+<!--					<a href={connpassURL} target="_blank">connpassで参加登録</a>-->
+<!--				</div>-->
 			</div>
 		</div>
 	</div>
