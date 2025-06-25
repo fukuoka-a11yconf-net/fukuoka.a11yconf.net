@@ -417,7 +417,7 @@
 				<Staff
 					id="analogtan"
 					img={pictStaff03}
-					name="中村祐貴子/（サチコ/misty）"
+					name="中村祐貴子（サチコ/misty）"
 					role="実行委員長"
 					org="カラビナテクノロジー株式会社"
 					snsX="analogtan"
