@@ -24,6 +24,7 @@
 	import pictStaff04 from '$lib/img/pict-staff-taketada323.png';
 	import pictStaff05 from '$lib/img/pict-staff-namba.webp';
 	import pictStaff06 from '$lib/img/pict-staff-tantans.webp';
+	import pictStaff07 from '$lib/img/pict-staff-mizuno.webp';
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/322934/';
 </script>
 
@@ -412,7 +413,7 @@
 
 	<Section width="narrow">
 		<Heading level={2} id="staff">運営スタッフ</Heading>
-		<ClusterContainer --col={3} --align="start">
+		<ClusterContainer --col={2} --align="start">
 			<ClusterItem>
 				<Staff
 					id="analogtan"
@@ -478,6 +479,17 @@
 					snsX="tantans_design"
 					snsFB="ayano.tango.1"
 					snsGH="Ayano0416"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Staff
+					id="tantans"
+					img={pictStaff07}
+					name="水野 敬太"
+					role="実行委員"
+					org="株式会社あつまる"
+					snsX="kzvXED5uqh61613"
+					snsFB="keita.mizuno.372"
 				/>
 			</ClusterItem>
 		</ClusterContainer>
