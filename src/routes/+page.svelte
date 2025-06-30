@@ -496,7 +496,7 @@
 
 		<Heading level={3} id="office">運営事務局</Heading>
 		<TextBody fit>
-			<p><a href="https://www.d-zero.co.jp">株式会社ディーゼロ</a></p>
+			<p>一般社団法人アクセシビリティカンファレンス福岡</p>
 		</TextBody>
 	</Section>
 
@@ -511,7 +511,7 @@
 			<p>
 				<a href="/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
 				<a
-					href="https://docs.google.com/forms/d/e/1FAIpQLScQhESqjgk0QWTL9KpICIrR9xg6yAvwKu80DA6Fx1NnzF-9TA/viewform"
+					href="https://forms.gle/noRCSaRKPC7fjsGg9"
 					>通報フォーム</a
 				>までご連絡ください。
 			</p>
