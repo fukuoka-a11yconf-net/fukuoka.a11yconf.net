@@ -20,12 +20,12 @@
 			<div class="text">
 				<p class="em"><em>つながるせかい</em></p>
 				<p>
-					<span
-						>3年目を迎えるアクセシビリティカンファレンス福岡。</span
-					>
+					<span>3年目を迎えるアクセシビリティカンファレンス福岡。</span>
 				</p>
 				<p>
-					<span>「ここにいる。」と声をあげ、「つぎはどうする」と自らに問いかけ、前を向いて動き出したわたしたち。</span>
+					<span
+						>「ここにいる。」と声をあげ、「つぎはどうする」と自らに問いかけ、前を向いて動き出したわたしたち。</span
+					>
 					<span>今、分野や立場を越えてつながることで、より豊かな未来を描こうとしています。</span>
 				</p>
 				<p>
@@ -34,16 +34,18 @@
 					>
 				</p>
 				<p>
-					<span>「様々な想いを持つ人々が出会い、学び合い、つながり、未来をつくる場に、という願いを込めて。</span>
+					<span
+						>「様々な想いを持つ人々が出会い、学び合い、つながり、未来をつくる場に、という願いを込めて。</span
+					>
 					<span>今年も、あなたと「つながるせかい」でお待ちしています。</span>
 				</p>
 				<p>
-					<span>運営事務局</span><br/>
+					<span>運営事務局</span><br />
 					<span>一般社団法人アクセシビリティカンファレンス福岡</span>
 				</p>
-<!--				<div class="apply">-->
-<!--					<a href={connpassURL} target="_blank">connpassで参加登録</a>-->
-<!--				</div>-->
+				<!--				<div class="apply">-->
+				<!--					<a href={connpassURL} target="_blank">connpassで参加登録</a>-->
+				<!--				</div>-->
 			</div>
 		</div>
 	</div>
@@ -117,7 +119,7 @@
 
 	@container hero-header (min-width: 0px) {
 		.title p {
-			font-size: 7.3cqw;
+			font-size: 6cqw;
 			font-family: var(--font-family-condensed);
 		}
 	}
@@ -149,7 +151,7 @@
 	}
 
 	.text .em em {
-		font-style: oblique;
+		font-style: normal;
 	}
 
 	.text p {
