@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>行動規範 | アクセシビリティカンファレンス福岡2024</title>
+	<title>行動規範 | アクセシビリティカンファレンス福岡2025</title>
 </svelte:head>
 
 <Header />

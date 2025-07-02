@@ -14,33 +14,34 @@
 						height="87"
 					/>
 				</h1>
-				<p>2024年11月30日(土曜日)</p>
+				<p>2025年12月6日(土曜日)</p>
 				<p>警固神社社務所ビル + YouTube</p>
 			</div>
 			<div class="text">
-				<p class="em"><em>つぎはどうする</em></p>
+				<p class="em"><em>つながるせかい</em></p>
 				<p>
-					<span
-						>この一年で、わたしたちは仲間とともにアクセシビリティに向き合い、取り組み始めていることを確認できました。</span
-					>
-				</p>
-				<p>
-					<span>さて、そうしたら、つぎは周りを見渡すのではなく、前を見たくなります。</span>
-					<span>取り組み始めた実感をもとに、もっと価値を、結果を、掴みに行きたくなります。</span>
+					<span>3年目を迎えるアクセシビリティカンファレンス福岡。</span>
 				</p>
 				<p>
 					<span
-						>今のままじゃいられない。どう動けばいいだろう、何をするべきだろう、どんな方法があるだろう。</span
+						>「ここにいる。」と声をあげ、「つぎはどうする」と自らに問いかけ、前を向いて動き出したわたしたち。</span
+					>
+					<span>今、分野や立場を越えてつながることで、より豊かな未来を描こうとしています。</span>
+				</p>
+				<p>
+					<span
+						>アクセシビリティは一人で担うものではなく、共に考え、動き続けることで広がっていくもの。</span
 					>
 				</p>
 				<p>
 					<span
-						>「つぎはどうする」という問いは、わたしたち全員にとっての挑戦です。福岡から、未来への橋をかけます。</span
+						>様々な想いを持つ人々が出会い、学び合い、つながり、未来をつくる場に、という願いを込めて。</span
 					>
+					<span>今年も、あなたと「つながるせかい」でお待ちしています。</span>
 				</p>
-				<div class="apply">
-					<a href={connpassURL} target="_blank">connpassで参加登録</a>
-				</div>
+				<!--				<div class="apply">-->
+				<!--					<a href={connpassURL} target="_blank">connpassで参加登録</a>-->
+				<!--				</div>-->
 			</div>
 		</div>
 	</div>
@@ -114,7 +115,7 @@
 
 	@container hero-header (min-width: 0px) {
 		.title p {
-			font-size: 7.3cqw;
+			font-size: 6cqw;
 			font-family: var(--font-family-condensed);
 		}
 	}
@@ -146,7 +147,7 @@
 	}
 
 	.text .em em {
-		font-style: oblique;
+		font-style: normal;
 	}
 
 	.text p {

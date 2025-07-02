@@ -73,7 +73,7 @@
 	}
 
 	.avatar {
-		padding-inline: 2rem;
+		padding-inline: 10%;
 	}
 
 	.avatar-inner {
@@ -101,7 +101,6 @@
 		gap: 0 0.5rem;
 		margin-block: 0.5rem;
 		margin: 1rem 0;
-		height: 2.75rem;
 	}
 
 	.org {
@@ -117,6 +116,7 @@
 	.sns {
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 		gap: 0.5rem;
 		margin-block: 0.5rem;
 		margin-inline: 0;
@@ -125,13 +125,15 @@
 	}
 
 	.sns li {
+		width: min(1.7rem, 25%);
 		margin: 0;
 		padding: 0;
 	}
 
 	.sns a {
-		width: 1.7rem;
-		height: 1.7rem;
+		width: 100%;
+		aspect-ratio: 1 / 1;
+		height: auto;
 		display: block;
 		border-radius: 10rem;
 	}

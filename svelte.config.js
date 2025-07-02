@@ -5,7 +5,13 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			// @Todo: ページ設定後に解除
+			handleMissingId: ({ path, id, referrers }) => {
+				console.warn(`Missing id="${id}" on ${path}, referenced by: ${referrers.join(', ')}`);
+			}
+		}
 	}
 };
 
