@@ -25,7 +25,7 @@
 	import pictStaff05 from '$lib/img/pict-staff-namba.webp';
 	import pictStaff06 from '$lib/img/pict-staff-tantans.webp';
 	import pictStaff07 from '$lib/img/pict-staff-mizuno.webp';
-	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/322934/';
+	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/361129/';
 </script>
 
 <svelte:head>
@@ -510,10 +510,7 @@
 			</p>
 			<p>
 				<a href="/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
-				<a
-					href="https://forms.gle/noRCSaRKPC7fjsGg9"
-					>通報フォーム</a
-				>までご連絡ください。
+				<a href="https://forms.gle/noRCSaRKPC7fjsGg9">通報フォーム</a>までご連絡ください。
 			</p>
 		</TextBody>
 	</Section>

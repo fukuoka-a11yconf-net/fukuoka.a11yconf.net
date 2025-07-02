@@ -39,9 +39,9 @@
 					>
 					<span>今年も、あなたと「つながるせかい」でお待ちしています。</span>
 				</p>
-				<!--				<div class="apply">-->
-				<!--					<a href={connpassURL} target="_blank">connpassで参加登録</a>-->
-				<!--				</div>-->
+				<div class="apply">
+					<a href={connpassURL} target="_blank">connpassで参加登録</a>
+				</div>
 			</div>
 		</div>
 	</div>
