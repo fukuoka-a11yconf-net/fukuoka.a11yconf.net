@@ -9,6 +9,7 @@
 		<!--{#if isHome}<li><a href="/#sponsors">スポンサー</a></li>{/if}-->
 		{#if isHome}<li><a href="/#staff">運営スタッフ</a></li>{/if}
 		{#if isHome}<li><a href="/#contact">お問い合わせ</a></li>{/if}
+		{#if isHome}<li><a href="/#sponsors-looking">スポンサー募集</a></li>{/if}
 		{#if !isHome}<li><a href="/">ホーム</a></li>{/if}
 		<li><a href="/venue">会場・配信</a></li>
 		<!--		<li><a href="/schedule">タイムテーブル</a></li>-->
