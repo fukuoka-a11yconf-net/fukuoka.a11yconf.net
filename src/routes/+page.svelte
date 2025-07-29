@@ -514,6 +514,18 @@
 			</p>
 		</TextBody>
 	</Section>
+
+	<Section width="narrow">
+		<Heading level={2} id="contact">スポンサー募集</Heading>
+		<TextBody fit>
+			<p>開催にあたり、ご協賛いただけるスポンサー様を募集しております。</p>
+			<p>開当カンファレンスにご協賛いただく企業・団体様や提供サービスに触れる機会の創出に貢献できるよう運営して参ります。</p>
+			<p>スポンサープログラムは、おやつ、プラチナ、ゴールド、シルバー、ブロンズの5種類ご用意しております。詳しくは、スポンサー向け企画概要資料（Googleスライドをご確認ください。</p>
+		</TextBody>
+		<div class="apply">
+			<a href="https://docs.google.com/presentation/d/1aM9jWUY9mvzrEz4UDXipFznBUGI5U_K144p01pa7bT8/edit?usp=sharing" target="_blank">資料はこちら</a>
+		</div>
+	</Section>
 </Main>
 
 <style>
@@ -633,4 +645,27 @@
 	.mail {
 		word-break: break-all;
 	}
+
+  .apply {
+      align-self: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-block: 2rem 0;
+  }
+
+  .apply a {
+      display: block;
+      padding-block: 1em 1.25em;
+      padding-inline: 1.5em;
+      text-decoration: underline dashed;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.4em;
+      color: inherit;
+      font-size: 1.5rem;
+      line-height: 1;
+      background-color: var(--color-bg-base);
+      border: 3px solid var(--color-border-primary);
+      border-radius: 10rem;
+  }
 </style>
