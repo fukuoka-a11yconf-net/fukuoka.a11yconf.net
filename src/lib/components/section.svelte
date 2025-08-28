@@ -15,7 +15,7 @@
 
 	.section.narrow {
 		width: 100%;
-		max-width: 60rem;
+		max-width: 72rem;
 		margin-inline: auto;
 	}
 </style>

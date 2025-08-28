@@ -23,7 +23,7 @@
 				</div>
 				<div>
 					<dt>13:00</dt>
-					<dd>開会式</dd>
+					<dd>オープニング（会場案内と諸注意）</dd>
 				</div>
 				<div class="break">
 					<dt>13:20</dt>
@@ -36,17 +36,10 @@
 					<dd id="session1">
 						<p class="sub"><em>セッション1</em></p>
 						<p class="title">
-							<em>障害は乗り越えられるべき課題なのか？</em>
+							<em>アクセシビリティでつながるせかい？</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-tanaka">田中みゆき</a></em></p>
+						<p class="speaker"><em><a href="/#speaker-okaue">岡上 洋子</a></em></p>
 						<p>
-							障害は個人ではなく社会の側にあると考えると、社会のバリアを取り除いていくことが
-							社会全体で進めていくべきことであるのは間違いありません。
-							一方で、あらゆるバリアを取り除き、障害をまるでないもののように扱うのが
-							わたしたちの社会が目指すべき未来なのでしょうか？
-							テクノロジーは、しばしば優生思想やエイブリズムと結びついて発展してきました。
-							今回は、アクセシビリティを高めることだけでは解決できないこと、
-							アクセシビリティが達成されても残る問題について、みなさんと考えたいと思っています。
 						</p>
 					</dd>
 				</div>
@@ -58,32 +51,31 @@
 				</div>
 				<div>
 					<dt>14:20</dt>
-					<dd id="session2">
-						<p class="sub"><em>セッション2</em></p>
+					<dd>
+						<p class="sub"><em>スポンサーセッション</em></p>
 						<p class="title">
-							<em>アクセシビリティをあたりまえにするまで</em>
+							<em>準備中</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-sakamaki">坂巻舞羽</a></em></p>
-						<p>
-							SmartHRでアクセシビリティをリードする組織が誕生してから丸3年が経ちます。私たちはこの間、どのように多様なユーザーの「使える」に向き合い、何を成し遂げてきたのか。そして、今後挑むべき課題とは何か。
-							プロダクトの品質向上による信頼の確立と、社内啓蒙による文化の醸成、そしてやさしい日本語を活用する新たなアプローチなど、私たちの多角的な取り組みの紹介を交えてお話しします。
-						</p>
+						<p class="speaker sponsor"><em></em></p>
 					</dd>
 				</div>
 				<div class="break">
-					<dt>15:00</dt>
+					<dt>14:30</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>
-					<dt>15:10</dt>
-					<dd>
-						<p class="sub"><em>スポンサーセッション プラチナスポンサー 株式会社ディーゼロ</em></p>
+					<dt>14:40</dt>
+					<dd id="session2">
+						<p class="sub"><em>セッション2</em></p>
 						<p class="title">
-							<em>アクセシビリティをあたりまえに</em>
+							<em>最強のおもてなし</em>
 						</p>
-						<p class="speaker sponsor"><em>吉田和生</em></p>
+						<p class="speaker"><em><a href="/#speaker-josh">グリズデイル・バリージョシュア</a></em></p>
+						<p>
+							※ 本セッションは事前収録となります
+						</p>
 					</dd>
 				</div>
 				<div class="break">
@@ -97,13 +89,10 @@
 					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
 						<p class="title">
-							<em>手話CG KIKIが繰り広げるインクルーシブ社会の実現</em>
+							<em>アクセシビリティ推進という山登りを支える――理念を道しるべに</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-koyano">小谷野崇司</a></em></p>
+						<p class="speaker"><em><a href="/#speaker-miyamoto">宮本 采佳</a></em></p>
 						<p>
-							NHKエンタープライズとNHKグローバルメディアサービスは、誰もが等しく情報を得られるインクルーシブな社会を目指し、手話が得意なデジタルヒューマン「KIKI」を開発しました。
-							KIKIは、手話に関心のない人々の注目を集めることにも重点を置き、2025年に東京で開催されるデフリンピックの公式アンバサダーにも選ばれ、健常者とろう者の世界をつなぐシンボリックなキャラクターとして活躍しています。
-							本講演ではKIKIの開発の経緯をや制作手法や活用法などKIKIを多角的に紹介します。
 						</p>
 					</dd>
 				</div>
@@ -114,45 +103,42 @@
 					</dd>
 				</div>
 				<div>
-					<dt>16:35</dt>
+					<dt>16:40</dt>
 					<dd>
-						<p class="sub"><em>スポンサーセッション プラチナスポンサー LINEヤフー株式会社</em></p>
+						<p class="sub"><em>スポンサーセッション</em></p>
 						<p class="title">
-							<em>LINEギフトのアクセシビリティ〜ネクストアクション〜</em>
+							<em>準備中</em>
 						</p>
-						<p class="speaker sponsor"><em>富田 梓 / 慶島亜門</em></p>
+						<p class="speaker sponsor"><em></em></p>
 					</dd>
 				</div>
 				<div class="break">
-					<dt>16:45</dt>
+					<dt>16:50</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>
-					<dt>16:50</dt>
+					<dt>17:00</dt>
 					<dd id="session4">
 						<p class="sub"><em>セッション4</em></p>
 						<p class="title">
-							<em>選挙のアクセシビリティ</em>
+							<em>準備中</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-noda">野田純生</a></em></p>
+						<p class="speaker"><em><a href="/#speaker-none">準備中</a></em></p>
 						<p>
-							今年は東京都知事選、衆院選、アメリカ大統領選挙など選挙と選挙にまつわる話題に事欠かない1年でした。そんな中、SNSなどで選挙にまつわるいくつかの障害者の発言(不平等、困りごと)を目にしたことから今回のテーマを思いつきました。
-							調査を進めていくと、色々な課題が見えてきました。
-							投票のアクセシビリティ、選挙公報、政見放送、選挙報道のアクセシビリティといった観点から見えてきた問題について紹介します。
 						</p>
 					</dd>
 				</div>
 				<div class="break">
-					<dt>17:30</dt>
+					<dt>17:40</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>
-					<dt>17:35</dt>
-					<dd>閉会式</dd>
+					<dt>17:50</dt>
+					<dd>クロージング</dd>
 				</div>
 				<div class="break">
 					<dt>18:00</dt>
