@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="600" viewBox="0 0 860 600">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .25em;
+      }
+
+      .cls-2 {
+        letter-spacing: .2em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke-width: 3.237px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #1a1a1a;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-8, .cls-7, .cls-9 {
+        font-family: UDShinGoCOeizPr6N-Lig-90ms-RKSJ-H, 'A-OTF UD Shin Go Con80 Pr6N';
+      }
+
+      .cls-4, .cls-7 {
+        font-size: 36px;
+        stroke-width: .5px;
+      }
+
+      .cls-8 {
+        font-size: 18px;
+      }
+
+      .cls-10 {
+        font-family: KozGoPr6N-Regular-90ms-RKSJ-H, 'Kozuka Gothic Pr6N';
+        font-size: 40px;
+      }
+
+      .cls-5 {
+        fill: #ccc;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 8px;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-9 {
+        font-size: 32px;
+      }
+    </style>
+  </defs>
+  <g id="_5Fメイン会場_ブース会場" data-name="5Fメイン会場、ブース会場">
+    <text class="cls-10" transform="translate(599.419 60.853)"><tspan class="cls-1" x="0" y="0">1</tspan><tspan x="32.04" y="0">階配置図</tspan></text>
+  </g>
+  <g id="_1F_エントランス" data-name="1F　エントランス">
+    <g>
+      <polyline class="cls-6" points="733.297 514.986 513.091 514.986 513.091 446.983"/>
+      <polyline class="cls-6" points="513.091 447.891 513.091 105.503 828.295 105.503 828.295 514.986 791.434 514.986"/>
+    </g>
+    <polygon class="cls-5" points="313.463 214.053 313.463 105.503 30.661 105.503 30.661 514.894 313.252 514.894 313.252 514.894 360 514.894 360 491.698 360 491.169 360 249.195 313.463 214.053"/>
+    <rect class="cls-3" x="321.881" y="114.928" width="40.956" height="40.749"/>
+    <rect class="cls-3" x="321.881" y="168.483" width="40.956" height="40.749"/>
+    <text class="cls-7" transform="translate(546.71 300.209)"><tspan x="0" y="0">ブルーボトル</tspan><tspan x="28.799" y="48">コーヒー</tspan></text>
+    <text class="cls-4" transform="translate(52.218 321.209)"><tspan x="0" y="0">警固神社 社務所</tspan></text>
+    <text class="cls-9" transform="translate(279.859 50.689)"><tspan x="0" y="0">警固神社 境内側</tspan></text>
+    <text class="cls-9" transform="translate(298.61 574.689)"><tspan x="0" y="0">国体道路側</tspan></text>
+    <text class="cls-9" transform="translate(502.822 574.689)"><tspan x="0" y="0">福岡三越、天神南駅 →</tspan></text>
+    <text class="cls-9" transform="translate(10 574.689)"><tspan x="0" y="0">← 天神西通り</tspan></text>
+    <text class="cls-8" transform="translate(373.722 152.84)"><tspan x="0" y="0">エレベーター</tspan><tspan class="cls-2" x="28.835" y="24">2</tspan><tspan x="43.162" y="24">基</tspan></text>
+  </g>
+</svg>

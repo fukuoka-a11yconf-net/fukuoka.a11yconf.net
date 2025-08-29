@@ -14,7 +14,7 @@
 	import Navigation from '$lib/components/navigation.svelte';
 
 	import pictOkaue from '$lib/img/pict-speaker-okaue.webp';
-	import pictJosh from '$lib/img/pict-speaker-okaue.webp';
+	import pictJosh from '$lib/img/pict-speaker-josh.jpg';
 	import pictMiyamoto from '$lib/img/pict-speaker-miyamoto.webp';
 
 	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg';

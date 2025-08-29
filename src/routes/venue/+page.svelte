@@ -4,6 +4,8 @@
 	import Main from '$lib/components/main.svelte';
 	import Section from '$lib/components/section.svelte';
 	import TextBody from '$lib/components/text-body.svelte';
+	import ClusterItem from '$lib/components/cluster-item.svelte';
+	import ClusterContainer from '$lib/components/cluster-container.svelte';
 </script>
 
 <svelte:head>
@@ -29,8 +31,15 @@
 		</TextBody>
 		<Heading level={2}>施設情報</Heading>
 		<Heading level={3}>会場地図</Heading>
+		<ClusterContainer --col={1} --align="center">
+			<ClusterItem>
+				<img src="/img/floor-map-1f.svg" alt="1階フロアマップ" />
+			</ClusterItem>
+			<ClusterItem>
+				<img src="/img/floor-map-5f.svg" alt="5階フロアマップ" />
+			</ClusterItem>
+			</ClusterContainer>
 		<TextBody>
-			<p>準備中</p>
 		</TextBody>
 		<Heading level={3}>お手洗い</Heading>
 		<TextBody>
