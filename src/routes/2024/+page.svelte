@@ -148,7 +148,7 @@
 				<Sponsor
 					href="https://www.d-zero.co.jp"
 					name="株式会社ディーゼロ"
-					img="/img/logo-sponsor-d-zero.svg"
+					img="/2024/img/logo-sponsor-d-zero.svg"
 					width="215"
 					height="158"
 				/>
@@ -157,7 +157,7 @@
 				<Sponsor
 					href="https://www.lycorp.co.jp/ja/"
 					name="LINEヤフー株式会社"
-					img="/img/logo-sponsor-lyc.svg"
+					img="/2024/img/logo-sponsor-lyc.svg"
 					width="775"
 					height="330"
 				/>
@@ -170,7 +170,7 @@
 				<Sponsor
 					href="https://www.zerobase.jp/"
 					name="ゼロベース株式会社"
-					img="/img/logo-sponsor-zerobase.png"
+					img="/2024/img/logo-sponsor-zerobase.png"
 					width="403"
 					height="345"
 				/>
@@ -179,7 +179,7 @@
 				<Sponsor
 					href="https://prtimes.jp/"
 					name="株式会社PR TIMES"
-					img="/img/logo-sponsor-prtimes.svg"
+					img="/2024/img/logo-sponsor-prtimes.svg"
 					width="100"
 					height="98"
 				/>
@@ -188,7 +188,7 @@
 				<Sponsor
 					href="https://infoaxia.co.jp/"
 					name="株式会社インフォアクシア"
-					img="/img/logo-sponsor-infoaxia.svg"
+					img="/2024/img/logo-sponsor-infoaxia.svg"
 					width="215"
 					height="158"
 				/>
@@ -197,7 +197,7 @@
 				<Sponsor
 					href="https://studio.inc/"
 					name="STUDIO株式会社"
-					img="/img/logo-sponsor-studio.svg"
+					img="/2024/img/logo-sponsor-studio.svg"
 					width="215"
 					height="158"
 				/>
@@ -206,7 +206,7 @@
 				<Sponsor
 					href="https://www.sakura.ad.jp/"
 					name="さくらインターネット株式会社"
-					img="/img/logo-sponsor-sakura.svg"
+					img="/2024/img/logo-sponsor-sakura.svg"
 					width="215"
 					height="158"
 				/>
@@ -219,7 +219,7 @@
 				<Sponsor
 					href="https://trq.co.jp/"
 					name="株式会社トルク"
-					img="/img/logo-sponsor-torque.svg"
+					img="/2024/img/logo-sponsor-torque.svg"
 					width="167"
 					height="47"
 				/>
@@ -228,7 +228,7 @@
 				<Sponsor
 					href="https://www.kddi-webcommunications.co.jp/"
 					name="株式会社KDDIウェブコミュニケーションズ"
-					img="/img/logo-sponsor-kwc.png"
+					img="/2024/img/logo-sponsor-kwc.png"
 					width="167"
 					height="47"
 				/>
@@ -237,7 +237,7 @@
 				<Sponsor
 					href="https://www.yumemi.co.jp/"
 					name="株式会社ゆめみ"
-					img="/img/logo-sponsor-yumemi.svg"
+					img="/2024/img/logo-sponsor-yumemi.svg"
 					width="167"
 					height="47"
 				/>
@@ -246,7 +246,7 @@
 				<Sponsor
 					href="https://noveltyinc.jp/"
 					name="株式会社ノベルティ"
-					img="/img/logo-sponsor-novelty.svg"
+					img="/2024/img/logo-sponsor-novelty.svg"
 					width="167"
 					height="47"
 				/>
@@ -259,7 +259,7 @@
 				<Sponsor
 					href="https://rakko.inc/"
 					name="ラッコ株式会社"
-					img="/img/logo-sponsor-rakko.svg"
+					img="/2024/img/logo-sponsor-rakko.svg"
 					width="1622"
 					height="482"
 				/>
@@ -268,7 +268,7 @@
 				<Sponsor
 					href="https://www.scivone.com/"
 					name="サイフォン合同会社"
-					img="/img/logo-sponsor-rscivone.png"
+					img="/2024/img/logo-sponsor-rscivone.png"
 					width="1440"
 					height="1440"
 				/>
@@ -277,7 +277,7 @@
 				<Sponsor
 					href="https://www.skword.co.jp/"
 					name="株式会社エスケイワード"
-					img="/img/logo-sponsor-skword.svg"
+					img="/2024/img/logo-sponsor-skword.svg"
 					width="68"
 					height="73"
 				/>
@@ -286,7 +286,7 @@
 				<Sponsor
 					href="https://karabiner.tech"
 					name="カラビナテクノロジー株式会社"
-					img="/img/logo-sponsor-karabiner.svg"
+					img="/2024/img/logo-sponsor-karabiner.svg"
 					width="149"
 					height="151"
 				/>
@@ -295,7 +295,7 @@
 				<Sponsor
 					href="https://p-fab.co.jp"
 					name="株式会社P-Fab"
-					img="/img/logo-sponsor-pfab.svg"
+					img="/2024/img/logo-sponsor-pfab.svg"
 					width="176"
 					height="193"
 				/>
@@ -304,7 +304,7 @@
 				<Sponsor
 					href="https://www.concentinc.jp/"
 					name="株式会社コンセント"
-					img="/img/logo-sponsor-concent.jpg"
+					img="/2024/img/logo-sponsor-concent.jpg"
 					width="176"
 					height="193"
 				/>
@@ -313,7 +313,7 @@
 				<Sponsor
 					href="https://smarthr.jp"
 					name="株式会社SmartHR"
-					img="/img/logo-sponsor-smarthr.svg"
+					img="/2024/img/logo-sponsor-smarthr.svg"
 					width="100"
 					height="98"
 				/>
@@ -322,7 +322,7 @@
 				<Sponsor
 					href="https://www.lct.jp/"
 					name="株式会社リクト"
-					img="/img/logo-sponsor-lct.png"
+					img="/2024/img/logo-sponsor-lct.png"
 					width="100"
 					height="98"
 				/>
@@ -331,7 +331,7 @@
 				<Sponsor
 					href="https://www.shuaruta.com/"
 					name="株式会社シュアルタ"
-					img="/img/logo-sponsor-shuaruta.svg"
+					img="/2024/img/logo-sponsor-shuaruta.svg"
 					width="100"
 					height="98"
 				/>
@@ -340,7 +340,7 @@
 				<Sponsor
 					href="https://www.waca.associates/jp/"
 					name="一般社団法人ウェブ解析士協会"
-					img="/img/logo-sponsor-waca.png"
+					img="/2024/img/logo-sponsor-waca.png"
 					width="100"
 					height="98"
 				/>
@@ -349,7 +349,7 @@
 				<Sponsor
 					href="https://turucame.jp/"
 					name="株式会社ツルカメ"
-					img="/img/logo-sponsor-turucame.png"
+					img="/2024/img/logo-sponsor-turucame.png"
 					width="100"
 					height="98"
 				/>
@@ -358,7 +358,7 @@
 				<Sponsor
 					href="https://coding-factory.com/"
 					name="CODING FACTORY by monosus"
-					img="/img/logo-sponsor-monosus.png"
+					img="/2024/img/logo-sponsor-monosus.png"
 					width="100"
 					height="98"
 				/>
@@ -371,7 +371,7 @@
 				<Sponsor
 					href="https://www.velc.co.jp"
 					name="ヴェルク株式会社"
-					img="/img/logo-sponsor-velc.svg"
+					img="/2024/img/logo-sponsor-velc.svg"
 					width="167"
 					height="47"
 				/>
@@ -380,7 +380,7 @@
 				<Sponsor
 					href="https://nulab.com/ja/"
 					name="株式会社ヌーラボ"
-					img="/img/logo-sponsor-nulab.svg"
+					img="/2024/img/logo-sponsor-nulab.svg"
 					width="84"
 					height="26"
 				/>
@@ -392,7 +392,7 @@
 				<Sponsor
 					href="https://www.aok-net.com/"
 					name="株式会社高知システム開発"
-					img="/img/logo-partner-ksd.png"
+					img="/2024/img/logo-partner-ksd.png"
 					width="84"
 					height="26"
 				/>
@@ -401,7 +401,7 @@
 				<Sponsor
 					href="https://gihyo.jp/book/"
 					name="株式会社技術評論社"
-					img="/img/logo-partner-gihyo.svg"
+					img="/2024/img/logo-partner-gihyo.svg"
 					width="84"
 					height="26"
 				/>

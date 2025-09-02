@@ -13,10 +13,9 @@
 	import TextBody from '$lib/components/text-body.svelte';
 	import Navigation from '$lib/components/navigation.svelte';
 
-	import pictNoda from '$lib/img/pict-speaker-noda.jpg';
-	import pictKoyano from '$lib/img/pict-speaker-koyano.png';
-	import pictSakamaki from '$lib/img/pict-speaker-sakamaki.png';
-	import pictTakaka from '$lib/img/pict-speaker-tanaka.png';
+	import pictOkaue from '$lib/img/pict-speaker-okaue.webp';
+	import pictJosh from '$lib/img/pict-speaker-josh.jpg';
+	import pictMiyamoto from '$lib/img/pict-speaker-miyamoto.webp';
 
 	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg';
 	import pictStaff02 from '$lib/img/pict-staff-posi0202.webp';
@@ -25,7 +24,7 @@
 	import pictStaff05 from '$lib/img/pict-staff-namba.webp';
 	import pictStaff06 from '$lib/img/pict-staff-tantans.webp';
 	import pictStaff07 from '$lib/img/pict-staff-mizuno.webp';
-	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/361129/';
+	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/361129';
 </script>
 
 <svelte:head>
@@ -45,7 +44,6 @@
 <Main>
 	<Section width="narrow">
 		<Heading level={2} id="summary">開催概要</Heading>
-
 		<dl>
 			<div>
 				<dt>日時</dt>
@@ -67,12 +65,12 @@
 				<dt>ライブ配信</dt>
 				<dd>YouTubeにて通常版・情報保障版同時配信</dd>
 			</div>
-			<!--			<div>-->
-			<!--				<dt>参加登録</dt>-->
-			<!--				<dd>-->
-			<!--					<a href={connpassURL}>connpassで事前受付</a>-->
-			<!--				</dd>-->
-			<!--			</div>-->
+				<div>
+					<dt>参加登録</dt>
+					<dd>
+						<a href={connpassURL}>connpassで事前受付</a>
+					</dd>
+				</div>
 			<div>
 				<dt>セッション</dt>
 				<dd>4セッション + 2スポンサーセッション / シングルトラック</dd>
@@ -83,64 +81,62 @@
 			</div>
 		</dl>
 	</Section>
-	<!--	<Section width="narrow">-->
-	<!--		<Heading level={2} id="speakers">登壇者</Heading>-->
+	<Section width="narrow">
+		<Heading level={2} id="speakers">登壇者</Heading>
 
-	<!--		<GridContainer &#45;&#45;col={2} &#45;&#45;justify="start" &#45;&#45;gap="4rem">-->
-	<!--			<GridItem>-->
-	<!--				<Speaker id="tanaka" name="田中みゆき" img={pictTakaka} alt="写真: 田中みゆき" level={3}>-->
-	<!--					<p>-->
-	<!--						キュレーター、プロデューサー。「障害は世界を捉え直す視点」をテーマにカテゴリーにとらわれないプロジェクトを企画。表現の見方や捉え方を障害のある人たち含む鑑賞者とともに再考する。近年の仕事に、映画『ナイトクルージング』（2019年）、21_21-->
-	<!--						DESIGN-->
-	<!--						SIGHT企画展「ルール？展」（2021年）共同ディレクション、展覧会「語りの複数性」（東京都渋谷公園通りギャラリー、2021年）、『音で観るダンスのワークインプログレス』（KAAT神奈川芸術劇場ほか、2017年〜）、『オーディオゲームセンター』（2017年〜）など。2022年ニューヨーク大学障害学センター客員研究員。美術評論家連盟会員。2024年7月に初の単著『誰のためのアクセシビリティ？-->
-	<!--						障害のある人の経験と文化から考える』を出版。共著に『ルール？本　創造的に生きるためのデザイン』（フィルムアート社）がある。-->
-	<!--					</p>-->
-	<!--					<p class="session">-->
-	<!--						<span>セッション1</span>-->
-	<!--						<a href="/schedule#session1"><em>障害は乗り越えられるべき課題なのか？</em></a>-->
-	<!--					</p>-->
-	<!--				</Speaker>-->
-	<!--			</GridItem>-->
-	<!--			<GridItem>-->
-	<!--				<Speaker id="sakamaki" name="坂巻舞羽" img={pictSakamaki} alt="写真: 坂巻舞羽" level={3}>-->
-	<!--					<p>-->
-	<!--						幼少期にホームページ制作を嗜んだことをきっかけに、2014年マークアップエンジニアとしてキャリアをスタート。フロントエンドエンジニアとして数社でウェブサイトやウェブアプリケーションの開発に携わる。ウェブ標準に準拠した開発を重要視し、社外コミュニティで関連文書の勉強会などを主催。2023年、SmartHRに入社し、アクセシビリティスペシャリストとしてプロダクトのアクセシビリティ向上推進を担当。-->
-	<!--					</p>-->
-	<!--					<p class="session">-->
-	<!--						<span>セッション2</span>-->
-	<!--						<a href="/schedule#session2"><em>アクセシビリティをあたりまえにするまで</em></a>-->
-	<!--					</p>-->
-	<!--				</Speaker>-->
-	<!--			</GridItem>-->
-	<!--			<GridItem>-->
-	<!--				<Speaker id="koyano" name="小谷野崇司" img={pictKoyano} alt="写真: 小谷野崇司" level={3}>-->
-	<!--					<p>-->
-	<!--						1996年ニューヨークの音楽情報サイトSonicNetにおいてデジタルガレージ社と共同でSonicNet-->
-	<!--						Japanの立ち上げと運営を行う。チベタンフリーダムコンサートやFuji Rock-->
-	<!--						Festivalなど大規模コンサートのライブ配信に携わる。03年に帰国しNHKエンタープライズに入社。冬のソナタのウェブサイト構築や大河ドラマや朝ドラのデジタルコンテンツ制作に携わる。東京オリンピック・パラリンピックではウェブサイト制作統括を努めた。この時に手話CGの運用にも携わり、現在はそれを進化させたKIKIの開発に取り組んでいる。-->
-	<!--					</p>-->
-	<!--					<p class="session">-->
-	<!--						<span>セッション3</span>-->
-	<!--						<a href="/schedule#session3"><em>手話CG KIKIが繰り広げるインクルーシブ社会の実現</em></a>-->
-	<!--					</p>-->
-	<!--				</Speaker>-->
-	<!--			</GridItem>-->
-	<!--			<GridItem>-->
-	<!--				<Speaker id="noda" name="野田純生" img={pictNoda} alt="写真: 野田純生" level={3}>-->
-	<!--					<p>-->
-	<!--						アルファサード株式会社創業者-->
-	<!--						技術担当取締役。ウェブアクセシビリティチェックツール開発者。2017年から「やさしい日本語」言い換えエンジンの開発に取り組み、サービス名「伝えるウェブ」として提供。-->
-	<!--						2024年4月より株式会社朝日新聞社-->
-	<!--						技術顧問に就任。朝日新聞デジタルをはじめとしたデジタルメディアのウェブアクセシビリティ向上、やさしい日本語の普及に取り組む予定。-->
-	<!--					</p>-->
-	<!--					<p class="session">-->
-	<!--						<span>セッション4</span>-->
-	<!--						<a href="/schedule#session4"><em>選挙のアクセシビリティ</em></a>-->
-	<!--					</p>-->
-	<!--				</Speaker>-->
-	<!--			</GridItem>-->
-	<!--		</GridContainer>-->
-	<!--	</Section>-->
+		<GridContainer --col={2} --justify="start" --gap="4rem">
+			<GridItem>
+				<Speaker id="okaue" name="岡上 洋子" img={pictOkaue} alt="写真: 岡上 洋子" level={3}>
+					<p>
+						2020年4月から、障害者専門のクラウドソーシングサービス「サニーバンク」で主にアクセシビリティ案件を担当。障害当事者ユーザーの意見を取り入れて製品やサービス等のアクセシビリティやユーザビリティを向上したいクライアント様、さまざまなユーザー、アドバイザーをつなぐコーディネーター。
+						育児日記や趣味で撮った写真を掲載するウェブサイトを始めたことでWeb標準に出会う。その後、県の消費生活センターに非常勤職員として勤務するようになり、趣味でウェブサイトをやっていたことから消費生活センターのホームページを担当するようになる。以後、市の消費生活センター、国の広報相談窓口の非常勤職員を経て、2018年4月から2020年3月まで福岡市広報課ウェブアクセシビリティ担当非常勤職員として勤務。
+						ウェブアクセシビリティ基盤委員会（WAIC）招聘専門家。
+					</p>
+					<p class="session">
+						<span>セッション1</span>
+						<a href="/schedule#session1"><em>アクセシビリティでつながるせかい</em></a>
+					</p>
+				</Speaker>
+			</GridItem>
+			<GridItem>
+				<Speaker id="josh" name="グリズデイル・バリージョシュア" img={pictJosh} alt="写真: グリズデイル・バリージョシュア" level={3}>
+					<p>
+						カナダ・トロント出身で、高校時代に日本に興味を持つ。障害があっても夢をあきらめず、2007年に来日して東京に移住し、2016年には日本国籍を取得。日本各地を旅して観光地のバリアフリー状況を調査し、自身のウェブサイト「Accessible Japan（アクセシブル・ジャパン）」で情報を発信している。障害のある人たちが、愛する日本を訪れるきっかけになることを願って活動を続けている。
+						国道交通省 移動等円滑化促進方針策定協議委員会の委員を務めるほか、観光庁 ユニバーサルツーリズム促進事業審査・評価委員会委員やJapan Travel Awardsの審査員としても活躍する。また、地域のアクセシビリティ委員会にも参加し、江戸川区からの推薦で東京オリンピック・パラリンピックの聖火ランナーにも選ばれた。さらに、バリアフリー旅行のコミュニティ「tabifolk（タビフォーク）」も設立した。
+					</p>
+					<p class="session">
+						<span>セッション2</span>
+						<a href="/schedule#session2"><em>最強のおもてなし</em></a>
+					</p>
+				</Speaker>
+			</GridItem>
+			<GridItem>
+				<Speaker id="koyano" name="宮本 采佳" img={pictMiyamoto} alt="写真: 宮本 采佳" level={3}>
+					<p>
+						福岡生まれ・福岡在住のアクセシビリティエンジニア。福岡の制作会社でウェブデザイナー・フロントエンドエンジニア・ディレクターの経験を経て、2020年にフリーランスへ。2017年からウェブアクセシビリティの勉強や啓蒙活動を始め、現在は「マサカリを構えず旗を振る」をモットーに、アクセシビリティチェックや業務委託としてアクセシビリティ推進のサポートを行っている。
+					</p>
+					<p class="session">
+						<span>セッション3</span>
+						<a href="/schedule#session3"><em>アクセシビリティ推進という山登りを支える――理念を道しるべに</em></a>
+					</p>
+				</Speaker>
+			</GridItem>
+<!--			<GridItem>-->
+<!--				<Speaker id="noda" name="野田純生" img={pictNoda} alt="写真: 野田純生" level={3}>-->
+<!--					<p>-->
+<!--						アルファサード株式会社創業者-->
+<!--						技術担当取締役。ウェブアクセシビリティチェックツール開発者。2017年から「やさしい日本語」言い換えエンジンの開発に取り組み、サービス名「伝えるウェブ」として提供。-->
+<!--						2024年4月より株式会社朝日新聞社-->
+<!--						技術顧問に就任。朝日新聞デジタルをはじめとしたデジタルメディアのウェブアクセシビリティ向上、やさしい日本語の普及に取り組む予定。-->
+<!--					</p>-->
+<!--					<p class="session">-->
+<!--						<span>セッション4</span>-->
+<!--						<a href="/schedule#session4"><em>選挙のアクセシビリティ</em></a>-->
+<!--					</p>-->
+<!--				</Speaker>-->
+<!--			</GridItem>-->
+		</GridContainer>
+	</Section>
 
 	<!--	<Section>-->
 	<!--		<Heading level={2} id="sponsors">スポンサー</Heading>-->
