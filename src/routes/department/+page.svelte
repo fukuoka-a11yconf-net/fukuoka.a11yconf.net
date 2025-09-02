@@ -19,7 +19,7 @@
 <Main>
 	<Heading level={1}>運営について</Heading>
 	<Section width="narrow">
-		<Heading level={2}>運営事務局</Heading>
+		<Heading level={2} id="summary">開催概要</Heading>
 		<dl>
 			<div>
 				<dt>団体名称</dt>
@@ -31,7 +31,7 @@
 			</div>
 			<div>
 				<dt>代表者</dt>
-				<dd>代表理事　中村 祐貴子</dd>
+				<dd>代表理事 中村 祐貴子</dd>
 			</div>
 			<div>
 				<dt>所在地</dt>
@@ -43,6 +43,7 @@
 			</div>
 		</dl>
 	</Section>
+
 	<Section width="narrow">
 		<Heading level={2}>ロゴ紹介</Heading>
 		<ClusterContainer --col={2} --align="center">
@@ -51,8 +52,7 @@
 					<img
 						src="/img/logo.svg"
 						alt="アクセシビリティカンファレンス福岡"
-						width="340"
-						height="87"
+						width="100%"
 					/>
 				</figure>
 			</ClusterItem>
@@ -125,6 +125,7 @@
       padding-block: 0.5rem;
       padding-inline: 1rem;
       border-block-end: 1px solid var(--color-border-primary);
+      word-break: break-all;
   }
 
   @media (max-width: 40rem) {

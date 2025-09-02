@@ -33,10 +33,10 @@
 		<Heading level={3}>会場地図</Heading>
 		<ClusterContainer --col={1} --align="center">
 			<ClusterItem>
-				<img src="/img/floor-map-1f.svg" alt="1階フロアマップ" />
+				<img src="/img/floor-map-1f.svg" alt="1階フロアマップ" width="100%" />
 			</ClusterItem>
 			<ClusterItem>
-				<img src="/img/floor-map-5f.svg" alt="5階フロアマップ" />
+				<img src="/img/floor-map-5f.svg" alt="5階フロアマップ" width="100%" />
 			</ClusterItem>
 			</ClusterContainer>
 		<TextBody>
