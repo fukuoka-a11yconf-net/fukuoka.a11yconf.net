@@ -36,7 +36,7 @@
 					<dd id="session1">
 						<p class="sub"><em>セッション1</em></p>
 						<p class="title">
-							<em>アクセシビリティでつながるせかい？</em>
+							<em>アクセシビリティでつながるせかい</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-okaue">岡上 洋子</a></em></p>
 						<p>
