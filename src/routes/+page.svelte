@@ -138,274 +138,154 @@
 		</GridContainer>
 	</Section>
 
-	<!--	<Section>-->
-	<!--		<Heading level={2} id="sponsors">スポンサー</Heading>-->
-	<!--		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>-->
-	<!--		<ClusterContainer &#45;&#45;col={2}>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.d-zero.co.jp"-->
-	<!--					name="株式会社ディーゼロ"-->
-	<!--					img="/img/logo-sponsor-d-zero.svg"-->
-	<!--					width="215"-->
-	<!--					height="158"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.lycorp.co.jp/ja/"-->
-	<!--					name="LINEヤフー株式会社"-->
-	<!--					img="/img/logo-sponsor-lyc.svg"-->
-	<!--					width="775"-->
-	<!--					height="330"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--		</ClusterContainer>-->
+	<Section>
+		<Heading level={2} id="sponsors">スポンサー</Heading>
+		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>
+		<ClusterContainer --col={2}>
+<!--			<ClusterItem>-->
+<!--				<Sponsor-->
+<!--					href="https://www.lycorp.co.jp/ja/"-->
+<!--					name="LINEヤフー株式会社"-->
+<!--					img="/img/logo-sponsor-lyc.svg"-->
+<!--					width="775"-->
+<!--					height="330"-->
+<!--				/>-->
+<!--			</ClusterItem>-->
+<!--			<ClusterItem>-->
+<!--				<Sponsor-->
+<!--					href="https://www.tokyu.co.jp/"-->
+<!--					name="東急株式会社"-->
+<!--					img="/img/logo-sponsor-tokyu.svg"-->
+<!--					width="775"-->
+<!--					height="330"-->
+<!--				/>-->
+<!--			</ClusterItem>-->
+		</ClusterContainer>
 
-	<!--		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>-->
-	<!--		<ClusterContainer &#45;&#45;col={3}>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.zerobase.jp/"-->
-	<!--					name="ゼロベース株式会社"-->
-	<!--					img="/img/logo-sponsor-zerobase.png"-->
-	<!--					width="403"-->
-	<!--					height="345"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://prtimes.jp/"-->
-	<!--					name="株式会社PR TIMES"-->
-	<!--					img="/img/logo-sponsor-prtimes.svg"-->
-	<!--					width="100"-->
-	<!--					height="98"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://infoaxia.co.jp/"-->
-	<!--					name="株式会社インフォアクシア"-->
-	<!--					img="/img/logo-sponsor-infoaxia.svg"-->
-	<!--					width="215"-->
-	<!--					height="158"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://studio.inc/"-->
-	<!--					name="STUDIO株式会社"-->
-	<!--					img="/img/logo-sponsor-studio.svg"-->
-	<!--					width="215"-->
-	<!--					height="158"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.sakura.ad.jp/"-->
-	<!--					name="さくらインターネット株式会社"-->
-	<!--					img="/img/logo-sponsor-sakura.svg"-->
-	<!--					width="215"-->
-	<!--					height="158"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--		</ClusterContainer>-->
+		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
+		<ClusterContainer --col={3}>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.d-zero.co.jp"
+					name="株式会社ディーゼロ"
+					img="/img/logo-sponsor-d-zero.svg"
+					width="215"
+					height="158"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://nulab.com/ja/"
+					name="株式会社ヌーラボ"
+					img="/img/logo-sponsor-nulab.svg"
+					width="84"
+					height="26"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.sakura.ad.jp/"
+					name="さくらインターネット株式会社"
+					img="/img/logo-sponsor-sakura.svg"
+					width="215"
+					height="158"
+				/>
+			</ClusterItem>
+		</ClusterContainer>
 
-	<!--		<Heading level={3} id="sponsors-shilver">シルバースポンサー</Heading>-->
-	<!--		<ClusterContainer &#45;&#45;col={5}>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://trq.co.jp/"-->
-	<!--					name="株式会社トルク"-->
-	<!--					img="/img/logo-sponsor-torque.svg"-->
-	<!--					width="167"-->
-	<!--					height="47"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.kddi-webcommunications.co.jp/"-->
-	<!--					name="株式会社KDDIウェブコミュニケーションズ"-->
-	<!--					img="/img/logo-sponsor-kwc.png"-->
-	<!--					width="167"-->
-	<!--					height="47"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.yumemi.co.jp/"-->
-	<!--					name="株式会社ゆめみ"-->
-	<!--					img="/img/logo-sponsor-yumemi.svg"-->
-	<!--					width="167"-->
-	<!--					height="47"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://noveltyinc.jp/"-->
-	<!--					name="株式会社ノベルティ"-->
-	<!--					img="/img/logo-sponsor-novelty.svg"-->
-	<!--					width="167"-->
-	<!--					height="47"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--		</ClusterContainer>-->
+		<Heading level={3} id="sponsors-shilver">シルバースポンサー</Heading>
+		<ClusterContainer --col={5}>
+			<ClusterItem>
+				<Sponsor
+					href="https://noveltyinc.jp/"
+					name="株式会社ノベルティ"
+					img="/img/logo-sponsor-novelty.svg"
+					width="167"
+					height="47"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://karabiner.tech"
+					name="カラビナテクノロジー株式会社"
+					img="/img/logo-sponsor-karabiner.svg"
+					width="149"
+					height="151"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://trq.co.jp/"
+					name="株式会社トルク"
+					img="/img/logo-sponsor-torque.svg"
+					width="167"
+					height="47"
+				/>
+			</ClusterItem>
+<!--			<ClusterItem>-->
+<!--				<Sponsor-->
+<!--					href="https://chanto.design/"-->
+<!--					name="CHANTO株式会社"-->
+<!--					img="/img/logo-sponsor-chanto.svg"-->
+<!--					width="167"-->
+<!--					height="47"-->
+<!--				/>-->
+<!--			</ClusterItem>-->
+<!--			<ClusterItem>-->
+<!--				<Sponsor-->
+<!--					href="https://www.kddi-webcommunications.co.jp/"-->
+<!--					name="株式会社KDDIウェブコミュニケーションズ"-->
+<!--					img="/img/logo-sponsor-kwc.png"-->
+<!--					width="167"-->
+<!--					height="47"-->
+<!--				/>-->
+<!--			</ClusterItem>-->
+		</ClusterContainer>
 
-	<!--		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>-->
-	<!--		<ClusterContainer &#45;&#45;col={7}>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://rakko.inc/"-->
-	<!--					name="ラッコ株式会社"-->
-	<!--					img="/img/logo-sponsor-rakko.svg"-->
-	<!--					width="1622"-->
-	<!--					height="482"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.scivone.com/"-->
-	<!--					name="サイフォン合同会社"-->
-	<!--					img="/img/logo-sponsor-rscivone.png"-->
-	<!--					width="1440"-->
-	<!--					height="1440"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.skword.co.jp/"-->
-	<!--					name="株式会社エスケイワード"-->
-	<!--					img="/img/logo-sponsor-skword.svg"-->
-	<!--					width="68"-->
-	<!--					height="73"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://karabiner.tech"-->
-	<!--					name="カラビナテクノロジー株式会社"-->
-	<!--					img="/img/logo-sponsor-karabiner.svg"-->
-	<!--					width="149"-->
-	<!--					height="151"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://p-fab.co.jp"-->
-	<!--					name="株式会社P-Fab"-->
-	<!--					img="/img/logo-sponsor-pfab.svg"-->
-	<!--					width="176"-->
-	<!--					height="193"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.concentinc.jp/"-->
-	<!--					name="株式会社コンセント"-->
-	<!--					img="/img/logo-sponsor-concent.jpg"-->
-	<!--					width="176"-->
-	<!--					height="193"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://smarthr.jp"-->
-	<!--					name="株式会社SmartHR"-->
-	<!--					img="/img/logo-sponsor-smarthr.svg"-->
-	<!--					width="100"-->
-	<!--					height="98"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.lct.jp/"-->
-	<!--					name="株式会社リクト"-->
-	<!--					img="/img/logo-sponsor-lct.png"-->
-	<!--					width="100"-->
-	<!--					height="98"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.shuaruta.com/"-->
-	<!--					name="株式会社シュアルタ"-->
-	<!--					img="/img/logo-sponsor-shuaruta.svg"-->
-	<!--					width="100"-->
-	<!--					height="98"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.waca.associates/jp/"-->
-	<!--					name="一般社団法人ウェブ解析士協会"-->
-	<!--					img="/img/logo-sponsor-waca.png"-->
-	<!--					width="100"-->
-	<!--					height="98"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://turucame.jp/"-->
-	<!--					name="株式会社ツルカメ"-->
-	<!--					img="/img/logo-sponsor-turucame.png"-->
-	<!--					width="100"-->
-	<!--					height="98"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://coding-factory.com/"-->
-	<!--					name="CODING FACTORY by monosus"-->
-	<!--					img="/img/logo-sponsor-monosus.png"-->
-	<!--					width="100"-->
-	<!--					height="98"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--		</ClusterContainer>-->
+		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
+		<ClusterContainer --col={7}>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.skword.co.jp/"
+					name="株式会社エスケイワード"
+					img="/img/logo-sponsor-skword.svg"
+					width="68"
+					height="73"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.lct.jp/"
+					name="株式会社リクト"
+					img="/2024/img/logo-sponsor-lct.png"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
+<!--			<ClusterItem>-->
+<!--				<Sponsor-->
+<!--					href="https://www.fukuoka-fg.com/recruit_career/digital/"-->
+<!--					name="株式会社ふくおかフィナンシャルグループ"-->
+<!--					img="/img/logo-sponsor-fukuoka-fg.png"-->
+<!--					width="100"-->
+<!--					height="98"-->
+<!--				/>-->
+<!--			</ClusterItem>-->
+		</ClusterContainer>
 
-	<!--		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>-->
-	<!--		<ClusterContainer &#45;&#45;col={2}>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.velc.co.jp"-->
-	<!--					name="ヴェルク株式会社"-->
-	<!--					img="/img/logo-sponsor-velc.svg"-->
-	<!--					width="167"-->
-	<!--					height="47"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://nulab.com/ja/"-->
-	<!--					name="株式会社ヌーラボ"-->
-	<!--					img="/img/logo-sponsor-nulab.svg"-->
-	<!--					width="84"-->
-	<!--					height="26"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--		</ClusterContainer>-->
-	<!--		<Heading level={3} id="sponsors-snack">特別協賛</Heading>-->
-	<!--		<ClusterContainer &#45;&#45;col={2}>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://www.aok-net.com/"-->
-	<!--					name="株式会社高知システム開発"-->
-	<!--					img="/img/logo-partner-ksd.png"-->
-	<!--					width="84"-->
-	<!--					height="26"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--			<ClusterItem>-->
-	<!--				<Sponsor-->
-	<!--					href="https://gihyo.jp/book/"-->
-	<!--					name="株式会社技術評論社"-->
-	<!--					img="/img/logo-partner-gihyo.svg"-->
-	<!--					width="84"-->
-	<!--					height="26"-->
-	<!--				/>-->
-	<!--			</ClusterItem>-->
-	<!--		</ClusterContainer>-->
-	<!--	</Section>-->
+		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
+		<ClusterContainer --col={2}>
+<!--			<ClusterItem>-->
+<!--				<Sponsor-->
+<!--					href="https://www.kinto-technologies.com/"-->
+<!--					name="KINTOテクノロジーズ株式会社"-->
+<!--					img="/img/logo-sponsor-kinto.png"-->
+<!--					width="100"-->
+<!--					height="98"-->
+<!--				/>-->
+<!--			</ClusterItem>-->
+		</ClusterContainer>
+	</Section>
 
 	<Section>
 		<Heading level={2} id="staff">運営スタッフ</Heading>
