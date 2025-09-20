@@ -125,7 +125,7 @@
 						<p class="title">
 							<em>準備中</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-none">準備中</a></em></p>
+						<p class="speaker"><em><a href="/#speaker-ueki">植木 真</a></em></p>
 						<p>
 						</p>
 					</dd>
