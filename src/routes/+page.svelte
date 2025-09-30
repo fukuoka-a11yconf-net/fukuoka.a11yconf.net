@@ -16,6 +16,7 @@
 	import pictOkaue from '$lib/img/pict-speaker-okaue.webp';
 	import pictJosh from '$lib/img/pict-speaker-josh.jpg';
 	import pictMiyamoto from '$lib/img/pict-speaker-miyamoto.webp';
+	import pictUeki from '$lib/img/pict-speaker-ueki.jpg';
 
 	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg';
 	import pictStaff02 from '$lib/img/pict-staff-posi0202.webp';
@@ -121,20 +122,22 @@
 					</p>
 				</Speaker>
 			</GridItem>
-<!--			<GridItem>-->
-<!--				<Speaker id="noda" name="野田純生" img={pictNoda} alt="写真: 野田純生" level={3}>-->
-<!--					<p>-->
-<!--						アルファサード株式会社創業者-->
-<!--						技術担当取締役。ウェブアクセシビリティチェックツール開発者。2017年から「やさしい日本語」言い換えエンジンの開発に取り組み、サービス名「伝えるウェブ」として提供。-->
-<!--						2024年4月より株式会社朝日新聞社-->
-<!--						技術顧問に就任。朝日新聞デジタルをはじめとしたデジタルメディアのウェブアクセシビリティ向上、やさしい日本語の普及に取り組む予定。-->
-<!--					</p>-->
-<!--					<p class="session">-->
-<!--						<span>セッション4</span>-->
-<!--						<a href="/schedule#session4"><em>選挙のアクセシビリティ</em></a>-->
-<!--					</p>-->
-<!--				</Speaker>-->
-<!--			</GridItem>-->
+			<GridItem>
+				<Speaker id="ueki" name="植木 真" img={pictUeki} alt="写真: 植木 真" level={3}>
+					<p>
+						ウェブアクセシビリティのコンサルタントとして、2004年10月に株式会社インフォアクシアを設立。ウェブサイトやモバイルアプリのアクセシビリティ診断、障害当事者やシニアユーザーによるユーザビリティテスト、クライアント企業の社内研修、ウェブ制作会社のサポートなどを通じて、主に企業ウェブサイトのアクセシビリティ向上に取り組んでいる。日本産業規格「JIS
+						X
+						8341-3」の原案作成に初版の2004年版から参画し、2016年の改定版では原案作成委員会の委員長を務めた。W3CのAccessibility
+						Guidelines Working Group（AGWG）にも2005年から参加しており、現在は「WCAG
+						3.0」の作成に従事している。2012年～2019年にかけては、ウェブアクセシビリティ基盤委員会（WAIC）の委員長を務めた。2020年から「GAAD
+						Japan」、2023年から「A11y Tokyo
+						Meetup」などのイベントも企画・運営している。両親が福岡県出身で、自身も福岡市生まれ。					</p>
+					<p class="session">
+						<span>セッション4</span>
+						<a href="/schedule#session4"><em>準備中</em></a>
+					</p>
+				</Speaker>
+			</GridItem>
 		</GridContainer>
 	</Section>
 
