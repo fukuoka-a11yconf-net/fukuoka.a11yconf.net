@@ -143,8 +143,8 @@
 
 	<Section>
 		<Heading level={2} id="sponsors">スポンサー</Heading>
-		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>
-		<ClusterContainer --col={2}>
+<!--		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>-->
+<!--		<ClusterContainer &#45;&#45;col={2}>-->
 <!--			<ClusterItem>-->
 <!--				<Sponsor-->
 <!--					href="https://www.lycorp.co.jp/ja/"-->
@@ -163,7 +163,7 @@
 <!--					height="330"-->
 <!--				/>-->
 <!--			</ClusterItem>-->
-		</ClusterContainer>
+<!--		</ClusterContainer>-->
 
 		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
 		<ClusterContainer --col={3}>
@@ -187,13 +187,22 @@
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
-					href="https://www.sakura.ad.jp/"
-					name="さくらインターネット株式会社"
-					img="/img/logo-sponsor-sakura.svg"
+					href="https://plaid.co.jp"
+					name="プレイド株式会社"
+					img="/img/logo-sponsor-plaid.png"
 					width="215"
 					height="158"
 				/>
 			</ClusterItem>
+<!--			<ClusterItem>-->
+<!--				<Sponsor-->
+<!--					href="https://www.sakura.ad.jp/"-->
+<!--					name="さくらインターネット株式会社"-->
+<!--					img="/img/logo-sponsor-sakura.svg"-->
+<!--					width="215"-->
+<!--					height="158"-->
+<!--				/>-->
+<!--			</ClusterItem>-->
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-shilver">シルバースポンサー</Heading>
@@ -218,27 +227,27 @@
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
-					href="https://trq.co.jp/"
-					name="株式会社トルク"
-					img="/img/logo-sponsor-torque.svg"
+					href="https://smartrelease.cloud/"
+					name="株式会社KDDIウェブコミュニケーションズ"
+					img="/img/logo-sponsor-smartrelease.png"
 					width="167"
 					height="47"
 				/>
 			</ClusterItem>
 <!--			<ClusterItem>-->
 <!--				<Sponsor-->
-<!--					href="https://chanto.design/"-->
-<!--					name="CHANTO株式会社"-->
-<!--					img="/img/logo-sponsor-chanto.svg"-->
+<!--					href="https://trq.co.jp/"-->
+<!--					name="株式会社トルク"-->
+<!--					img="/img/logo-sponsor-torque.svg"-->
 <!--					width="167"-->
 <!--					height="47"-->
 <!--				/>-->
 <!--			</ClusterItem>-->
 <!--			<ClusterItem>-->
 <!--				<Sponsor-->
-<!--					href="https://www.kddi-webcommunications.co.jp/"-->
-<!--					name="株式会社KDDIウェブコミュニケーションズ"-->
-<!--					img="/img/logo-sponsor-kwc.png"-->
+<!--					href="https://chanto.design/"-->
+<!--					name="CHANTO株式会社"-->
+<!--					img="/img/logo-sponsor-chanto.svg"-->
 <!--					width="167"-->
 <!--					height="47"-->
 <!--				/>-->
@@ -260,7 +269,25 @@
 				<Sponsor
 					href="https://www.lct.jp/"
 					name="株式会社リクト"
-					img="/2024/img/logo-sponsor-lct.png"
+					img="/img/logo-sponsor-lct.svg"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href=" https://turucame.jp/"
+					name="株式会社ツルカメ"
+					img="/img/logo-sponsor-turucame.svg"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://rakko.inc/"
+					name="ラッコ株式会社"
+					img="/img/logo-sponsor-rakko.svg"
 					width="100"
 					height="98"
 				/>
@@ -278,15 +305,15 @@
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
 		<ClusterContainer --col={2}>
-<!--			<ClusterItem>-->
-<!--				<Sponsor-->
-<!--					href="https://www.kinto-technologies.com/"-->
-<!--					name="KINTOテクノロジーズ株式会社"-->
-<!--					img="/img/logo-sponsor-kinto.png"-->
-<!--					width="100"-->
-<!--					height="98"-->
-<!--				/>-->
-<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https://www.kinto-technologies.com/"
+					name="KINTOテクノロジーズ株式会社"
+					img="/img/logo-sponsor-kinto.svg"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 	</Section>
 
