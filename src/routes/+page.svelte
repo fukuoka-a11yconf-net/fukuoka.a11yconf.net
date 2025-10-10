@@ -255,14 +255,12 @@
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
-		<ClusterContainer --col={7}>
+		<ClusterContainer --col={6}>
 			<ClusterItem>
 				<Sponsor
 					href="https://www.skword.co.jp/"
 					name="株式会社エスケイワード"
 					img="/img/logo-sponsor-skword.svg"
-					width="68"
-					height="73"
 				/>
 			</ClusterItem>
 			<ClusterItem>
@@ -270,8 +268,6 @@
 					href="https://www.lct.jp/"
 					name="株式会社リクト"
 					img="/img/logo-sponsor-lct.svg"
-					width="100"
-					height="98"
 				/>
 			</ClusterItem>
 			<ClusterItem>
@@ -279,8 +275,6 @@
 					href=" https://turucame.jp/"
 					name="株式会社ツルカメ"
 					img="/img/logo-sponsor-turucame.svg"
-					width="100"
-					height="98"
 				/>
 			</ClusterItem>
 			<ClusterItem>
@@ -288,8 +282,6 @@
 					href="https://rakko.inc/"
 					name="ラッコ株式会社"
 					img="/img/logo-sponsor-rakko.svg"
-					width="100"
-					height="98"
 				/>
 			</ClusterItem>
 <!--			<ClusterItem>-->
@@ -310,8 +302,6 @@
 					href="https://www.kinto-technologies.com/"
 					name="KINTOテクノロジーズ株式会社"
 					img="/img/logo-sponsor-kinto.svg"
-					width="100"
-					height="98"
 				/>
 			</ClusterItem>
 		</ClusterContainer>
