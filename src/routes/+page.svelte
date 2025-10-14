@@ -255,7 +255,7 @@
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
-		<ClusterContainer --col={6}>
+		<ClusterContainer --col={7}>
 			<ClusterItem>
 				<Sponsor
 					href="https://www.skword.co.jp/"
