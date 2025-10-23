@@ -274,7 +274,7 @@
 				<Sponsor
 					href=" https://turucame.jp/"
 					name="株式会社ツルカメ"
-					img="/img/logo-sponsor-turucame.svg"
+					img="/img/logo-sponsor-turucame.png"
 				/>
 			</ClusterItem>
 			<ClusterItem>
