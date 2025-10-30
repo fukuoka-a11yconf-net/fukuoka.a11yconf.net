@@ -284,15 +284,15 @@
 					img="/img/logo-sponsor-rakko.svg"
 				/>
 			</ClusterItem>
-<!--			<ClusterItem>-->
-<!--				<Sponsor-->
-<!--					href="https://www.fukuoka-fg.com/recruit_career/digital/"-->
-<!--					name="株式会社ふくおかフィナンシャルグループ"-->
-<!--					img="/img/logo-sponsor-fukuoka-fg.png"-->
-<!--					width="100"-->
-<!--					height="98"-->
-<!--				/>-->
-<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https://www.fukuoka-fg.com/recruit_career/digital/"
+					name="株式会社ふくおかフィナンシャルグループ"
+					img="/img/logo-sponsor-ffg.svg"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
