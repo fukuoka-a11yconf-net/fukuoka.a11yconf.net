@@ -39,8 +39,7 @@
 							<em>アクセシビリティでつながるせかい</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-okaue">岡上 洋子</a></em></p>
-						<p>
-						</p>
+						<p></p>
 					</dd>
 				</div>
 				<div class="break">
@@ -72,10 +71,10 @@
 						<p class="title">
 							<em>最強のおもてなし</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-josh">グリズデイル・バリージョシュア</a></em></p>
-						<p>
-							※ 本セッションは事前収録となります
+						<p class="speaker">
+							<em><a href="/#speaker-josh">グリズデイル・バリージョシュア</a></em>
 						</p>
+						<p>※ 本セッションは事前収録となります</p>
 					</dd>
 				</div>
 				<div class="break">
@@ -92,8 +91,7 @@
 							<em>アクセシビリティ推進という山登りを支える――理念を道しるべに</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-miyamoto">宮本 采佳</a></em></p>
-						<p>
-						</p>
+						<p></p>
 					</dd>
 				</div>
 				<div class="break">
@@ -126,8 +124,7 @@
 							<em>準備中</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-ueki">植木 真</a></em></p>
-						<p>
-						</p>
+						<p></p>
 					</dd>
 				</div>
 				<div class="break">

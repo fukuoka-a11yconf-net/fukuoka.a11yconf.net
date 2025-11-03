@@ -66,12 +66,12 @@
 				<dt>ライブ配信</dt>
 				<dd>YouTubeにて通常版・情報保障版同時配信</dd>
 			</div>
-				<div>
-					<dt>参加登録</dt>
-					<dd>
-						<a href={connpassURL}>connpassで事前受付</a>
-					</dd>
-				</div>
+			<div>
+				<dt>参加登録</dt>
+				<dd>
+					<a href={connpassURL}>connpassで事前受付</a>
+				</dd>
+			</div>
 			<div>
 				<dt>セッション</dt>
 				<dd>4セッション + 2スポンサーセッション / シングルトラック</dd>
@@ -100,10 +100,19 @@
 				</Speaker>
 			</GridItem>
 			<GridItem>
-				<Speaker id="josh" name="グリズデイル・バリージョシュア" img={pictJosh} alt="写真: グリズデイル・バリージョシュア" level={3}>
+				<Speaker
+					id="josh"
+					name="グリズデイル・バリージョシュア"
+					img={pictJosh}
+					alt="写真: グリズデイル・バリージョシュア"
+					level={3}
+				>
 					<p>
-						カナダ・トロント出身で、高校時代に日本に興味を持つ。障害があっても夢をあきらめず、2007年に来日して東京に移住し、2016年には日本国籍を取得。日本各地を旅して観光地のバリアフリー状況を調査し、自身のウェブサイト「Accessible Japan（アクセシブル・ジャパン）」で情報を発信している。障害のある人たちが、愛する日本を訪れるきっかけになることを願って活動を続けている。
-						国道交通省 移動等円滑化促進方針策定協議委員会の委員を務めるほか、観光庁 ユニバーサルツーリズム促進事業審査・評価委員会委員やJapan Travel Awardsの審査員としても活躍する。また、地域のアクセシビリティ委員会にも参加し、江戸川区からの推薦で東京オリンピック・パラリンピックの聖火ランナーにも選ばれた。さらに、バリアフリー旅行のコミュニティ「tabifolk（タビフォーク）」も設立した。
+						カナダ・トロント出身で、高校時代に日本に興味を持つ。障害があっても夢をあきらめず、2007年に来日して東京に移住し、2016年には日本国籍を取得。日本各地を旅して観光地のバリアフリー状況を調査し、自身のウェブサイト「Accessible
+						Japan（アクセシブル・ジャパン）」で情報を発信している。障害のある人たちが、愛する日本を訪れるきっかけになることを願って活動を続けている。
+						国道交通省 移動等円滑化促進方針策定協議委員会の委員を務めるほか、観光庁
+						ユニバーサルツーリズム促進事業審査・評価委員会委員やJapan Travel
+						Awardsの審査員としても活躍する。また、地域のアクセシビリティ委員会にも参加し、江戸川区からの推薦で東京オリンピック・パラリンピックの聖火ランナーにも選ばれた。さらに、バリアフリー旅行のコミュニティ「tabifolk（タビフォーク）」も設立した。
 					</p>
 					<p class="session">
 						<span>セッション2</span>
@@ -118,7 +127,9 @@
 					</p>
 					<p class="session">
 						<span>セッション3</span>
-						<a href="/schedule#session3"><em>アクセシビリティ推進という山登りを支える――理念を道しるべに</em></a>
+						<a href="/schedule#session3"
+							><em>アクセシビリティ推進という山登りを支える――理念を道しるべに</em></a
+						>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -131,7 +142,8 @@
 						Guidelines Working Group（AGWG）にも2005年から参加しており、現在は「WCAG
 						3.0」の作成に従事している。2012年～2019年にかけては、ウェブアクセシビリティ基盤委員会（WAIC）の委員長を務めた。2020年から「GAAD
 						Japan」、2023年から「A11y Tokyo
-						Meetup」などのイベントも企画・運営している。両親が福岡県出身で、自身も福岡市生まれ。					</p>
+						Meetup」などのイベントも企画・運営している。両親が福岡県出身で、自身も福岡市生まれ。
+					</p>
 					<p class="session">
 						<span>セッション4</span>
 						<a href="/schedule#session4"><em>準備中</em></a>
@@ -154,15 +166,15 @@
 					height="330"
 				/>
 			</ClusterItem>
-<!--			<ClusterItem>-->
-<!--				<Sponsor-->
-<!--					href="https://www.tokyu.co.jp/"-->
-<!--					name="東急株式会社"-->
-<!--					img="/img/logo-sponsor-tokyu.svg"-->
-<!--					width="775"-->
-<!--					height="330"-->
-<!--				/>-->
-<!--			</ClusterItem>-->
+			<!--			<ClusterItem>-->
+			<!--				<Sponsor-->
+			<!--					href="https://www.tokyu.co.jp/"-->
+			<!--					name="東急株式会社"-->
+			<!--					img="/img/logo-sponsor-tokyu.svg"-->
+			<!--					width="775"-->
+			<!--					height="330"-->
+			<!--				/>-->
+			<!--			</ClusterItem>-->
 		</ClusterContainer>
 		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
 		<ClusterContainer --col={3}>
@@ -193,15 +205,15 @@
 					height="158"
 				/>
 			</ClusterItem>
-<!--			<ClusterItem>-->
-<!--				<Sponsor-->
-<!--					href="https://www.sakura.ad.jp/"-->
-<!--					name="さくらインターネット株式会社"-->
-<!--					img="/img/logo-sponsor-sakura.svg"-->
-<!--					width="215"-->
-<!--					height="158"-->
-<!--				/>-->
-<!--			</ClusterItem>-->
+			<!--			<ClusterItem>-->
+			<!--				<Sponsor-->
+			<!--					href="https://www.sakura.ad.jp/"-->
+			<!--					name="さくらインターネット株式会社"-->
+			<!--					img="/img/logo-sponsor-sakura.svg"-->
+			<!--					width="215"-->
+			<!--					height="158"-->
+			<!--				/>-->
+			<!--			</ClusterItem>-->
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-shilver">シルバースポンサー</Heading>
@@ -242,15 +254,15 @@
 					height="47"
 				/>
 			</ClusterItem>
-<!--			<ClusterItem>-->
-<!--				<Sponsor-->
-<!--					href="https://chanto.design/"-->
-<!--					name="CHANTO株式会社"-->
-<!--					img="/img/logo-sponsor-chanto.svg"-->
-<!--					width="167"-->
-<!--					height="47"-->
-<!--				/>-->
-<!--			</ClusterItem>-->
+			<!--			<ClusterItem>-->
+			<!--				<Sponsor-->
+			<!--					href="https://chanto.design/"-->
+			<!--					name="CHANTO株式会社"-->
+			<!--					img="/img/logo-sponsor-chanto.svg"-->
+			<!--					width="167"-->
+			<!--					height="47"-->
+			<!--				/>-->
+			<!--			</ClusterItem>-->
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
@@ -263,11 +275,7 @@
 				/>
 			</ClusterItem>
 			<ClusterItem>
-				<Sponsor
-					href="https://www.lct.jp/"
-					name="株式会社リクト"
-					img="/img/logo-sponsor-lct.svg"
-				/>
+				<Sponsor href="https://www.lct.jp/" name="株式会社リクト" img="/img/logo-sponsor-lct.svg" />
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
@@ -414,11 +422,18 @@
 		<Heading level={2} id="sponsors-looking">スポンサー募集</Heading>
 		<TextBody fit>
 			<p>開催にあたり、ご協賛いただけるスポンサー様を募集しております。</p>
-			<p>当カンファレンスにご協賛いただく企業・団体様や提供サービスに触れる機会の創出に貢献できるよう運営して参ります。</p>
-			<p>スポンサープログラムは、おやつ、プラチナ、ゴールド、シルバー、ブロンズの5種類ご用意しております。詳しくは、スポンサー向け企画概要資料（Googleスライドをご確認ください。</p>
+			<p>
+				当カンファレンスにご協賛いただく企業・団体様や提供サービスに触れる機会の創出に貢献できるよう運営して参ります。
+			</p>
+			<p>
+				スポンサープログラムは、おやつ、プラチナ、ゴールド、シルバー、ブロンズの5種類ご用意しております。詳しくは、スポンサー向け企画概要資料（Googleスライドをご確認ください。
+			</p>
 		</TextBody>
 		<div class="apply">
-			<a href="https://docs.google.com/presentation/d/1aM9jWUY9mvzrEz4UDXipFznBUGI5U_K144p01pa7bT8/edit?usp=sharing" target="_blank">資料はこちら</a>
+			<a
+				href="https://docs.google.com/presentation/d/1aM9jWUY9mvzrEz4UDXipFznBUGI5U_K144p01pa7bT8/edit?usp=sharing"
+				target="_blank">資料はこちら</a
+			>
 		</div>
 	</Section>
 </Main>
@@ -541,26 +556,26 @@
 		word-break: break-all;
 	}
 
-  .apply {
-      align-self: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-block: 2rem 0;
-  }
+	.apply {
+		align-self: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-block: 2rem 0;
+	}
 
-  .apply a {
-      display: block;
-      padding-block: 1em 1.25em;
-      padding-inline: 1.5em;
-      text-decoration: underline dashed;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 0.4em;
-      color: inherit;
-      font-size: 1.5rem;
-      line-height: 1;
-      background-color: var(--color-bg-base);
-      border: 3px solid var(--color-border-primary);
-      border-radius: 10rem;
-  }
+	.apply a {
+		display: block;
+		padding-block: 1em 1.25em;
+		padding-inline: 1.5em;
+		text-decoration: underline dashed;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.4em;
+		color: inherit;
+		font-size: 1.5rem;
+		line-height: 1;
+		background-color: var(--color-bg-base);
+		border: 3px solid var(--color-border-primary);
+		border-radius: 10rem;
+	}
 </style>

@@ -118,59 +118,59 @@
 		background-color: var(--color-link-hover-bg);
 	}
 
-  dl {
-      font-size: 1.5rem;
-      margin-block: 0;
-      margin-inline: auto;
-      max-width: fit-content;
-      display: grid;
-      gap: 0;
-      grid-template-columns: auto 1fr;
-  }
+	dl {
+		font-size: 1.5rem;
+		margin-block: 0;
+		margin-inline: auto;
+		max-width: fit-content;
+		display: grid;
+		gap: 0;
+		grid-template-columns: auto 1fr;
+	}
 
-  @media (max-width: 40rem) {
-      dl {
-          display: block;
-          font-size: 1rem;
-      }
-  }
+	@media (max-width: 40rem) {
+		dl {
+			display: block;
+			font-size: 1rem;
+		}
+	}
 
-  dl > div {
-      display: contents;
-  }
+	dl > div {
+		display: contents;
+	}
 
-  dt {
-      margin: 0;
-      padding-block: 0.5rem;
-      padding-inline: 1rem;
-      border-block-end: 3px solid var(--color-border-primary);
-  }
+	dt {
+		margin: 0;
+		padding-block: 0.5rem;
+		padding-inline: 1rem;
+		border-block-end: 3px solid var(--color-border-primary);
+	}
 
-  @media (max-width: 40rem) {
-      dt {
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          padding-block-start: 2rem;
-          padding-inline: 0;
-          border-block-end: none;
-          gap: 1rem;
-      }
-  }
+	@media (max-width: 40rem) {
+		dt {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			padding-block-start: 2rem;
+			padding-inline: 0;
+			border-block-end: none;
+			gap: 1rem;
+		}
+	}
 
-  dd {
-      margin: 0;
-      padding-block: 0.5rem;
-      padding-inline: 1rem;
-      border-block-end: 1px solid var(--color-border-primary);
-  }
+	dd {
+		margin: 0;
+		padding-block: 0.5rem;
+		padding-inline: 1rem;
+		border-block-end: 1px solid var(--color-border-primary);
+	}
 
-  @media (max-width: 40rem) {
-      dd {
-          margin-inline-start: 1rem;
-          padding-inline-start: 1rem;
-          border-inline-start: 1px solid var(--color-border-primary);
-          border-block-end: none;
-      }
-  }
+	@media (max-width: 40rem) {
+		dd {
+			margin-inline-start: 1rem;
+			padding-inline-start: 1rem;
+			border-inline-start: 1px solid var(--color-border-primary);
+			border-block-end: none;
+		}
+	}
 </style>

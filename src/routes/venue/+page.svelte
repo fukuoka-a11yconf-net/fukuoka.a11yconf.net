@@ -38,24 +38,31 @@
 			<ClusterItem>
 				<img src="/img/floor-map-5f.svg" alt="5階フロアマップ" width="100%" />
 			</ClusterItem>
-			</ClusterContainer>
-		<TextBody>
-		</TextBody>
+		</ClusterContainer>
+		<TextBody></TextBody>
 		<Heading level={3}>お手洗い</Heading>
 		<TextBody>
-			<p>5階の会場フロアと4階のフロアで利用可能です。各階ともにエレベーターを出て右奥にあります。</p>
-			<p>それぞれ男性用トイレ（小便器2つ、洋式の個室2つ）、女性用トイレ（洋式の個室2つ）があります。</p>
-			<p>バリアフリートイレは社務所ビル1階の社務所内、警固神社敷地内のTHE KEGO CLUB SALONの2か所でご利用いただけます。</p>
-			<p>イベント等でバリアフリートイレが一時的にご利用いただけない場合があります。予めご了承ください。</p>
+			<p>
+				5階の会場フロアと4階のフロアで利用可能です。各階ともにエレベーターを出て右奥にあります。
+			</p>
+			<p>
+				それぞれ男性用トイレ（小便器2つ、洋式の個室2つ）、女性用トイレ（洋式の個室2つ）があります。
+			</p>
+			<p>
+				バリアフリートイレは社務所ビル1階の社務所内、警固神社敷地内のTHE KEGO CLUB
+				SALONの2か所でご利用いただけます。
+			</p>
+			<p>
+				イベント等でバリアフリートイレが一時的にご利用いただけない場合があります。予めご了承ください。
+			</p>
 		</TextBody>
 		<Heading level={3}>喫煙所</Heading>
 		<TextBody>
 			<p>会場のビル内にございませんので、ビル横の警固公園の喫煙所をご利用ください。</p>
 			<p>
 				警固公園 喫煙所 〒810-0001 福岡県福岡市中央区天神２丁目２ (<a
-				href="https://maps.app.goo.gl/KsFDiesoESbw4JF39"
-			>Google Maps</a
-			>)
+					href="https://maps.app.goo.gl/KsFDiesoESbw4JF39">Google Maps</a
+				>)
 			</p>
 		</TextBody>
 		<Heading level={3}>託児所</Heading>
