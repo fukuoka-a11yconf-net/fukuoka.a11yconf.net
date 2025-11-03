@@ -143,17 +143,17 @@
 
 	<Section>
 		<Heading level={2} id="sponsors">スポンサー</Heading>
-<!--		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>-->
-<!--		<ClusterContainer &#45;&#45;col={2}>-->
-<!--			<ClusterItem>-->
-<!--				<Sponsor-->
-<!--					href="https://www.lycorp.co.jp/ja/"-->
-<!--					name="LINEヤフー株式会社"-->
-<!--					img="/img/logo-sponsor-lyc.svg"-->
-<!--					width="775"-->
-<!--					height="330"-->
-<!--				/>-->
-<!--			</ClusterItem>-->
+		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>
+		<ClusterContainer --col={2}>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.lycorp.co.jp/ja/technology-design/"
+					name="LINEヤフー株式会社"
+					img="/img/logo-sponsor-lycorp.svg"
+					width="775"
+					height="330"
+				/>
+			</ClusterItem>
 <!--			<ClusterItem>-->
 <!--				<Sponsor-->
 <!--					href="https://www.tokyu.co.jp/"-->
@@ -163,8 +163,7 @@
 <!--					height="330"-->
 <!--				/>-->
 <!--			</ClusterItem>-->
-<!--		</ClusterContainer>-->
-
+		</ClusterContainer>
 		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
 		<ClusterContainer --col={3}>
 			<ClusterItem>
@@ -234,15 +233,15 @@
 					height="47"
 				/>
 			</ClusterItem>
-<!--			<ClusterItem>-->
-<!--				<Sponsor-->
-<!--					href="https://trq.co.jp/"-->
-<!--					name="株式会社トルク"-->
-<!--					img="/img/logo-sponsor-torque.svg"-->
-<!--					width="167"-->
-<!--					height="47"-->
-<!--				/>-->
-<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https://trq.co.jp/"
+					name="株式会社トルク"
+					img="/img/logo-sponsor-torque.svg"
+					width="167"
+					height="47"
+				/>
+			</ClusterItem>
 <!--			<ClusterItem>-->
 <!--				<Sponsor-->
 <!--					href="https://chanto.design/"-->
