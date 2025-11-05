@@ -166,15 +166,15 @@
 					height="330"
 				/>
 			</ClusterItem>
-			<!--			<ClusterItem>-->
-			<!--				<Sponsor-->
-			<!--					href="https://www.tokyu.co.jp/"-->
-			<!--					name="東急株式会社"-->
-			<!--					img="/img/logo-sponsor-tokyu.svg"-->
-			<!--					width="775"-->
-			<!--					height="330"-->
-			<!--				/>-->
-			<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https://www.tokyu.co.jp/"
+					name="東急株式会社"
+					img="/img/logo-sponsor-tokyu.svg"
+					width="775"
+					height="330"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
 		<ClusterContainer --col={3}>
