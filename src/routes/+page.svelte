@@ -300,6 +300,15 @@
 					height="98"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.concentinc.jp"
+					name="株式会社コンセント"
+					img="/img/logo-sponsor-concentinc.jpg"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
