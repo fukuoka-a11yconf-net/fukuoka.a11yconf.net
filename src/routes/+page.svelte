@@ -146,7 +146,9 @@
 					</p>
 					<p class="session">
 						<span>セッション4</span>
-						<a href="/schedule#session4"><em>準備中</em></a>
+						<a href="/schedule#session4"
+							><em>先行する海外やWCAGからの学びを実践に「つなげる」</em></a
+						>
 					</p>
 				</Speaker>
 			</GridItem>
