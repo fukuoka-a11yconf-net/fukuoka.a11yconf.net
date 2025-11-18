@@ -146,9 +146,7 @@
 					</p>
 					<p class="session">
 						<span>セッション4</span>
-						<a href="/schedule#session4"
-							><em>先行する海外やWCAGからの学びを実践に「つなげる」</em></a
-						>
+						<a href="/schedule#session4"><em>準備中</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -295,15 +293,6 @@
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
-					href="https://www.fukuoka-fg.com/recruit_career/digital/"
-					name="株式会社ふくおかフィナンシャルグループ"
-					img="/img/logo-sponsor-ffg.svg"
-					width="100"
-					height="98"
-				/>
-			</ClusterItem>
-			<ClusterItem>
-				<Sponsor
 					href="https://www.concentinc.jp"
 					name="株式会社コンセント"
 					img="/img/logo-sponsor-concentinc.jpg"
@@ -311,6 +300,24 @@
 					height="98"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.minna-no-ginko.com/"
+					name="株式会社みんなの銀行"
+					img="/img/logo-sponsor-minna-no-ginko.svg"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
+			<!--			<ClusterItem>-->
+			<!--				<Sponsor-->
+			<!--					href="https://www.fukuoka-fg.com/recruit_career/digital/"-->
+			<!--					name="株式会社ふくおかフィナンシャルグループ"-->
+			<!--					img="/img/logo-sponsor-ffg.svg"-->
+			<!--					width="100"-->
+			<!--					height="98"-->
+			<!--				/>-->
+			<!--			</ClusterItem>-->
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>

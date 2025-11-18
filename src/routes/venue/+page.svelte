@@ -67,7 +67,12 @@
 		</TextBody>
 		<Heading level={3}>託児所</Heading>
 		<TextBody>
-			<p>準備中</p>
+			<p>カンファレンス会場と同施設内の別フロアにて、外部委託の元で運営いたします。</p>
+			<p>
+				イベントの<a href="https://fukuoka-a11yconf.connpass.com/event/361129/" target="_blank"
+					>connpass</a
+				>にて詳細情報をご確認ください。
+			</p>
 		</TextBody>
 		<Heading level={2}>ライブ配信</Heading>
 		<TextBody>
