@@ -25,6 +25,7 @@
 	import pictStaff05 from '$lib/img/pict-staff-namba.webp';
 	import pictStaff06 from '$lib/img/pict-staff-tantans.webp';
 	import pictStaff07 from '$lib/img/pict-staff-mizuno.webp';
+
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/361129';
 </script>
 
@@ -146,7 +147,9 @@
 					</p>
 					<p class="session">
 						<span>セッション4</span>
-						<a href="/schedule#session4"><em>準備中</em></a>
+						<a href="/schedule#session4"
+							><em>先行する海外やWCAGからの学びを実践に「つなげる」</em></a
+						>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -309,15 +312,15 @@
 					height="98"
 				/>
 			</ClusterItem>
-			<!--			<ClusterItem>-->
-			<!--				<Sponsor-->
-			<!--					href="https://www.fukuoka-fg.com/recruit_career/digital/"-->
-			<!--					name="株式会社ふくおかフィナンシャルグループ"-->
-			<!--					img="/img/logo-sponsor-ffg.svg"-->
-			<!--					width="100"-->
-			<!--					height="98"-->
-			<!--				/>-->
-			<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https://www.fukuoka-fg.com/recruit_career/digital/"
+					name="株式会社ふくおかフィナンシャルグループ"
+					img="/img/logo-sponsor-ffg.svg"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
