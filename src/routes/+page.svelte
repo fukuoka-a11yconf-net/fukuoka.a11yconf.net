@@ -438,25 +438,6 @@
 			</p>
 		</TextBody>
 	</Section>
-
-	<Section width="narrow">
-		<Heading level={2} id="sponsors-looking">スポンサー募集</Heading>
-		<TextBody fit>
-			<p>開催にあたり、ご協賛いただけるスポンサー様を募集しております。</p>
-			<p>
-				当カンファレンスにご協賛いただく企業・団体様や提供サービスに触れる機会の創出に貢献できるよう運営して参ります。
-			</p>
-			<p>
-				スポンサープログラムは、おやつ、プラチナ、ゴールド、シルバー、ブロンズの5種類ご用意しております。詳しくは、スポンサー向け企画概要資料（Googleスライドをご確認ください。
-			</p>
-		</TextBody>
-		<div class="apply">
-			<a
-				href="https://docs.google.com/presentation/d/1aM9jWUY9mvzrEz4UDXipFznBUGI5U_K144p01pa7bT8/edit?usp=sharing"
-				target="_blank">資料はこちら</a
-			>
-		</div>
-	</Section>
 </Main>
 
 <style>

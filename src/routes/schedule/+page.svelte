@@ -51,9 +51,9 @@
 				<div>
 					<dt>14:20</dt>
 					<dd>
-						<p class="sub"><em>スポンサーセッション</em></p>
+						<p class="sub"><em>スポンサーセッション プラチナスポンサー LINEヤフー株式会社</em></p>
 						<p class="title">
-							<em>準備中</em>
+							<em>Yahoo! JAPANトップページ〜アクセシビリティのせかいをつなぐ〜</em>
 						</p>
 						<p class="speaker sponsor"><em></em></p>
 					</dd>
@@ -103,9 +103,9 @@
 				<div>
 					<dt>16:40</dt>
 					<dd>
-						<p class="sub"><em>スポンサーセッション</em></p>
+						<p class="sub"><em>スポンサーセッション プラチナスポンサー 東急株式会社</em></p>
 						<p class="title">
-							<em>準備中</em>
+							<em>東急・東急電鉄のアクセシビリティへの取り組みについて</em>
 						</p>
 						<p class="speaker sponsor"><em></em></p>
 					</dd>
