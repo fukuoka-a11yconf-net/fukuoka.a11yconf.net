@@ -180,7 +180,7 @@
 			</ClusterItem>
 		</ClusterContainer>
 		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
-		<ClusterContainer --col={3}>
+		<ClusterContainer --col={4}>
 			<ClusterItem>
 				<Sponsor
 					href="https://www.d-zero.co.jp"
