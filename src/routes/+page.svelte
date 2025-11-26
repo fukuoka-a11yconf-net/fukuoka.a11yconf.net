@@ -380,7 +380,7 @@
 					role="実行委員"
 					org="株式会社Fusic"
 					snsX="taketada323"
-					snsGH="TakehiroTada1"
+					snsGH="TakehiroTada"
 				/>
 			</ClusterItem>
 			<ClusterItem>
