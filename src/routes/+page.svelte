@@ -171,7 +171,7 @@
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
-					href="https://www.tokyu.co.jp/"
+					href="https://10q89s.jp/"
 					name="東急株式会社"
 					img="/img/logo-sponsor-tokyu.svg"
 					width="775"
@@ -208,15 +208,15 @@
 					height="158"
 				/>
 			</ClusterItem>
-			<!--			<ClusterItem>-->
-			<!--				<Sponsor-->
-			<!--					href="https://www.sakura.ad.jp/"-->
-			<!--					name="さくらインターネット株式会社"-->
-			<!--					img="/img/logo-sponsor-sakura.svg"-->
-			<!--					width="215"-->
-			<!--					height="158"-->
-			<!--				/>-->
-			<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https://www.sakura.ad.jp/"
+					name="さくらインターネット株式会社"
+					img="/img/logo-sponsor-sakura.svg"
+					width="215"
+					height="158"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-shilver">シルバースポンサー</Heading>
