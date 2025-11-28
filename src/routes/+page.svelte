@@ -257,15 +257,15 @@
 					height="47"
 				/>
 			</ClusterItem>
-			<!--			<ClusterItem>-->
-			<!--				<Sponsor-->
-			<!--					href="https://chanto.design/"-->
-			<!--					name="CHANTO株式会社"-->
-			<!--					img="/img/logo-sponsor-chanto.svg"-->
-			<!--					width="167"-->
-			<!--					height="47"-->
-			<!--				/>-->
-			<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https:chanto.design?id=ac_conference_2025"
+					name="CHANTO株式会社"
+					img="/img/logo-sponsor-chanto.svg"
+					width="167"
+					height="47"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
