@@ -321,24 +321,24 @@
 					height="98"
 				/>
 			</ClusterItem>
-			<!--			<ClusterItem>-->
-			<!--				<Sponsor-->
-			<!--					href="https://www.dentsudigital.co.jp/"-->
-			<!--					name="株式会社電通デジタル"-->
-			<!--					img="/img/logo-sponsor-dentsu.png"-->
-			<!--					width="100"-->
-			<!--					height="98"-->
-			<!--				/>-->
-			<!--			</ClusterItem>-->
-			<!--			<ClusterItem>-->
-			<!--				<Sponsor-->
-			<!--					href="https://www.glode.co.jp/"-->
-			<!--					name="グローバルデザイン株式会社"-->
-			<!--					img="/img/logo-sponsor-glode.svg"-->
-			<!--					width="100"-->
-			<!--					height="98"-->
-			<!--				/>-->
-			<!--			</ClusterItem>-->
+			<ClusterItem>
+				<Sponsor
+					href="https://www.dentsudigital.co.jp/"
+					name="株式会社電通デジタル"
+					img="/img/logo-sponsor-dentsu.png"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.glode.co.jp/"
+					name="グローバルデザイン株式会社"
+					img="/img/logo-sponsor-glode.svg"
+					width="100"
+					height="98"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
