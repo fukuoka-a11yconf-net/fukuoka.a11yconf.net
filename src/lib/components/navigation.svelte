@@ -13,7 +13,6 @@
 		{#if !isHome}<li><a href="/">ホーム</a></li>{/if}
 		<li><a href="/venue">会場・配信</a></li>
 		<li><a href="/schedule">タイムテーブル</a></li>
-		<li><a href="/sound-logo">サウンドロゴ</a></li>
 		<li><a href="/coc">行動規範</a></li>
 		<li><a href="/department">運営について</a></li>
 	</ul>
