@@ -259,7 +259,7 @@
 			</ClusterItem>
 			<ClusterItem>
 				<Sponsor
-					href="https:chanto.design?id=ac_conference_2025"
+					href="https://chanto.design/?id=ac_conference_2025"
 					name="CHANTO株式会社"
 					img="/img/logo-sponsor-chanto.svg"
 					width="167"
