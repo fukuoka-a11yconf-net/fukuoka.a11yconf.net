@@ -121,7 +121,7 @@
 					<dd id="session4">
 						<p class="sub"><em>セッション4</em></p>
 						<p class="title">
-							<em>先行する海外やWCAGからの学びを実践に「つなげる」</em>
+							<em>WCAGと先行する海外からの学びを実践につなげる</em>
 						</p>
 						<p class="speaker"><em><a href="/#speaker-ueki">植木 真</a></em></p>
 						<p></p>
