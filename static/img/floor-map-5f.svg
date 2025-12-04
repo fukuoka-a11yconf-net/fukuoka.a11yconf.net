@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_5Fメイン会場_ブース会場" data-name="5Fメイン会場、ブース会場" xmlns="http://www.w3.org/2000/svg" width="860" height="600" viewBox="0 0 860 600">
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 828.438 542.415">
   <defs>
     <style>
       .cls-1 {
@@ -18,23 +18,23 @@
         fill: none;
       }
 
-      .cls-8 {
-        font-size: 16px;
-      }
-
       .cls-8, .cls-9, .cls-10, .cls-6, .cls-11, .cls-12 {
         font-family: UDShinGoCOeizPr6N-Lig-90ms-RKSJ-H, 'A-OTF UD Shin Go Con80 Pr6N';
+      }
+
+      .cls-8, .cls-13 {
+        font-size: 16px;
       }
 
       .cls-9 {
         font-size: 18px;
       }
 
-      .cls-13 {
+      .cls-14 {
         font-size: 40px;
       }
 
-      .cls-13, .cls-14 {
+      .cls-14, .cls-15, .cls-13 {
         font-family: KozGoPr6N-Regular-90ms-RKSJ-H, 'Kozuka Gothic Pr6N';
       }
 
@@ -42,7 +42,7 @@
         stroke-width: 7px;
       }
 
-      .cls-2, .cls-15 {
+      .cls-2, .cls-16 {
         fill: #e6e6e6;
       }
 
@@ -68,7 +68,7 @@
         stroke-width: .5px;
       }
 
-      .cls-16 {
+      .cls-17 {
         fill: #ccc;
       }
 
@@ -76,14 +76,17 @@
         stroke-width: 3px;
       }
 
-      .cls-14 {
+      .cls-15 {
         font-size: 14px;
+      }
+
+      .cls-15, .cls-13 {
         glyph-orientation-vertical: 0deg;
         text-orientation: upright;
         writing-mode: tb;
       }
 
-      .cls-17 {
+      .cls-18 {
         fill: gray;
       }
 
@@ -96,44 +99,46 @@
       }
     </style>
   </defs>
-  <text class="cls-13" transform="translate(625.174 65.285)"><tspan x="0" y="0">５階配置図</tspan></text>
-  <g>
-    <polyline class="cls-5" points="508.492 244.015 508.492 118.041 823.697 118.041 823.697 569 508.492 569 508.492 525.472"/>
-    <line class="cls-2" x1="508.492" y1="455.797" x2="508.492" y2="244.015"/>
+  <g id="_x35_Fメイン会場_x3001_ブース会場">
+    <text class="cls-14" transform="translate(602.612 35.201)"><tspan x="0" y="0">５階配置図</tspan></text>
+    <g>
+      <polyline class="cls-5" points="485.93 213.931 485.93 87.957 801.135 87.957 801.135 538.915 485.93 538.915 485.93 495.388"/>
+      <line class="cls-2" x1="485.93" y1="425.712" x2="485.93" y2="213.931"/>
+    </g>
+    <text class="cls-8" transform="translate(601.438 108.229)"><tspan x="0" y="0">スクリーン</tspan></text>
+    <text class="cls-8" transform="translate(29.438 149.229)"><tspan x="0" y="0">スクリーン</tspan></text>
+    <line class="cls-5" x1="436.43" y1="538.915" x2="485.525" y2="538.915"/>
+    <polyline class="cls-5" points="313.423 204.54 313.423 21.658 3.5 21.658 3.5 274.625 313.423 274.625 313.423 252.036"/>
+    <rect class="cls-7" x="323.72" y="97.382" width="40.956" height="40.749"/>
+    <rect class="cls-7" x="323.72" y="145.937" width="40.956" height="40.749"/>
+    <rect class="cls-3" x="12.72" y="74.915" width="6.218" height="127"/>
+    <text class="cls-11" transform="translate(330.327 221.786)"><tspan x="0" y="0">エレベーター</tspan><tspan x="20.717" y="17.264">ホール</tspan></text>
+    <text class="cls-11" transform="translate(326.955 337.403)"><tspan x="0" y="0">非常階段</tspan></text>
+    <line class="cls-1" x1="313.423" y1="88.496" x2="485.525" y2="88.496"/>
+    <text class="cls-11" transform="translate(325.438 437.986)"><tspan x="0" y="0">男性用トイレ</tspan></text>
+    <text class="cls-11" transform="translate(325.438 504.986)"><tspan x="0" y="0">女性用トイレ</tspan></text>
+    <polyline class="cls-5" points="438.306 445.145 438.306 469.125 313.15 469.125 313.15 402.022 438.306 402.022 438.306 418.793"/>
+    <polyline class="cls-5" points="438.306 538.915 313.15 538.915 313.15 469.999 438.306 469.999 438.306 510.845"/>
+    <rect class="cls-5" x="313.423" y="277.006" width="124.883" height="125.165"/>
+    <rect class="cls-4" x="630.296" y="43.774" width="6.668" height="147.615" transform="translate(751.212 -516.049) rotate(90)"/>
+    <rect class="cls-16" x="499.438" y="192.915" width="245" height="223" transform="translate(926.353 -317.523) rotate(90)"/>
+    <polygon class="cls-17" points="296.938 31.415 296.938 162.415 227.713 163.19 227.438 97.915 34.938 98.415 34.938 31.415 296.938 31.415"/>
+    <rect class="cls-17" x="34.438" y="206.915" width="118" height="57"/>
+    <text class="cls-12" transform="translate(61.598 230.395)"><tspan x="0" y="0">おやつ</tspan><tspan x="0" y="23">ブース</tspan></text>
+    <rect class="cls-17" x="184.438" y="206.915" width="87" height="57"/>
+    <text class="cls-12" transform="translate(204.998 232.395)"><tspan x="0" y="0">体験</tspan><tspan x="-8.4" y="23">ブース</tspan></text>
+    <text class="cls-12" transform="translate(45.239 70.429)"><tspan x="0" y="0">スポンサーブース</tspan></text>
+    <rect class="cls-16" x="534.637" y="103.911" width="38.796" height="90.805" transform="translate(703.349 -404.722) rotate(90)"/>
+    <rect class="cls-18" x="672.201" y="411.152" width="41" height="194.526" transform="translate(1201.116 -184.286) rotate(90)"/>
+    <text class="cls-9" transform="translate(515.077 155.4)"><tspan x="0" y="0">手話通訳</tspan></text>
+    <rect class="cls-16" x="716.637" y="112.911" width="38.796" height="72.805" transform="translate(885.349 -586.722) rotate(90)"/>
+    <rect class="cls-16" x="679.938" y="247.415" width="178" height="33" transform="translate(1032.853 -505.023) rotate(90)"/>
+    <text class="cls-9" transform="translate(705.22 155.4)"><tspan x="0" y="0">登壇者</tspan></text>
+    <text class="cls-10" transform="translate(566.939 295.01)"><tspan x="0" y="0">メイン会場</tspan><tspan x="10.399" y="48">参加者席</tspan></text>
+    <text class="cls-15" transform="translate(768.686 226.615)"><tspan x="0" y="0">配信・運営</tspan></text>
+    <rect class="cls-16" x="401.938" y="137.415" width="116" height="33" transform="translate(613.853 -306.023) rotate(90)"/>
+    <text class="cls-13" transform="translate(461.686 142.313)"><tspan x="0" y="0">受付</tspan></text>
+    <text class="cls-6" transform="translate(603.013 518.141)"><tspan x="0" y="0">スタッフ控え室</tspan></text>
+    <line class="cls-5" x1="558.054" y1="475.368" x2="799.959" y2="475.368"/>
   </g>
-  <text class="cls-8" transform="translate(624 138.313)"><tspan x="0" y="0">スクリーン</tspan></text>
-  <text class="cls-8" transform="translate(52 179.313)"><tspan x="0" y="0">スクリーン</tspan></text>
-  <line class="cls-5" x1="458.992" y1="569" x2="508.087" y2="569"/>
-  <polyline class="cls-5" points="335.985 234.625 335.985 51.742 26.062 51.743 26.062 304.709 335.985 304.709 335.985 282.121"/>
-  <rect class="cls-7" x="346.282" y="127.466" width="40.956" height="40.749"/>
-  <rect class="cls-7" x="346.282" y="176.021" width="40.956" height="40.749"/>
-  <rect class="cls-3" x="35.282" y="105" width="6.218" height="127"/>
-  <text class="cls-11" transform="translate(352.889 251.871)"><tspan x="0" y="0">エレベーター</tspan><tspan x="20.717" y="17.264">ホール</tspan></text>
-  <text class="cls-11" transform="translate(349.517 367.487)"><tspan x="0" y="0">非常階段</tspan></text>
-  <line class="cls-1" x1="335.985" y1="118.581" x2="508.087" y2="118.581"/>
-  <text class="cls-11" transform="translate(348 468.07)"><tspan x="0" y="0">男性用トイレ</tspan></text>
-  <text class="cls-11" transform="translate(348 535.07)"><tspan x="0" y="0">女性用トイレ</tspan></text>
-  <polyline class="cls-5" points="460.868 475.229 460.868 499.209 335.712 499.209 335.712 432.106 460.868 432.106 460.868 448.878"/>
-  <polyline class="cls-5" points="460.868 569 335.712 569 335.712 500.084 460.868 500.084 460.868 540.93"/>
-  <rect class="cls-5" x="335.985" y="307.091" width="124.883" height="125.165"/>
-  <rect class="cls-4" x="652.858" y="73.858" width="6.668" height="147.615" transform="translate(803.858 -508.527) rotate(90)"/>
-  <rect class="cls-15" x="522" y="223" width="245" height="223" transform="translate(979 -310) rotate(90)"/>
-  <polygon class="cls-16" points="319.5 61.5 319.5 192.5 250.275 193.275 250 128 57.5 128.5 57.5 61.5 319.5 61.5"/>
-  <rect class="cls-16" x="57" y="237" width="118" height="57"/>
-  <text class="cls-12" transform="translate(84.16 260.48)"><tspan x="0" y="0">おやつ</tspan><tspan x="0" y="23">ブース</tspan></text>
-  <rect class="cls-16" x="207" y="237" width="87" height="57"/>
-  <text class="cls-12" transform="translate(227.56 262.48)"><tspan x="0" y="0">体験</tspan><tspan x="-8.4" y="23">ブース</tspan></text>
-  <text class="cls-12" transform="translate(67.801 100.514)"><tspan x="0" y="0">スポンサーブース</tspan></text>
-  <rect class="cls-15" x="557.199" y="133.996" width="38.796" height="90.805" transform="translate(755.996 -397.199) rotate(90)"/>
-  <rect class="cls-17" x="694.763" y="441.237" width="41" height="194.526" transform="translate(1253.763 -176.763) rotate(90)"/>
-  <text class="cls-9" transform="translate(537.639 185.484)"><tspan x="0" y="0">手話通訳</tspan></text>
-  <rect class="cls-15" x="739.199" y="142.996" width="38.796" height="72.805" transform="translate(937.996 -579.199) rotate(90)"/>
-  <rect class="cls-15" x="702.5" y="277.5" width="178" height="33" transform="translate(1085.5 -497.5) rotate(90)"/>
-  <text class="cls-9" transform="translate(727.782 185.484)"><tspan x="0" y="0">登壇者</tspan></text>
-  <text class="cls-10" transform="translate(589.501 325.095)"><tspan x="0" y="0">メイン会場</tspan><tspan x="10.399" y="48">参加者席</tspan></text>
-  <text class="cls-14" transform="translate(791.248 256.699)"><tspan x="0" y="0">配信・運営</tspan></text>
-  <rect class="cls-15" x="393.5" y="198.5" width="178" height="33" transform="translate(697.5 -267.5) rotate(90)"/>
-  <text class="cls-14" transform="translate(483.248 178.397)"><tspan x="0" y="0">配信ブース</tspan></text>
-  <text class="cls-6" transform="translate(625.575 548.226)"><tspan x="0" y="0">スタッフ控え室</tspan></text>
-  <line class="cls-5" x1="580.616" y1="505.452" x2="822.521" y2="505.452"/>
 </svg>
