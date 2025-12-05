@@ -20,7 +20,7 @@
 		<Heading level={2}>開催場所</Heading>
 		<TextBody>
 			<p>
-				<em><a href="https://kegojinja.or.jp/saikan/">警固神社 社務所ビル</a></em>
+				<em><a href="https://kegojinja.or.jp/saikan/">警固神社 社務所ビル</a> 5階</em>
 			</p>
 			<p>
 				〒810-0001 福岡県福岡市中央区天神2-2-20 (<a
