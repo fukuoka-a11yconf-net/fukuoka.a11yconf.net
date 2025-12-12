@@ -1,5 +1,4 @@
-<script lang="ts">
-	export let connpassURL: string;
+<script>
 </script>
 
 <header>
@@ -17,6 +16,7 @@
 				<p>2025年12月6日(土曜日)</p>
 				<p>警固神社社務所ビル + YouTube</p>
 			</div>
+			<hr />
 			<div class="text">
 				<p class="em"><em>つながるせかい</em></p>
 				<p>
@@ -39,8 +39,19 @@
 					>
 					<span>今年も、あなたと「つながるせかい」でお待ちしています。</span>
 				</p>
-				<div class="apply">
-					<a href={connpassURL} target="_blank">connpassで参加登録</a>
+				<div class="end">
+					<p>イベントは終了しました。多くのご参加ありがとうございました。<br/>アーカイブは後日、YouTubeチャンネルで公開予定です。</p>
+				</div>
+				<!--				<div class="archive">-->
+				<!--					<a-->
+				<!--						href="https://www.youtube.com/playlist?list=PLw4pRH4ilpwy2E2ZA7rwk7u2SbVP0uwvh"-->
+				<!--						target="_blank">配信アーカイブ</a-->
+				<!--					>-->
+				<!--				</div>-->
+				<div class="archive">
+					<a href="https://www.youtube.com/@fukuoka-a11yconf" target="_blank"
+						>YouTubeチャンネル登録</a
+					>
 				</div>
 			</div>
 		</div>
@@ -62,9 +73,8 @@
 
 	.body {
 		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: auto auto;
-		gap: 8rem;
+		grid-template-columns: 1fr 1px 1fr;
+		gap: 4rem;
 		max-width: 120rem;
 		padding-block: 8rem;
 		padding-inline: 4rem;
@@ -77,6 +87,8 @@
 		}
 
 		.body {
+			grid-template-columns: 1fr;
+			grid-template-rows: auto 1px auto;
 			padding-block: 10vw;
 			padding-inline: 10vw;
 			gap: 10vw;
@@ -84,8 +96,7 @@
 	}
 
 	.title {
-		justify-self: center;
-		align-self: center;
+		flex: 0 0 50%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -93,9 +104,8 @@
 		gap: 1rem;
 		line-height: 1;
 		container: hero-header / inline-size;
-		width: 100%;
-		max-width: 80rem;
 	}
+
 	h1 {
 		align-self: stretch;
 		margin: 0;
@@ -115,34 +125,38 @@
 
 	@container hero-header (min-width: 0px) {
 		.title p {
-			font-size: 6cqw;
+			font-size: 7.3cqw;
 			font-family: var(--font-family-condensed);
 		}
 	}
 
+	hr {
+		flex: 0 0 1px;
+		border: none;
+		background-color: var(--color-border-primary);
+		width: 1px;
+		height: 100%;
+		align-self: stretch;
+		margin: 0;
+	}
+
 	.text {
-		justify-self: center;
-		align-self: center;
 		flex: 0 0 auto;
 		container: hero-text / inline-size;
-		width: 100%;
-		max-width: 50rem;
 	}
 
 	.text .em {
-		text-align: center;
 		line-height: inherit;
 		font-size: 4rem;
 		font-weight: 600;
 		opacity: 0.9;
 		margin-block: 0 2rem;
-		margin-inline-start: -0.4em;
 		line-height: 1;
 	}
 
 	@container hero-text (min-width: 0px) {
 		.text .em {
-			font-size: max(2rem, 15cqw);
+			font-size: max(2rem, 12cqw);
 		}
 	}
 
@@ -162,7 +176,8 @@
 		}
 	}
 
-	.apply {
+	.end,
+	.archive {
 		align-self: center;
 		display: flex;
 		justify-content: center;
@@ -170,13 +185,18 @@
 		margin-block: 2rem 0;
 	}
 
-	.apply a {
+	.end {
+		font-size: 1.5rem;
+		line-height: 1;
+		padding-inline: 1em;
+		background-color: var(--color-bg-base);
+		border: 1px dashed var(--color-border-primary);
+	}
+
+	.archive a {
 		display: block;
-		padding-block: 1em 1.25em;
+		padding-block: 1em;
 		padding-inline: 1.5em;
-		text-decoration: underline dashed;
-		text-decoration-thickness: 1px;
-		text-underline-offset: 0.4em;
 		color: inherit;
 		font-size: 1.5rem;
 		line-height: 1;
@@ -185,13 +205,20 @@
 		border-radius: 10rem;
 	}
 
+	.archive a:link {
+		text-decoration: underline dashed;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.4em;
+		padding-block: 1em 1.25em;
+	}
+
 	@media (max-width: 40rem) {
-		.apply a {
+		.archive a {
 			font-size: 1rem;
 		}
 	}
 
-	.apply a:hover {
+	.archive a:link:hover {
 		background-color: var(--color-link-hover-bg);
 	}
 </style>
