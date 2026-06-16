@@ -4,8 +4,6 @@
 	import Main from '$lib/components/main.svelte';
 	import Section from '$lib/components/section.svelte';
 	import TextBody from '$lib/components/text-body.svelte';
-	import pictStaff03 from '$lib/img/pict-staff-analogtan.jpg';
-	import Staff from '$lib/components/staff.svelte';
 	import ClusterItem from '$lib/components/cluster-item.svelte';
 	import ClusterContainer from '$lib/components/cluster-container.svelte';
 </script>

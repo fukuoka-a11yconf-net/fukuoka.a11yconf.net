@@ -7,8 +7,8 @@
 
 	function reload() {
 		if (browser) {
-			// @ts-ignore
-			window.FONTPLUS.reload(true);
+			// @ts-expect-error FONTPLUS is injected globally by an external script
+			window.FONTPLUS?.reload(true);
 		}
 	}
 
