@@ -1,15 +1,15 @@
 <script>
-	import Header from '$lib/components/header.svelte';
-	import Heading from '$lib/components/heading.svelte';
-	import Main from '$lib/components/main.svelte';
-	import Section from '$lib/components/section.svelte';
-	import TextBody from '$lib/components/text-body.svelte';
-	import ClusterItem from '$lib/components/cluster-item.svelte';
-	import ClusterContainer from '$lib/components/cluster-container.svelte';
+	import Header from '$lib/2025/components/header.svelte';
+	import Heading from '$lib/2025/components/heading.svelte';
+	import Main from '$lib/2025/components/main.svelte';
+	import Section from '$lib/2025/components/section.svelte';
+	import TextBody from '$lib/2025/components/text-body.svelte';
+	import ClusterItem from '$lib/2025/components/cluster-item.svelte';
+	import ClusterContainer from '$lib/2025/components/cluster-container.svelte';
 </script>
 
 <svelte:head>
-	<title>会場と配信について | アクセシビリティカンファレンス福岡2024</title>
+	<title>会場と配信について | アクセシビリティカンファレンス福岡2025</title>
 </svelte:head>
 
 <Header />

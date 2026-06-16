@@ -1,0 +1,43 @@
+<script lang="ts">
+	export let isHome = false;
+</script>
+
+<nav>
+	<ul>
+		{#if isHome}<li><a href="/2025/#summary">開催概要</a></li>{/if}
+		{#if isHome}<li><a href="/2025/#speakers">登壇者</a></li>{/if}
+		{#if isHome}<li><a href="/2025/#sponsors">スポンサー</a></li>{/if}
+		{#if isHome}<li><a href="/2025/#staff">運営スタッフ</a></li>{/if}
+		{#if isHome}<li><a href="/2025/#contact">お問い合わせ</a></li>{/if}
+		<!--{#if isHome}<li><a href="/2025/#sponsors-looking">スポンサー募集</a></li>{/if}-->
+		{#if !isHome}<li><a href="/2025/">ホーム</a></li>{/if}
+		<li><a href="/2025/venue">会場・配信</a></li>
+		<li><a href="/2025/schedule">タイムテーブル</a></li>
+		<li><a href="/2025/coc">行動規範</a></li>
+		<li><a href="/2025/department">運営について</a></li>
+	</ul>
+</nav>
+
+<style>
+	nav ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		flex-wrap: wrap;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: underline dashed;
+		text-underline-offset: 0.4em;
+		text-decoration-thickness: 1px;
+	}
+
+	a:link:hover {
+		background-color: var(--color-link-hover-bg);
+	}
+</style>

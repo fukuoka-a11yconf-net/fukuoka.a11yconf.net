@@ -94,7 +94,7 @@
 					</p>
 					<p class="session">
 						<span>セッション1</span>
-						<a href="/schedule#session1"><em>障害は乗り越えられるべき課題なのか？</em></a>
+						<a href="/2024/schedule#session1"><em>障害は乗り越えられるべき課題なのか？</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -105,7 +105,7 @@
 					</p>
 					<p class="session">
 						<span>セッション2</span>
-						<a href="/schedule#session2"><em>アクセシビリティをあたりまえにするまで</em></a>
+						<a href="/2024/schedule#session2"><em>アクセシビリティをあたりまえにするまで</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -118,7 +118,8 @@
 					</p>
 					<p class="session">
 						<span>セッション3</span>
-						<a href="/schedule#session3"><em>手話CG KIKIが繰り広げるインクルーシブ社会の実現</em></a
+						<a href="/2024/schedule#session3"
+							><em>手話CG KIKIが繰り広げるインクルーシブ社会の実現</em></a
 						>
 					</p>
 				</Speaker>
@@ -133,7 +134,7 @@
 					</p>
 					<p class="session">
 						<span>セッション4</span>
-						<a href="/schedule#session4"><em>選挙のアクセシビリティ</em></a>
+						<a href="/2024/schedule#session4"><em>選挙のアクセシビリティ</em></a>
 					</p>
 				</Speaker>
 			</GridItem>
@@ -473,7 +474,7 @@
 				>
 			</p>
 			<p>
-				<a href="/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
+				<a href="/2024/coc">行動規範</a>の違反などを受けた、またはそのような状況を目撃した場合は、
 				<a
 					href="https://docs.google.com/forms/d/e/1FAIpQLScQhESqjgk0QWTL9KpICIrR9xg6yAvwKu80DA6Fx1NnzF-9TA/viewform"
 					>通報フォーム</a

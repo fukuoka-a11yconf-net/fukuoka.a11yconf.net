@@ -4,12 +4,12 @@
 
 <nav>
 	<ul>
-		{#if isHome}<li><a href="/#summary">開催概要</a></li>{/if}
-		{#if isHome}<li><a href="/#speakers">登壇者</a></li>{/if}
-		{#if isHome}<li><a href="/#sponsors">スポンサー</a></li>{/if}
-		{#if isHome}<li><a href="/#staff">運営スタッフ</a></li>{/if}
-		{#if isHome}<li><a href="/#contact">お問い合わせ</a></li>{/if}
-		{#if !isHome}<li><a href="/">ホーム</a></li>{/if}
+		{#if isHome}<li><a href="/2024/#summary">開催概要</a></li>{/if}
+		{#if isHome}<li><a href="/2024/#speakers">登壇者</a></li>{/if}
+		{#if isHome}<li><a href="/2024/#sponsors">スポンサー</a></li>{/if}
+		{#if isHome}<li><a href="/2024/#staff">運営スタッフ</a></li>{/if}
+		{#if isHome}<li><a href="/2024/#contact">お問い合わせ</a></li>{/if}
+		{#if !isHome}<li><a href="/2024/">ホーム</a></li>{/if}
 		<li><a href="/2024/venue">会場・配信</a></li>
 		<li><a href="/2024/schedule">タイムテーブル</a></li>
 		<li><a href="/2024/sound-logo">サウンドロゴ</a></li>

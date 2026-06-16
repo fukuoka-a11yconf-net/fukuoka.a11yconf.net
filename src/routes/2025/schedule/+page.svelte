@@ -1,9 +1,9 @@
 <script>
-	import Header from '$lib/components/header.svelte';
-	import Heading from '$lib/components/heading.svelte';
-	import Main from '$lib/components/main.svelte';
-	import Section from '$lib/components/section.svelte';
-	import TextBody from '$lib/components/text-body.svelte';
+	import Header from '$lib/2025/components/header.svelte';
+	import Heading from '$lib/2025/components/heading.svelte';
+	import Main from '$lib/2025/components/main.svelte';
+	import Section from '$lib/2025/components/section.svelte';
+	import TextBody from '$lib/2025/components/text-body.svelte';
 </script>
 
 <svelte:head>
@@ -38,7 +38,7 @@
 						<p class="title">
 							<em>アクセシビリティでつながるせかい</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-okaue">岡上 洋子</a></em></p>
+						<p class="speaker"><em><a href="/2025/#speaker-okaue">岡上 洋子</a></em></p>
 						<p></p>
 					</dd>
 				</div>
@@ -72,7 +72,7 @@
 							<em>最強のおもてなし</em>
 						</p>
 						<p class="speaker">
-							<em><a href="/#speaker-josh">グリズデイル・バリージョシュア</a></em>
+							<em><a href="/2025/#speaker-josh">グリズデイル・バリージョシュア</a></em>
 						</p>
 						<p>※ 本セッションは事前収録となります</p>
 					</dd>
@@ -90,7 +90,7 @@
 						<p class="title">
 							<em>アクセシビリティ推進という山登りを支える――理念を道しるべに</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-miyamoto">宮本 采佳</a></em></p>
+						<p class="speaker"><em><a href="/2025/#speaker-miyamoto">宮本 采佳</a></em></p>
 						<p></p>
 					</dd>
 				</div>
@@ -123,7 +123,7 @@
 						<p class="title">
 							<em>WCAGと先行する海外からの学びを実践につなげる</em>
 						</p>
-						<p class="speaker"><em><a href="/#speaker-ueki">植木 真</a></em></p>
+						<p class="speaker"><em><a href="/2025/#speaker-ueki">植木 真</a></em></p>
 						<p></p>
 					</dd>
 				</div>

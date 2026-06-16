@@ -36,14 +36,12 @@
 	</div>
 	<div class="past">
 		<ul>
-			<li><a href="/">2026年</a></li>
-			<li><a href="/2025">2025年</a></li>
 			<li><a href="/2024">2024年</a></li>
 			<li><a href="/2023">2023年</a></li>
 		</ul>
 	</div>
 	<div class="copyright">
-		<p>©︎2026 アクセシビリティカンファレンス福岡実行員会</p>
+		<p>©︎2025 アクセシビリティカンファレンス福岡実行員会</p>
 	</div>
 </div>
 
