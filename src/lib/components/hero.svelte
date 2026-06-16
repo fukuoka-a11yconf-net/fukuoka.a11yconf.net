@@ -14,7 +14,7 @@
 					/>
 				</h1>
 				<p>2026年11月21日(土曜日)</p>
-				<p>ONE FUKUOKA Conference Hall</p>
+				<p class="venue">ONE FUKUOKA Conference Hall</p>
 			</div>
 			<hr />
 			<div class="text">
@@ -103,6 +103,11 @@
 		.title p {
 			font-size: 7.3cqw;
 			font-family: var(--font-family-condensed);
+		}
+
+		.title .venue {
+			font-size: 5.5cqw;
+			white-space: nowrap;
 		}
 	}
 
