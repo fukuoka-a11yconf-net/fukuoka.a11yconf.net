@@ -41,6 +41,7 @@
 <style>
 	dl {
 		max-width: fit-content;
+		margin-inline: auto;
 		display: grid;
 		gap: 0;
 		grid-template-columns: auto 1fr;
@@ -96,5 +97,6 @@
 		margin-block-start: 2rem;
 		font-size: 1.2rem;
 		line-height: 1.8;
+		text-align: center;
 	}
 </style>
