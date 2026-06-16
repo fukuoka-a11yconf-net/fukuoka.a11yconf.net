@@ -1,9 +1,9 @@
 <script>
-	import Header from '$lib/components/header.svelte';
-	import Heading from '$lib/components/heading.svelte';
-	import Main from '$lib/components/main.svelte';
-	import Section from '$lib/components/section.svelte';
-	import TextBody from '$lib/components/text-body.svelte';
+	import Header from '$lib/2025/components/header.svelte';
+	import Heading from '$lib/2025/components/heading.svelte';
+	import Main from '$lib/2025/components/main.svelte';
+	import Section from '$lib/2025/components/section.svelte';
+	import TextBody from '$lib/2025/components/text-body.svelte';
 </script>
 
 <svelte:head>
@@ -86,7 +86,9 @@
 				行動規範の禁止事項に該当する行為を受けたり、目撃したりした場合、次のいずれかの手段でご連絡ください。
 			</p>
 			<ul>
-				<li>近くの<a href="/#staff">運営スタッフ</a>もしくはボランティアスタッフに声をかける</li>
+				<li>
+					近くの<a href="/2025/#staff">運営スタッフ</a>もしくはボランティアスタッフに声をかける
+				</li>
 				<li>
 					<a
 						href="https://docs.google.com/forms/d/1oJ03Tc_j9P9sSK75nlStVJSYF5Qgfph7Tb4L1uWisq8/viewform?edit_requested=true#responses"

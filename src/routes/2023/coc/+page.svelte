@@ -75,7 +75,9 @@
 				行動規範の禁止事項に該当する行為を受けたり、目撃したりした場合、次のいずれかの手段でご連絡ください。
 			</p>
 			<ul>
-				<li>近くの<a href="/#staff">運営スタッフ</a>もしくはボランティアスタッフに声をかける</li>
+				<li>
+					近くの<a href="/2023/#staff">運営スタッフ</a>もしくはボランティアスタッフに声をかける
+				</li>
 				<li>
 					<a
 						href="https://docs.google.com/forms/d/1oJ03Tc_j9P9sSK75nlStVJSYF5Qgfph7Tb4L1uWisq8/viewform?edit_requested=true#responses"

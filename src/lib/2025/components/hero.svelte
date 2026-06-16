@@ -13,17 +13,44 @@
 						height="87"
 					/>
 				</h1>
-				<p>2026年11月21日(土曜日)</p>
-				<p class="venue">ONE FUKUOKA Conference Hall</p>
+				<p>2025年12月6日(土曜日)</p>
+				<p>警固神社社務所ビル + YouTube</p>
 			</div>
 			<hr />
 			<div class="text">
+				<p class="em"><em>つながるせかい</em></p>
 				<p>
-					<span>アクセシビリティカンファレンス福岡を2026年も開催します。</span>
+					<span>3年目を迎えるアクセシビリティカンファレンス福岡。</span>
 				</p>
 				<p>
-					<span>登壇者・スポンサー・参加申込などの詳細は、続報をお待ちください。</span>
+					<span
+						>「ここにいる。」と声をあげ、「つぎはどうする」と自らに問いかけ、前を向いて動き出したわたしたち。</span
+					>
+					<span>今、分野や立場を越えてつながることで、より豊かな未来を描こうとしています。</span>
 				</p>
+				<p>
+					<span
+						>アクセシビリティは一人で担うものではなく、共に考え、動き続けることで広がっていくもの。</span
+					>
+				</p>
+				<p>
+					<span
+						>様々な想いを持つ人々が出会い、学び合い、つながり、未来をつくる場に、という願いを込めて。</span
+					>
+					<span>今年も、あなたと「つながるせかい」でお待ちしています。</span>
+				</p>
+				<div class="end">
+					<p>
+						イベントは終了しました。多くのご参加ありがとうございました。<br
+						/>アーカイブは後日、YouTubeチャンネルで公開予定です。
+					</p>
+				</div>
+				<!--				<div class="archive">-->
+				<!--					<a-->
+				<!--						href="https://www.youtube.com/playlist?list=PLw4pRH4ilpwy2E2ZA7rwk7u2SbVP0uwvh"-->
+				<!--						target="_blank">配信アーカイブ</a-->
+				<!--					>-->
+				<!--				</div>-->
 				<div class="archive">
 					<a href="https://www.youtube.com/@fukuoka-a11yconf" target="_blank"
 						>YouTubeチャンネル登録</a
@@ -103,11 +130,6 @@
 		.title p {
 			font-size: 7.3cqw;
 			font-family: var(--font-family-condensed);
-		}
-
-		.title .venue {
-			font-size: 5.5cqw;
-			white-space: nowrap;
 		}
 	}
 
