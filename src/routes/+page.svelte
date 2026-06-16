@@ -37,7 +37,7 @@
 	/>
 </svelte:head>
 
-<Hero {connpassURL} />
+<Hero />
 
 <div class="nav">
 	<Navigation isHome />
