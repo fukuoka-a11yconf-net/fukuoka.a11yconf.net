@@ -64,10 +64,8 @@
 					</p>
 					<p class="session">
 						<span>セッション1</span>
-						<a href="/schedule#session1"
-							><em
-								>それ、アクセシビリティのせいかも？数字に表れない『届かなさ』と、これからの『あたりまえ』の話</em
-							></a
+						<em
+							>それ、アクセシビリティのせいかも？数字に表れない『届かなさ』と、これからの『あたりまえ』の話</em
 						>
 					</p>
 				</Speaker>
@@ -149,18 +147,6 @@
 	p {
 		margin-block: 0.9em;
 		line-height: 1.8;
-	}
-
-	p a {
-		color: inherit;
-		text-decoration: underline dashed;
-		text-underline-offset: 0.4em;
-		text-decoration-thickness: 1px;
-		padding-inline: 0.2em;
-	}
-
-	p a:link:hover {
-		background-color: var(--color-link-hover-bg);
 	}
 
 	.session {
