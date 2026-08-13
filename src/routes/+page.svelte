@@ -42,7 +42,9 @@
 				<dd>アクセシビリティカンファレンス福岡実行委員会</dd>
 			</div>
 		</dl>
-		<p class="note">スポンサー・参加申込などの詳細は、続報をお待ちください。</p>
+		<p class="note">
+			登壇者・スポンサー・参加申込・タイムテーブルなどの詳細は、続報をお待ちください。
+		</p>
 	</Section>
 	<Section width="narrow">
 		<Heading level={2} id="speakers">登壇者</Heading>
