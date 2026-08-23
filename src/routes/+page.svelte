@@ -1,4 +1,6 @@
 <script>
+	import ClusterContainer from '$lib/components/cluster-container.svelte';
+	import ClusterItem from '$lib/components/cluster-item.svelte';
 	import GridContainer from '$lib/components/grid-container.svelte';
 	import GridItem from '$lib/components/grid-item.svelte';
 	import Heading from '$lib/components/heading.svelte';
@@ -7,6 +9,7 @@
 	import Navigation from '$lib/components/navigation.svelte';
 	import Section from '$lib/components/section.svelte';
 	import Speaker from '$lib/components/speaker.svelte';
+	import Sponsor from '$lib/components/sponsor.svelte';
 
 	import pictIzuizu from '$lib/img/pict-speaker-izuizu.png';
 	import pictKitamura from '$lib/img/pict-speaker-kitamura.png';
@@ -90,6 +93,57 @@
 				</Speaker>
 			</GridItem>
 		</GridContainer>
+	</Section>
+	<Section>
+		<Heading level={2} id="sponsors">スポンサー</Heading>
+		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
+		<ClusterContainer --col={4}>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.d-zero.co.jp"
+					name="株式会社ディーゼロ"
+					img="/img/logo-sponsor-d-zero.svg"
+					width="215"
+					height="158"
+				/>
+			</ClusterItem>
+		</ClusterContainer>
+		<Heading level={3} id="sponsors-silver">シルバースポンサー</Heading>
+		<ClusterContainer --col={5}>
+			<ClusterItem>
+				<Sponsor
+					href="https://chanto.design/"
+					name="CHANTO株式会社"
+					img="/img/logo-sponsor-chanto.svg"
+					width="167"
+					height="47"
+				/>
+			</ClusterItem>
+		</ClusterContainer>
+		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
+		<ClusterContainer --col={7}>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.skword.co.jp/"
+					name="株式会社エスケイワード"
+					img="/img/logo-sponsor-skword.svg"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://noveltyinc.jp/"
+					name="株式会社ノベルティ"
+					img="/img/logo-sponsor-novelty.svg"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://trq.co.jp/"
+					name="株式会社トルク"
+					img="/img/logo-sponsor-torque.svg"
+				/>
+			</ClusterItem>
+		</ClusterContainer>
 	</Section>
 </Main>
 
