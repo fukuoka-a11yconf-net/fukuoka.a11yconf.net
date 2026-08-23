@@ -2,6 +2,10 @@
 </script>
 
 <header>
+	<span class="frame-corner frame-tl" aria-hidden="true"></span>
+	<span class="frame-corner frame-tr" aria-hidden="true"></span>
+	<span class="frame-corner frame-bl" aria-hidden="true"></span>
+	<span class="frame-corner frame-br" aria-hidden="true"></span>
 	<div class="box">
 		<div class="body">
 			<div class="title">
@@ -36,10 +40,56 @@
 
 <style>
 	header {
-		background-color: var(--color-bg-base);
+		--frame-yellow: #d6c565;
+		--frame-red: #dd6b74;
+		--frame-green: #8fae79;
+		--frame-indigo: #535d9e;
+		--frame-purple: #a675ab;
+		--frame-thickness: clamp(0.75rem, 2.3vw, 2.75rem);
+		--frame-arm: calc(var(--frame-thickness) * 6.9);
+		position: relative;
+		min-height: calc(var(--frame-arm) * 3.5);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		padding: 2rem;
-		background: url('/2023/img/bg-pattern.png') repeat;
-		background-size: 8rem;
+		background: var(--color-bg-base);
+	}
+
+	.frame-corner {
+		position: absolute;
+		width: var(--frame-arm);
+		height: var(--frame-arm);
+		border: 0 solid transparent;
+		pointer-events: none;
+	}
+
+	.frame-tl {
+		top: 0;
+		left: 0;
+		border-top: var(--frame-thickness) solid var(--frame-yellow);
+		border-left: var(--frame-thickness) solid var(--frame-red);
+	}
+
+	.frame-tr {
+		top: 0;
+		right: 0;
+		border-top: var(--frame-thickness) solid var(--frame-green);
+		border-right: var(--frame-thickness) solid var(--frame-red);
+	}
+
+	.frame-bl {
+		bottom: 0;
+		left: 0;
+		border-bottom: var(--frame-thickness) solid var(--frame-green);
+		border-left: var(--frame-thickness) solid var(--frame-indigo);
+	}
+
+	.frame-br {
+		bottom: 0;
+		right: 0;
+		border-bottom: var(--frame-thickness) solid var(--frame-purple);
+		border-right: var(--frame-thickness) solid var(--frame-yellow);
 	}
 
 	.box {

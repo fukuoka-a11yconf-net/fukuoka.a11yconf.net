@@ -8,7 +8,7 @@
 	export let level: 2 | 3 | 4 | 5 | 6;
 </script>
 
-<div>
+<div class="speaker">
 	<Heading {level} id={`speaker-${id}`}>{name}</Heading>
 
 	<div>
@@ -19,6 +19,12 @@
 </div>
 
 <style>
+	.speaker {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
 	img {
 		display: block;
 		width: 100%;
