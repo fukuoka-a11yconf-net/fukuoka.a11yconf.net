@@ -71,7 +71,7 @@
 						デジタル庁デジタル推進委員<br />GAAD Japan 実行委員
 					</p>
 					<p class="session">
-						<span>セッション1</span>
+						<span>セッション</span>
 						<em
 							>それ、アクセシビリティのせいかも？数字に表れない『届かなさ』と、これからの『あたりまえ』の話</em
 						>
@@ -87,7 +87,7 @@
 					</p>
 					<p>株式会社ePARA所属 / 一般社団法人日本ゲームアクセシビリティ協会　理事</p>
 					<p class="session">
-						<span>セッション2</span>
+						<span>セッション</span>
 						<em>「できる」の先へ――アクセシビリティが生み出すワクワク</em>
 					</p>
 				</Speaker>
@@ -95,7 +95,7 @@
 			<GridItem>
 				<div class="coming-soon">
 					<p class="session">
-						<span>セッション3</span>
+						<span>セッション</span>
 						<em lang="en">Coming Soon</em>
 					</p>
 				</div>
@@ -103,7 +103,7 @@
 			<GridItem>
 				<div class="coming-soon">
 					<p class="session">
-						<span>セッション4</span>
+						<span>セッション</span>
 						<em lang="en">Coming Soon</em>
 					</p>
 				</div>
