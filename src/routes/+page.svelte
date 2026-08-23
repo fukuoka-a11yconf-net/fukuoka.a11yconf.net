@@ -92,6 +92,22 @@
 					</p>
 				</Speaker>
 			</GridItem>
+			<GridItem>
+				<div class="coming-soon">
+					<p class="session">
+						<span>セッション3</span>
+						<em lang="en">Coming Soon</em>
+					</p>
+				</div>
+			</GridItem>
+			<GridItem>
+				<div class="coming-soon">
+					<p class="session">
+						<span>セッション4</span>
+						<em lang="en">Coming Soon</em>
+					</p>
+				</div>
+			</GridItem>
 		</GridContainer>
 	</Section>
 	<Section>
@@ -239,5 +255,17 @@
 
 	.session > span::after {
 		content: ':';
+	}
+
+	.coming-soon {
+		height: 100%;
+		min-height: 16rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		border: 1px dashed var(--color-border-primary);
+		border-radius: 0.5rem;
+		padding: 2rem;
 	}
 </style>
