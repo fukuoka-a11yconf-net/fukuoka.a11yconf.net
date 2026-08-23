@@ -11,8 +11,8 @@
 	import Speaker from '$lib/components/speaker.svelte';
 	import Sponsor from '$lib/components/sponsor.svelte';
 
-	import pictIzuizu from '$lib/img/pict-speaker-izuizu.png';
-	import pictKitamura from '$lib/img/pict-speaker-kitamura.png';
+	import pictIzuizu from '$lib/img/pict-speaker-izuizu.webp';
+	import pictKitamura from '$lib/img/pict-speaker-kitamura.webp';
 </script>
 
 <svelte:head>
@@ -79,7 +79,7 @@
 				</Speaker>
 			</GridItem>
 			<GridItem>
-				<Speaker id="kitamura" name="北村 直也" img={pictKitamura} alt="" level={3}>
+				<Speaker id="kitamura" name="北村 直也" img={pictKitamura} alt="写真: 北村 直也" level={3}>
 					<p>eスポーツプレイヤー</p>
 					<p>
 						全盲のeスポーツプレイヤー、声優・ナレーター。『ストリートファイター6』でマスターランクに到達し、EVO
@@ -240,6 +240,7 @@
 
 	.session {
 		font-size: 1.3em;
+		margin-block-start: auto;
 	}
 
 	.session em {
@@ -255,6 +256,10 @@
 
 	.session > span::after {
 		content: ':';
+	}
+
+	.coming-soon .session {
+		margin-block: 0;
 	}
 
 	.coming-soon {
