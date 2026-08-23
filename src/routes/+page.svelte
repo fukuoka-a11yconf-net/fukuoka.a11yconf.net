@@ -110,7 +110,7 @@
 			</GridItem>
 		</GridContainer>
 	</Section>
-	<Section>
+	<Section width="narrow">
 		<Heading level={2} id="sponsors">スポンサー</Heading>
 		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
 		<ClusterContainer --col={4}>
