@@ -9,6 +9,7 @@
 	import Speaker from '$lib/components/speaker.svelte';
 
 	import pictIzuizu from '$lib/img/pict-speaker-izuizu.png';
+	import pictKitamura from '$lib/img/pict-speaker-kitamura.png';
 </script>
 
 <svelte:head>
@@ -71,6 +72,20 @@
 						<em
 							>それ、アクセシビリティのせいかも？数字に表れない『届かなさ』と、これからの『あたりまえ』の話</em
 						>
+					</p>
+				</Speaker>
+			</GridItem>
+			<GridItem>
+				<Speaker id="kitamura" name="北村 直也" img={pictKitamura} alt="" level={3}>
+					<p>eスポーツプレイヤー</p>
+					<p>
+						全盲のeスポーツプレイヤー、声優・ナレーター。『ストリートファイター6』でマスターランクに到達し、EVO
+						Japanなどの大会にも出場。ゲームアクセシビリティを「できない」を「できる」にするだけでなく、その先の挑戦や楽しさを広げるものと捉え、当事者としての発信や検証、イベント登壇などに取り組む。
+					</p>
+					<p>株式会社ePARA所属 / 一般社団法人日本ゲームアクセシビリティ協会　理事</p>
+					<p class="session">
+						<span>セッション2</span>
+						<em>「できる」の先へ――アクセシビリティが生み出すワクワク</em>
 					</p>
 				</Speaker>
 			</GridItem>
