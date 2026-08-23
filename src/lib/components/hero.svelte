@@ -48,6 +48,10 @@
 		--frame-thickness: clamp(0.75rem, 2.3vw, 2.75rem);
 		--frame-arm: calc(var(--frame-thickness) * 6.9);
 		position: relative;
+		min-height: calc(var(--frame-arm) * 3.5);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		padding: 2rem;
 		background: var(--color-bg-base);
 	}
@@ -55,7 +59,7 @@
 	.frame-corner {
 		position: absolute;
 		width: var(--frame-arm);
-		height: min(var(--frame-arm), 28%);
+		height: var(--frame-arm);
 		border: 0 solid transparent;
 		pointer-events: none;
 	}
