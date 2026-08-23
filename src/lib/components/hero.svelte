@@ -55,7 +55,7 @@
 	.frame-corner {
 		position: absolute;
 		width: var(--frame-arm);
-		height: var(--frame-arm);
+		height: min(var(--frame-arm), 28%);
 		border: 0 solid transparent;
 		pointer-events: none;
 	}
