@@ -42,6 +42,13 @@
 				<dd>ONE FUKUOKA Conference Hall</dd>
 			</div>
 			<div>
+				<dt>ライブ配信</dt>
+				<dd>
+					<a href="https://www.youtube.com/@fukuoka-a11yconf" target="_blank">YouTube</a
+					>にて配信予定
+				</dd>
+			</div>
+			<div>
 				<dt>主催</dt>
 				<dd>アクセシビリティカンファレンス福岡実行委員会</dd>
 			</div>
