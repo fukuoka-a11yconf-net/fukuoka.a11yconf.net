@@ -29,8 +29,8 @@
 					<span>登壇者・スポンサーなどの詳細は、続報をお待ちください。</span>
 				</p>
 				<div class="archive">
-					<a href="https://www.youtube.com/@fukuoka-a11yconf" target="_blank"
-						>YouTubeチャンネル登録</a
+					<a href="https://fukuoka-a11yconf.connpass.com/event/404619/" target="_blank"
+						>connpassで参加登録</a
 					>
 				</div>
 			</div>
