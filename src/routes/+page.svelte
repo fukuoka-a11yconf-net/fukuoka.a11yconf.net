@@ -13,6 +13,8 @@
 
 	import pictIzuizu from '$lib/img/pict-speaker-izuizu.webp';
 	import pictKitamura from '$lib/img/pict-speaker-kitamura.webp';
+
+	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/404619/';
 </script>
 
 <svelte:head>
@@ -49,13 +51,17 @@
 				</dd>
 			</div>
 			<div>
+				<dt>参加登録</dt>
+				<dd>
+					<a href={connpassURL}>connpassで事前受付</a>
+				</dd>
+			</div>
+			<div>
 				<dt>主催</dt>
 				<dd>アクセシビリティカンファレンス福岡実行委員会</dd>
 			</div>
 		</dl>
-		<p class="note">
-			登壇者・スポンサー・参加申込・タイムテーブルなどの詳細は、続報をお待ちください。
-		</p>
+		<p class="note">登壇者・スポンサー・タイムテーブルなどの詳細は、続報をお待ちください。</p>
 	</Section>
 	<Section width="narrow">
 		<Heading level={2} id="speakers">登壇者</Heading>
