@@ -10,11 +10,15 @@
 	import Section from '$lib/components/section.svelte';
 	import Speaker from '$lib/components/speaker.svelte';
 	import Sponsor from '$lib/components/sponsor.svelte';
+	import TextBody from '$lib/components/text-body.svelte';
 
 	import pictIzuizu from '$lib/img/pict-speaker-izuizu.webp';
 	import pictKitamura from '$lib/img/pict-speaker-kitamura.webp';
 
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/404619/';
+	// @Topic: 2026 のスポンサー向け企画概要資料の URL に差し替える（現在は 2025 の資料）
+	const sponsorDeckURL =
+		'https://docs.google.com/presentation/d/1aM9jWUY9mvzrEz4UDXipFznBUGI5U_K144p01pa7bT8/edit?usp=sharing';
 </script>
 
 <svelte:head>
@@ -174,6 +178,19 @@
 			</ClusterItem>
 		</ClusterContainer>
 	</Section>
+	<Section width="narrow">
+		<Heading level={2} id="sponsors-looking">スポンサー募集</Heading>
+		<TextBody fit>
+			<p>開催にあたり、ご協賛いただけるスポンサー様を募集しております。</p>
+			<p>
+				当カンファレンスにご協賛いただく企業・団体様や提供サービスに触れる機会の創出に貢献できるよう運営して参ります。
+			</p>
+			<p>詳しくは、スポンサー向け企画概要資料（Googleスライド）をご確認ください。</p>
+		</TextBody>
+		<div class="apply">
+			<a href={sponsorDeckURL} target="_blank">資料はこちら</a>
+		</div>
+	</Section>
 </Main>
 
 <style>
@@ -237,6 +254,33 @@
 			border-inline-start: 1px solid var(--color-border-primary);
 			border-block-end: none;
 		}
+	}
+
+	.apply {
+		align-self: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-block: 2rem 0;
+	}
+
+	.apply a {
+		display: block;
+		padding-block: 1em 1.25em;
+		padding-inline: 1.5em;
+		text-decoration: underline dashed;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.4em;
+		color: inherit;
+		font-size: 1.5rem;
+		line-height: 1;
+		background-color: var(--color-bg-base);
+		border: 3px solid var(--color-border-primary);
+		border-radius: 10rem;
+	}
+
+	.apply a:hover {
+		background-color: var(--color-link-hover-bg);
 	}
 
 	.note {
