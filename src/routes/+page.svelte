@@ -16,9 +16,8 @@
 	import pictKitamura from '$lib/img/pict-speaker-kitamura.webp';
 
 	const connpassURL = 'https://fukuoka-a11yconf.connpass.com/event/404619/';
-	// @Topic: 2026 のスポンサー向け企画概要資料の URL に差し替える（現在は 2025 の資料）
 	const sponsorDeckURL =
-		'https://docs.google.com/presentation/d/1aM9jWUY9mvzrEz4UDXipFznBUGI5U_K144p01pa7bT8/edit?usp=sharing';
+		'https://docs.google.com/presentation/d/1EA_s42YNMXHGV6mA2yAZfTTmUrzFpaxLOVMR1g5bDVs/edit?slide=id.g36882c15362_0_5#slide=id.g36882c15362_0_5';
 </script>
 
 <svelte:head>
