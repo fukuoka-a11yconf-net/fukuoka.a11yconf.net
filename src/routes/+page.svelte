@@ -128,13 +128,25 @@
 	</Section>
 	<Section width="narrow">
 		<Heading level={2} id="sponsors">スポンサー</Heading>
+		<Heading level={3} id="sponsors-platinum">プラチナスポンサー</Heading>
+		<ClusterContainer --col={2}>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.lycorp.co.jp/"
+					name="LINEヤフー株式会社"
+					img="/img/logo-sponsor-lycorp.svg"
+					width="775"
+					height="330"
+				/>
+			</ClusterItem>
+		</ClusterContainer>
 		<Heading level={3} id="sponsors-gold">ゴールドスポンサー</Heading>
 		<ClusterContainer --col={4}>
 			<ClusterItem>
 				<Sponsor
 					href="https://www.d-zero.co.jp"
 					name="株式会社ディーゼロ"
-					img="/img/logo-sponsor-d-zero.svg"
+					img="/img/logo-sponsor-d-zero-2026.svg"
 					width="215"
 					height="158"
 				/>
@@ -173,6 +185,44 @@
 					href="https://trq.co.jp/"
 					name="株式会社トルク"
 					img="/img/logo-sponsor-torque.svg"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.un-t.com/"
+					name="アンティー・ファクトリー"
+					img="/img/logo-sponsor-unt.svg"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://turucame.jp/"
+					name="株式会社ツルカメ"
+					img="/img/logo-sponsor-turucame.svg"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.sixtant.co.jp/"
+					name="株式会社シックスタント"
+					img="/img/logo-sponsor-sixtant.svg"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.concentinc.jp/"
+					name="株式会社コンセント"
+					img="/img/logo-sponsor-concent.svg"
+				/>
+			</ClusterItem>
+		</ClusterContainer>
+		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
+		<ClusterContainer --col={2}>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.tokyu.co.jp/"
+					name="東急株式会社"
+					img="/img/logo-sponsor-tokyu.svg"
 				/>
 			</ClusterItem>
 		</ClusterContainer>
