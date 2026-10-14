@@ -15,7 +15,7 @@
 		{#if img}
 			<img src={img} {alt} width="500" height="500" />
 		{:else}
-			<div class="placeholder" aria-hidden="true"></div>
+			<div class="placeholder"><span>写真は準備中です</span></div>
 		{/if}
 	</div>
 
@@ -38,7 +38,13 @@
 	.placeholder {
 		width: 100%;
 		aspect-ratio: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		border: 1px dashed var(--color-border-primary);
 		border-radius: 0.5rem;
+		font-size: 1.2rem;
+		font-weight: bold;
+		opacity: 0.8;
 	}
 </style>
