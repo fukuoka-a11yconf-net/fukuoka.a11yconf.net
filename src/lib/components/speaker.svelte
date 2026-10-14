@@ -3,8 +3,8 @@
 
 	export let id: string;
 	export let name: string;
-	export let img: string;
-	export let alt: string;
+	export let img: string | null = null;
+	export let alt: string = '';
 	export let level: 2 | 3 | 4 | 5 | 6;
 </script>
 
@@ -12,7 +12,11 @@
 	<Heading {level} id={`speaker-${id}`}>{name}</Heading>
 
 	<div>
-		<img src={img} {alt} width="500" height="500" />
+		{#if img}
+			<img src={img} {alt} width="500" height="500" />
+		{:else}
+			<div class="placeholder"><span>準備中</span></div>
+		{/if}
 	</div>
 
 	<slot />
@@ -29,5 +33,18 @@
 		display: block;
 		width: 100%;
 		height: auto;
+	}
+
+	.placeholder {
+		width: 100%;
+		aspect-ratio: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px dashed var(--color-border-primary);
+		border-radius: 0.5rem;
+		font-size: 1.2rem;
+		font-weight: bold;
+		opacity: 0.8;
 	}
 </style>
