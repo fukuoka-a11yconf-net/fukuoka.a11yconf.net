@@ -15,6 +15,7 @@
 
 	import pictIzuizu from '$lib/img/pict-speaker-izuizu.webp';
 	import pictKitamura from '$lib/img/pict-speaker-kitamura.webp';
+	import pictZhang from '$lib/img/pict-speaker-zhang.webp';
 
 	import pictStaff01 from '$lib/img/pict-staff-cloud10designs.jpg';
 	import pictStaff02 from '$lib/img/pict-staff-posi0202.webp';
@@ -124,7 +125,13 @@
 				</Speaker>
 			</GridItem>
 			<GridItem>
-				<Speaker id="zhang" name="張 彦芳（ジャン エンファン）" level={3}>
+				<Speaker
+					id="zhang"
+					name="張 彦芳（ジャン エンファン）"
+					img={pictZhang}
+					alt="写真: 張 彦芳"
+					level={3}
+				>
 					<p>九州大学大学院芸術工学研究院 准教授</p>
 					<p>
 						専門はユニバーサルデザイン、ソサエタルデザイン。企業でのデザイン実務を経て、現在は「No
@@ -245,20 +252,6 @@
 					href="https://www.sixtant.co.jp/"
 					name="株式会社シックスタント"
 					img="/img/logo-sponsor-sixtant.svg"
-				/>
-			</ClusterItem>
-			<ClusterItem>
-				<Sponsor
-					href="https://www.concentinc.jp/"
-					name="株式会社コンセント"
-					img="/img/logo-sponsor-concent.svg"
-				/>
-			</ClusterItem>
-			<ClusterItem>
-				<Sponsor
-					href="https://karabiner.tech/"
-					name="カラビナテクノロジー株式会社"
-					img="/img/logo-sponsor-karabiner.svg"
 				/>
 			</ClusterItem>
 		</ClusterContainer>
