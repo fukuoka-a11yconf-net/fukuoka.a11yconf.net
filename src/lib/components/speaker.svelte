@@ -15,7 +15,7 @@
 		{#if img}
 			<img src={img} {alt} width="500" height="500" />
 		{:else}
-			<div class="placeholder"><span>写真は準備中です</span></div>
+			<div class="placeholder"><span>準備中</span></div>
 		{/if}
 	</div>
 
