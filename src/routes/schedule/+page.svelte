@@ -76,7 +76,15 @@
 					<dt>15:45</dt>
 					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
-						<p class="title"><em lang="en">Coming Soon</em></p>
+						<p class="title">
+							<em>小さな実践から、組織の当たり前へ。</em>
+						</p>
+						<p class="speaker">
+							<em
+								><a href="/#speaker-kawashima">川島 歩美</a> ✕
+								<a href="/#speaker-fujita">藤田 正訓</a></em
+							>
+						</p>
 					</dd>
 				</div>
 				<div class="break">

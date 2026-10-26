@@ -2,7 +2,6 @@
 	import ClusterContainer from '$lib/components/cluster-container.svelte';
 	import ClusterItem from '$lib/components/cluster-item.svelte';
 	import GridContainer from '$lib/components/grid-container.svelte';
-	import GridItem from '$lib/components/grid-item.svelte';
 	import Heading from '$lib/components/heading.svelte';
 	import Hero from '$lib/components/hero.svelte';
 	import Main from '$lib/components/main.svelte';
@@ -13,7 +12,9 @@
 	import Staff from '$lib/components/staff.svelte';
 	import TextBody from '$lib/components/text-body.svelte';
 
+	import pictFujita from '$lib/img/pict-speaker-fujita.webp';
 	import pictIzuizu from '$lib/img/pict-speaker-izuizu.webp';
+	import pictKawashima from '$lib/img/pict-speaker-kawashima.webp';
 	import pictKitamura from '$lib/img/pict-speaker-kitamura.webp';
 	import pictZhang from '$lib/img/pict-speaker-zhang.webp';
 
@@ -101,78 +102,113 @@
 		<Heading level={2} id="speakers">登壇者</Heading>
 
 		<GridContainer --col={2} --gap="4rem">
-			<GridItem>
-				<Speaker id="izuizu" name="山本 和泉" img={pictIzuizu} alt="写真: 山本 和泉" level={3}>
-					<p>デザイナー / アクセシビリティ ビギナーズサポーター</p>
-					<p>
-						「自分たちで運営できるウェブ環境づくり」をモットーに、コンサルティングから企画・制作、運用アドバイスまで一貫してサポート。<br
-						/>2000年代前半からウェブアクセシビリティに関わり、現在も企業研修などで初心者向けの入門講座を担当。初心者にイチから伝えることを得意とし、「誰にとっても使いやすく・伝わりやすい」サイト制作や運用支援のほか、アクセシビリティやSNS発信に関する執筆、講座も担当。
-					</p>
-					<p>
-						主な著書『超入門 無料で使えるデザインツール Canva
-						』（C＆R研究所）、『イチからはじめるCanvaビジネス活用入門』（日経BP）、『小さな会社&お店の
-						Canva超入門』『小さなお店＆会社のホームページ Jimdo入門』（どちらも技術評論社）など。
-					</p>
-					<p>
-						色彩検定UCアドバイザー / ウェブ解析士 / 上級SNSマネージャー / JimdoExpert /
-						デジタル庁デジタル推進委員<br />GAAD Japan 実行委員
-					</p>
-					<p class="session">
-						<span>セッション1</span>
-						<a href="/schedule#session1"
-							><em
-								>それ、アクセシビリティのせいかも？数字に表れない『届かなさ』と、これからの『あたりまえ』の話</em
-							></a
-						>
-					</p>
-				</Speaker>
-			</GridItem>
-			<GridItem>
-				<Speaker
-					id="zhang"
-					name="張 彦芳（ジャン エンファン）"
-					img={pictZhang}
-					alt="写真: 張 彦芳"
-					level={3}
-				>
-					<p>九州大学大学院芸術工学研究院 准教授</p>
-					<p>
-						専門はユニバーサルデザイン、ソサエタルデザイン。企業でのデザイン実務を経て、現在は「No
-						one will be left
-						behind（誰一人取り残さない）」を理念に、多様な立場や価値観を強みに変える共創の仕組みと社会実装を研究・実践している。国内外の産学官と連携したプロジェクトやワークショップを多数実施。これまでに、福岡市立こども病院の環境デザイン、博多駅新幹線サインシステム、福岡銀行のユニバーサルデザインなどに携わる。
-					</p>
-					<p class="session">
-						<span>セッション2</span>
-						<a href="/schedule#session2"
-							><em>移動に、もっとワクワクを。― 多様な人から考える公共交通のデザイン</em></a
-						>
-					</p>
-				</Speaker>
-			</GridItem>
-			<GridItem>
-				<div class="coming-soon">
-					<p class="session">
-						<span>セッション3</span>
-						<em lang="en">Coming Soon</em>
-					</p>
-				</div>
-			</GridItem>
-			<GridItem>
-				<Speaker id="kitamura" name="北村 直也" img={pictKitamura} alt="写真: 北村 直也" level={3}>
-					<p>eスポーツプレイヤー</p>
-					<p>
-						全盲のeスポーツプレイヤー、声優・ナレーター。『ストリートファイター6』でマスターランクに到達し、EVO
-						Japanなどの大会にも出場。ゲームアクセシビリティを「できない」を「できる」にするだけでなく、その先の挑戦や楽しさを広げるものと捉え、当事者としての発信や検証、イベント登壇などに取り組む。
-					</p>
-					<p>株式会社ePARA所属 / 一般社団法人日本ゲームアクセシビリティ協会　理事</p>
-					<p class="session">
-						<span>セッション4</span>
-						<a href="/schedule#session4"
-							><em>「できる」の先へ――アクセシビリティが生み出すワクワク</em></a
-						>
-					</p>
-				</Speaker>
-			</GridItem>
+			<Speaker
+				subgrid
+				id="izuizu"
+				name="山本 和泉"
+				img={pictIzuizu}
+				alt="写真: 山本 和泉"
+				level={3}
+			>
+				<p>デザイナー / アクセシビリティ ビギナーズサポーター</p>
+				<p>
+					「自分たちで運営できるウェブ環境づくり」をモットーに、コンサルティングから企画・制作、運用アドバイスまで一貫してサポート。<br
+					/>2000年代前半からウェブアクセシビリティに関わり、現在も企業研修などで初心者向けの入門講座を担当。初心者にイチから伝えることを得意とし、「誰にとっても使いやすく・伝わりやすい」サイト制作や運用支援のほか、アクセシビリティやSNS発信に関する執筆、講座も担当。
+				</p>
+				<p>
+					主な著書『超入門 無料で使えるデザインツール Canva
+					』（C＆R研究所）、『イチからはじめるCanvaビジネス活用入門』（日経BP）、『小さな会社&お店の
+					Canva超入門』『小さなお店＆会社のホームページ Jimdo入門』（どちらも技術評論社）など。
+				</p>
+				<p>
+					色彩検定UCアドバイザー / ウェブ解析士 / 上級SNSマネージャー / JimdoExpert /
+					デジタル庁デジタル推進委員<br />GAAD Japan 実行委員
+				</p>
+				<p class="session" slot="session">
+					<span>セッション1</span>
+					<a href="/schedule#session1"
+						><em
+							>それ、アクセシビリティのせいかも？数字に表れない『届かなさ』と、これからの『あたりまえ』の話</em
+						></a
+					>
+				</p>
+			</Speaker>
+			<Speaker
+				subgrid
+				id="zhang"
+				name="張 彦芳（ジャン エンファン）"
+				img={pictZhang}
+				alt="写真: 張 彦芳"
+				level={3}
+			>
+				<p>九州大学大学院芸術工学研究院 准教授</p>
+				<p>
+					専門はユニバーサルデザイン、ソサエタルデザイン。企業でのデザイン実務を経て、現在は「No one
+					will be left
+					behind（誰一人取り残さない）」を理念に、多様な立場や価値観を強みに変える共創の仕組みと社会実装を研究・実践している。国内外の産学官と連携したプロジェクトやワークショップを多数実施。これまでに、福岡市立こども病院の環境デザイン、博多駅新幹線サインシステム、福岡銀行のユニバーサルデザインなどに携わる。
+				</p>
+				<p class="session" slot="session">
+					<span>セッション2</span>
+					<a href="/schedule#session2"
+						><em>移動に、もっとワクワクを。― 多様な人から考える公共交通のデザイン</em></a
+					>
+				</p>
+			</Speaker>
+			<Speaker
+				subgrid
+				id="kawashima"
+				name="川島 歩美"
+				img={pictKawashima}
+				alt="写真: 川島 歩美"
+				level={3}
+			>
+				<p>
+					2019年にFFG入社。法人向けサービスのUX/UIデザインやFFGデザインガイドラインの策定を担当。<br
+					/>2023年のアクセシビリティカンファレンスで「うちは大丈夫か？」と不安を感じたことをきっかけに、FFG社内でアクセシビリティ推進活動を開始。草の根活動を続けながら、ブランド領域のデザインガイドライン策定にも携わる。<br
+					/>藤田とチームメンバーとともに、アクセシビリティのさらなる推進を目指す。
+				</p>
+				<p class="session" slot="session">
+					<span>セッション3</span>
+					<a href="/schedule#session3"><em>小さな実践から、組織の当たり前へ。</em></a>
+				</p>
+			</Speaker>
+			<Speaker
+				subgrid
+				id="fujita"
+				name="藤田 正訓"
+				img={pictFujita}
+				alt="写真: 藤田 正訓"
+				level={3}
+			>
+				<p>
+					2025年にFFG入社。法人向けプロダクト「BIZSHIP」の開発者。前々職の時にD-ZEROのゆうてんさんに教わりながらアクセシビリティに取り組んだ経験をもとに、部署内の開発チームに考え方や技術を伝道中。川島と仲間たちと一緒に、誰もが銀行サービスをスムーズに使える地平を目指す。
+				</p>
+				<p class="session" slot="session">
+					<span>セッション3</span>
+					<a href="/schedule#session3"><em>小さな実践から、組織の当たり前へ。</em></a>
+				</p>
+			</Speaker>
+			<Speaker
+				subgrid
+				id="kitamura"
+				name="北村 直也"
+				img={pictKitamura}
+				alt="写真: 北村 直也"
+				level={3}
+			>
+				<p>eスポーツプレイヤー</p>
+				<p>
+					全盲のeスポーツプレイヤー、声優・ナレーター。『ストリートファイター6』でマスターランクに到達し、EVO
+					Japanなどの大会にも出場。ゲームアクセシビリティを「できない」を「できる」にするだけでなく、その先の挑戦や楽しさを広げるものと捉え、当事者としての発信や検証、イベント登壇などに取り組む。
+				</p>
+				<p>株式会社ePARA所属 / 一般社団法人日本ゲームアクセシビリティ協会　理事</p>
+				<p class="session" slot="session">
+					<span>セッション4</span>
+					<a href="/schedule#session4"
+						><em>「できる」の先へ――アクセシビリティが生み出すワクワク</em></a
+					>
+				</p>
+			</Speaker>
 		</GridContainer>
 	</Section>
 	<Section width="narrow">
@@ -210,6 +246,15 @@
 					img="/img/logo-sponsor-chanto.svg"
 					width="167"
 					height="47"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.fukuoka-fg.com/recruit_career/digital/"
+					name="株式会社ふくおかフィナンシャルグループ"
+					img="/img/logo-sponsor-ffg-2026.png"
+					width="500"
+					height="440"
 				/>
 			</ClusterItem>
 		</ClusterContainer>
@@ -507,7 +552,6 @@
 
 	.session {
 		font-size: 1.3em;
-		margin-block-start: auto;
 	}
 
 	.session em {
@@ -523,21 +567,5 @@
 
 	.session > span::after {
 		content: ':';
-	}
-
-	.coming-soon .session {
-		margin-block: 0;
-	}
-
-	.coming-soon {
-		height: 100%;
-		min-height: 16rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		border: 1px dashed var(--color-border-primary);
-		border-radius: 0.5rem;
-		padding: 2rem;
 	}
 </style>

@@ -6,9 +6,11 @@
 	export let img: string | null = null;
 	export let alt: string = '';
 	export let level: 2 | 3 | 4 | 5 | 6;
+	// 親のグリッドの行（見出し / 写真 / 本文 / セッション）に揃える。親は display: grid であること
+	export let subgrid: boolean = false;
 </script>
 
-<div class="speaker">
+<div class="speaker" class:subgrid>
 	<Heading {level} id={`speaker-${id}`}>{name}</Heading>
 
 	<div>
@@ -19,7 +21,12 @@
 		{/if}
 	</div>
 
-	<slot />
+	{#if subgrid}
+		<div><slot /></div>
+		<slot name="session" />
+	{:else}
+		<slot />
+	{/if}
 </div>
 
 <style>
@@ -27,6 +34,14 @@
 		height: 100%;
 		display: flex;
 		flex-direction: column;
+	}
+
+	.subgrid {
+		height: auto;
+		display: grid;
+		grid-template-rows: subgrid;
+		grid-row: span 4;
+		row-gap: 0;
 	}
 
 	img {
