@@ -80,7 +80,10 @@
 							<em>小さな実践から、組織の当たり前へ。</em>
 						</p>
 						<p class="speaker">
-							<em><a href="/#speaker-kawashima">川島 歩美・藤田 正訓</a></em>
+							<em
+								><a href="/#speaker-kawashima">川島 歩美</a> ✕
+								<a href="/#speaker-fujita">藤田 正訓</a></em
+							>
 						</p>
 					</dd>
 				</div>
