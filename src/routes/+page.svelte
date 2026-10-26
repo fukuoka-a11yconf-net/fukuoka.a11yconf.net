@@ -14,6 +14,7 @@
 	import TextBody from '$lib/components/text-body.svelte';
 
 	import pictIzuizu from '$lib/img/pict-speaker-izuizu.webp';
+	import pictKawashimaFujita from '$lib/img/pict-speaker-kawashima-fujita.webp';
 	import pictKitamura from '$lib/img/pict-speaker-kitamura.webp';
 	import pictZhang from '$lib/img/pict-speaker-zhang.webp';
 
@@ -150,12 +151,28 @@
 				</Speaker>
 			</GridItem>
 			<GridItem>
-				<div class="coming-soon">
+				<Speaker
+					id="kawashima"
+					name="川島 歩美・藤田 正訓"
+					img={pictKawashimaFujita}
+					alt="写真: 左から藤田 正訓、川島 歩美"
+					level={3}
+				>
+					<p class="member"><strong>川島 歩美</strong></p>
+					<p>
+						2019年にFFG入社。法人向けサービスのUX/UIデザインやFFGデザインガイドラインの策定を担当。<br
+						/>2023年のアクセシビリティカンファレンスで「うちは大丈夫か？」と不安を感じたことをきっかけに、FFG社内でアクセシビリティ推進活動を開始。草の根活動を続けながら、ブランド領域のデザインガイドライン策定にも携わる。<br
+						/>藤田とチームメンバーとともに、アクセシビリティのさらなる推進を目指す。
+					</p>
+					<p class="member"><strong>藤田 正訓</strong></p>
+					<p>
+						2025年にFFG入社。法人向けプロダクト「BIZSHIP」の開発者。前々職の時にD-ZEROのゆうてんさんに教わりながらアクセシビリティに取り組んだ経験をもとに、部署内の開発チームに考え方や技術を伝道中。川島と仲間たちと一緒に、誰もが銀行サービスをスムーズに使える地平を目指す。
+					</p>
 					<p class="session">
 						<span>セッション3</span>
-						<em lang="en">Coming Soon</em>
+						<a href="/schedule#session3"><em>小さな実践から、組織の当たり前へ。</em></a>
 					</p>
-				</div>
+				</Speaker>
 			</GridItem>
 			<GridItem>
 				<Speaker id="kitamura" name="北村 直也" img={pictKitamura} alt="写真: 北村 直也" level={3}>
@@ -525,19 +542,11 @@
 		content: ':';
 	}
 
-	.coming-soon .session {
-		margin-block: 0;
+	.member {
+		margin-block-end: 0;
 	}
 
-	.coming-soon {
-		height: 100%;
-		min-height: 16rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		border: 1px dashed var(--color-border-primary);
-		border-radius: 0.5rem;
-		padding: 2rem;
+	.member + p {
+		margin-block-start: 0.25em;
 	}
 </style>
