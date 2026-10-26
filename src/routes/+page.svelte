@@ -248,6 +248,15 @@
 					height="47"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.fukuoka-fg.com/recruit_career/digital/"
+					name="株式会社ふくおかフィナンシャルグループ"
+					img="/img/logo-sponsor-ffg-2026.png"
+					width="500"
+					height="440"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
 		<ClusterContainer --col={7}>
