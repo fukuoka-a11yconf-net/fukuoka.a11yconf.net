@@ -302,6 +302,20 @@
 					img="/img/logo-sponsor-sixtant.svg"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://www.concentinc.jp/"
+					name="株式会社コンセント"
+					img="/img/logo-sponsor-concent.svg"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://karabiner.tech/"
+					name="カラビナテクノロジー株式会社"
+					img="/img/logo-sponsor-karabiner.svg"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
 		<ClusterContainer --col={2}>
