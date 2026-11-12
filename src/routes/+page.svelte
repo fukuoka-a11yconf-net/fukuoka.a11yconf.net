@@ -68,7 +68,7 @@
 		<dl>
 			<div>
 				<dt>日時</dt>
-				<dd>2026年11月21日(土曜日) 13:00〜18:00（12:30開場）<br />懇親会 18:30〜19:30</dd>
+				<dd>2026年11月21日(土曜日) 13:00〜18:00（12:30開場）<br />懇親会 18:20〜19:20</dd>
 			</div>
 			<div>
 				<dt>場所</dt>
@@ -89,7 +89,7 @@
 			</div>
 			<div>
 				<dt>セッション</dt>
-				<dd>4セッション + 2スポンサーセッション / シングルトラック</dd>
+				<dd>4セッション + 1スポンサーセッション / シングルトラック</dd>
 			</div>
 			<div>
 				<dt>主催</dt>
@@ -414,10 +414,10 @@
 			</ClusterItem>
 		</ClusterContainer>
 
-		<Heading level={3} id="office">運営事務局</Heading>
-		<TextBody fit>
-			<p>一般社団法人アクセシビリティカンファレンス福岡</p>
-		</TextBody>
+		<a class="office" href="/department">
+			<Heading level={3} id="office" anchor={false}>運営事務局</Heading>
+			<span class="office-name">一般社団法人アクセシビリティカンファレンス福岡</span>
+		</a>
 	</Section>
 	<Section width="narrow">
 		<Heading level={2} id="contact">お問い合わせ</Heading>
@@ -553,6 +553,19 @@
 
 	p a {
 		padding-inline: 0.2em;
+	}
+
+	.office {
+		display: block;
+		width: fit-content;
+		margin-inline: auto;
+		padding-block-end: 0.5em;
+		text-align: center;
+	}
+
+	.office-name {
+		display: block;
+		line-height: 1.8;
 	}
 
 	.mail {

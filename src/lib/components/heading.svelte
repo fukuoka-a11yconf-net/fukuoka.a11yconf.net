@@ -1,22 +1,18 @@
 <script lang="ts">
 	export let level: 1 | 2 | 3 | 4 | 5 | 6;
 	export let id: string | undefined = undefined;
+	/** false のとき見出し自身へのアンカーリンクを付けない（外側を別リンクで囲む場合など） */
+	export let anchor = true;
 </script>
 
 <div class="heading">
-	{#if level === 1}
-		<h1 {id}><a href={id && `#${id}`}><slot /></a></h1>
-	{:else if level === 2}
-		<h2 {id}><a href={id && `#${id}`}><slot /></a></h2>
-	{:else if level === 3}
-		<h3 {id}><a href={id && `#${id}`}><slot /></a></h3>
-	{:else if level === 4}
-		<h4 {id}><a href={id && `#${id}`}><slot /></a></h4>
-	{:else if level === 5}
-		<h5 {id}><a href={id && `#${id}`}><slot /></a></h5>
-	{:else if level === 6}
-		<h6 {id}><a href={id && `#${id}`}><slot /></a></h6>
-	{/if}
+	<svelte:element this={`h${level}`} {id}>
+		{#if anchor}
+			<a href={id && `#${id}`}><slot /></a>
+		{:else}
+			<slot />
+		{/if}
+	</svelte:element>
 </div>
 
 <style>
