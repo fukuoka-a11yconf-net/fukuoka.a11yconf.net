@@ -63,17 +63,18 @@
 					<dt>15:05</dt>
 					<dd id="sponsor-session1">
 						<p class="sub"><em>スポンサーセッション1 プラチナスポンサー LINEヤフー株式会社</em></p>
-						<p class="title"><em lang="en">Coming Soon</em></p>
+						<p class="title"><em>想定外の利用がプロダクトの価値を広げる</em></p>
+						<p class="speaker"><em>筑波技術大学 - LINEヤフー</em></p>
 					</dd>
 				</div>
 				<div class="break">
 					<dt>15:15</dt>
 					<dd>
-						<p>おやつ休憩（30分）</p>
+						<p>おやつ休憩（40分）</p>
 					</dd>
 				</div>
 				<div>
-					<dt>15:45</dt>
+					<dt>15:55</dt>
 					<dd id="session3">
 						<p class="sub"><em>セッション3</em></p>
 						<p class="title">
@@ -88,26 +89,13 @@
 					</dd>
 				</div>
 				<div class="break">
-					<dt>16:25</dt>
+					<dt>16:35</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>
-					<dt>16:30</dt>
-					<dd id="sponsor-session2">
-						<p class="sub"><em>スポンサーセッション2</em></p>
-						<p class="title"><em lang="en">Coming Soon</em></p>
-					</dd>
-				</div>
-				<div class="break">
 					<dt>16:40</dt>
-					<dd>
-						<p>休憩（10分）</p>
-					</dd>
-				</div>
-				<div>
-					<dt>16:50</dt>
 					<dd id="session4">
 						<p class="sub"><em>セッション4</em></p>
 						<p class="title">
@@ -117,13 +105,13 @@
 					</dd>
 				</div>
 				<div class="break">
-					<dt>17:30</dt>
+					<dt>17:20</dt>
 					<dd>
 						<p>転換・準備</p>
 					</dd>
 				</div>
 				<div>
-					<dt>17:35</dt>
+					<dt>17:25</dt>
 					<dd>クロージング</dd>
 				</div>
 				<div>
@@ -131,11 +119,11 @@
 					<dd>名刺交換会（ブース会場）</dd>
 				</div>
 				<div>
-					<dt>18:30</dt>
+					<dt>18:20</dt>
 					<dd>懇親会</dd>
 				</div>
 				<div>
-					<dt>19:30</dt>
+					<dt>19:20</dt>
 					<dd>解散</dd>
 				</div>
 			</dl>

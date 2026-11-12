@@ -43,6 +43,15 @@
 	</Section>
 
 	<Section width="narrow">
+		<Heading level={2} id="public-notice">電子公告</Heading>
+		<div class="notice">
+			<ul>
+				<li><a href="/files/balance-sheet-2025.pdf">2025年度貸借対照表（PDF）</a></li>
+			</ul>
+		</div>
+	</Section>
+
+	<Section width="narrow">
 		<Heading level={2}>ロゴ紹介</Heading>
 		<ClusterContainer --col={2} --align="center">
 			<ClusterItem>
@@ -103,6 +112,34 @@
 		display: grid;
 		gap: 0;
 		grid-template-columns: auto 1fr;
+	}
+
+	.notice {
+		padding-block: 2rem;
+		padding-inline: 1rem;
+		border: 3px solid var(--color-border-primary);
+		border-radius: 1rem;
+	}
+
+	.notice ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.notice a {
+		display: block;
+		padding-block: 1em 1.25em;
+		padding-inline: 1.5em;
+		font-size: 1.25rem;
+		line-height: 1;
+		background-color: var(--color-bg-base);
+		border: 3px solid var(--color-border-primary);
+		border-radius: 10rem;
 	}
 
 	.sound-logo {
