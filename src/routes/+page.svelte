@@ -257,6 +257,15 @@
 					height="440"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://x.com/junnama"
+					name="野田純生"
+					img="/img/logo-sponsor-noda.svg"
+					width="159"
+					height="80"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
 		<Heading level={3} id="sponsors-bronze">ブロンズスポンサー</Heading>
 		<ClusterContainer --col={7}>
@@ -316,7 +325,43 @@
 					img="/img/logo-sponsor-karabiner.svg"
 				/>
 			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://x.com/cocktailzjp"
+					name="Cocktailz"
+					img="/img/logo-sponsor-cocktailz.png"
+					width="138"
+					height="161"
+				/>
+			</ClusterItem>
+			<ClusterItem>
+				<Sponsor
+					href="https://ledesone.com/"
+					name="合同会社Ledesone"
+					img="/img/logo-sponsor-ledesone.svg"
+					width="3860"
+					height="1060"
+				/>
+			</ClusterItem>
 		</ClusterContainer>
+		<Heading level={3} id="sponsors-individual">個人スポンサー</Heading>
+		<ul class="individuals">
+			<li>まえ 様</li>
+			<li>草場友光 様</li>
+			<li><a href="https://mjmj.co/" target="_blank">間嶋沙知</a> 様</li>
+			<li><a href="https://www.t-studio.tokyo/" target="_blank">神森勉</a> 様</li>
+			<li><a href="https://design-humore.studio.site/" target="_blank">たじまちはる</a> 様</li>
+			<li><a href="https://x.com/rai_n_ell" target="_blank">江崎和敬</a> 様</li>
+			<li><a href="https://x.com/ozaki25rn" target="_blank">OZAKI25</a> 様</li>
+			<li><a href="https://x.com/_poemn" target="_blank">こが</a> 様</li>
+			<li><a href="https://gti.co.jp/" target="_blank">ウェブ屋のさとーさん</a> 様</li>
+			<li>joonas 様</li>
+			<li><a href="https://x.com/wacchi22" target="_blank">渡辺高志</a> 様</li>
+			<li><a href="https://x.com/yocco405" target="_blank">岡上洋子</a> 様</li>
+			<li><a href="https://www.d-zero.co.jp/" target="_blank">有木正</a> 様</li>
+			<li><a href="https://fe-yatai.connpass.com/" target="_blank">FE Yatai</a> 様</li>
+			<li>匿名希望 3名様</li>
+		</ul>
 		<Heading level={3} id="sponsors-snack">おやつスポンサー</Heading>
 		<ClusterContainer --col={2}>
 			<ClusterItem>
@@ -496,6 +541,23 @@
 			border-inline-start: 1px solid var(--color-border-primary);
 			border-block-end: none;
 		}
+	}
+
+	.individuals {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.5rem 2rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.individuals a {
+		color: inherit;
+		text-decoration: underline dashed;
+		text-underline-offset: 0.4em;
+		text-decoration-thickness: 1px;
 	}
 
 	.apply {
