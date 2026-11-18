@@ -47,23 +47,6 @@
 
 <Main>
 	<Section width="narrow">
-		<Heading level={2} id="theme">2026年テーマ</Heading>
-		<p class="theme">ワクワクをともに</p>
-		<TextBody>
-			<p>
-				2023年からの3年間、私たちは福岡からアクセシビリティの可能性を発信し続けてきました。<br
-				/>2026年に私たちが目指すのは、誰もが心地よく、そして何より未来にワクワクするカンファレンスです。
-			</p>
-			<p>
-				「ワクワクをともに」を合言葉に、正しさだけでなく、楽しさを。<br
-				/>一人ひとりの「知りたい」「作りたい」「変えたい」という純粋な熱量やときめきを持ち寄り、ともに学び、響き合う。
-			</p>
-			<p>
-				皆さんの参加やご支援が、このカンファレンスを、そして未来をさらに輝かせるエネルギーになります。
-			</p>
-		</TextBody>
-	</Section>
-	<Section width="narrow">
 		<Heading level={2} id="summary">開催概要</Heading>
 		<dl>
 			<div>
@@ -591,14 +574,6 @@
 		margin-block-start: 2rem;
 		font-size: 1.2rem;
 		line-height: 1.8;
-		text-align: center;
-	}
-
-	.theme {
-		margin-block: 1rem 2rem;
-		font-size: clamp(2rem, 6vw, 3.5rem);
-		font-weight: bold;
-		line-height: 1.4;
 		text-align: center;
 	}
 

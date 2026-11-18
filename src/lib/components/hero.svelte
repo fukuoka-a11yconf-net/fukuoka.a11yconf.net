@@ -21,12 +21,26 @@
 				<p class="venue">ONE FUKUOKA Conference Hall</p>
 			</div>
 			<hr />
-			<div class="text">
+			<div class="text" id="theme">
+				<p class="em"><em>ワクワクをともに</em></p>
 				<p>
-					<span>アクセシビリティカンファレンス福岡を2026年も開催します。</span>
+					<span
+						>2023年からの3年間、私たちは福岡からアクセシビリティの可能性を発信し続けてきました。</span
+					>
+					<span
+						>2026年に私たちが目指すのは、誰もが心地よく、そして何より未来にワクワクするカンファレンスです。</span
+					>
 				</p>
 				<p>
-					<span>登壇者・スポンサーなどの詳細は、続報をお待ちください。</span>
+					<span>「ワクワクをともに」を合言葉に、正しさだけでなく、楽しさを。</span>
+					<span
+						>一人ひとりの「知りたい」「作りたい」「変えたい」という純粋な熱量やときめきを持ち寄り、ともに学び、響き合う。</span
+					>
+				</p>
+				<p>
+					<span
+						>皆さんの参加やご支援が、このカンファレンスを、そして未来をさらに輝かせるエネルギーになります。</span
+					>
 				</p>
 				<div class="archive">
 					<a href="https://fukuoka-a11yconf.connpass.com/event/404619/" target="_blank"
