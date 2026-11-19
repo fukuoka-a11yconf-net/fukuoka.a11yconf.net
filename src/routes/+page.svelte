@@ -363,13 +363,6 @@
 			</ClusterItem>
 		</ClusterContainer>
 	</Section>
-	<Section width="narrow">
-		<Heading level={2} id="sponsors-looking">スポンサー募集</Heading>
-		<TextBody fit>
-			<p>本年の募集は終了いたしました。</p>
-			<p>たくさんのご支援ありがとうございました。</p>
-		</TextBody>
-	</Section>
 	<Section>
 		<Heading level={2} id="staff">運営スタッフ</Heading>
 		<ClusterContainer --col={6} --align="start">
