@@ -348,7 +348,7 @@
 			<li>joonas 様</li>
 			<li><a href="https://x.com/wacchi22" target="_blank">ナベ</a> 様</li>
 			<li><a href="https://x.com/yocco405" target="_blank">岡上洋子</a> 様</li>
-			<li><a href="https://www.d-zero.co.jp/" target="_blank">有木正</a> 様</li>
+			<li><a href="https://x.com/arktds" target="_blank">しゃろ</a> 様</li>
 			<li><a href="https://fe-yatai.connpass.com/" target="_blank">FE Yatai</a> 様</li>
 			<li>匿名希望 3名様</li>
 		</ul>
